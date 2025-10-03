@@ -11,7 +11,7 @@ df_candidates = df[df["koi_disposition"] == "CANDIDATE"]
 with open("koi_candidates.ssc", "w") as f:
     for idx, row in df_candidates.iterrows():
 
-        # Create planet orbiting that star
+        # Create planet orbiting a star
         planet_name = row["kepoi_name"]
         radius_km = row["koi_prad"] * 6378  # Earth radii -> km
         f.write(f'"{planet_name}" "Sol"\n')
