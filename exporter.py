@@ -41,8 +41,11 @@ df_candidates["distance_ly"] = distances_ly
 # Track stars already written
 written_stars = set()
 
+local_extras = "extras"
+os.makedirs(local_extras, exist_ok=True)
+
 # ---------- Generate STC file for host stars ----------
-stars_stc_path = "koi_hosts.stc"
+stars_stc_path = "extras/koi_hosts.stc"
 with open(stars_stc_path, "w") as stc_file:
     for idx, row in df_candidates.iterrows():
         star_id = int(row["kepid"])
@@ -73,7 +76,7 @@ with open(stars_stc_path, "w") as stc_file:
 print("STC file 'koi_hosts.stc' generated successfully.")
 
 # ---------- Generate SSC file for planets ----------
-planets_ssc_path = "koi_candidates.ssc"
+planets_ssc_path = "extras/koi_candidates.ssc"
 with open(planets_ssc_path, "w") as ssc_file:
     for idx, row in df_candidates.iterrows():
         star_name = f'Star-{row["kepoi_name"]}'
@@ -102,15 +105,76 @@ with open(planets_ssc_path, "w") as ssc_file:
 
 print("SSC file 'koi_candidates.ssc' generated successfully.")
 
+results = pd.read_csv("results.csv")
 
+# Merge predictions into candidates dataframe using kepoi_name as key
+df_candidates = df_candidates.merge(
+    results[["kepoi_name", "koi_disposition_pred", "koi_disposition_pred_value"]],
+    on="kepoi_name",
+    how="left"
+)
+
+# --- Local Scripts folder ---
+scripts_dir = os.path.join(local_extras, "Scripts")
+os.makedirs(scripts_dir, exist_ok=True)
+
+cel_file_path = os.path.join(scripts_dir, "koi_candidates.cel")
+
+with open(cel_file_path, "w") as f_cel:
+    f_cel.write("{\n")  # opening brace for the whole tour
+
+    for idx, row in df_candidates.iterrows():
+        planet_name = row["kepoi_name"]
+        distance_ly = row['distance_ly']
+        star_name = f"Star-{planet_name}"
+
+        # Get prediction text
+        pred = str(row.get("koi_disposition_pred", "unknown"))
+        value = float(row.get("koi_disposition_pred_value"))
+        text = f'Planet: {planet_name}\nApprox. {round(distance_ly, 2)} light years away\n'
+        if pred == "CONFIRMED":
+            text += "Prediction: Real exoplanet\n"
+            text += f'Confidence: {int(value * 100)}%'
+        elif pred == "FALSE POSITIVE":
+            text += 'Prediction: False positive\n'
+            text += f'Confidence: {int( (1 - value) * 100)}%'
+
+        else:
+            text += "Prediction: unknown\n"
+        
+        f_cel.write(f'select {{object "{star_name}"}}\n')
+        f_cel.write(f'select {{object "{planet_name}"}}\n')
+        f_cel.write('goto { time 8 distance 5 }\n')
+        f_cel.write('wait { duration 8 }\n')
+        f_cel.write(f'print  {{ text "{text}"\n')
+        f_cel.write('         origin "top"\n')
+        f_cel.write('         row 5\n')
+        f_cel.write('         column -8\n')
+        f_cel.write('         duration 8 }\n')
+        f_cel.write('orbit {duration 8 rate 45 axis [0 1 0] }\n\n')
+
+    f_cel.write("}\n")  # closing brace
+
+print(f"CEL file created at '{cel_file_path}'")
+
+# --- System Celestia extras ---
 celestia_extras = "/usr/share/celestia/extras/"
+dest_scripts_path = os.path.join(celestia_extras, "Scripts")
 
 if os.path.isdir(celestia_extras):
     try:
+        # Ensure Scripts folder exists in system extras
+        subprocess.run(["sudo", "mkdir", "-p", dest_scripts_path], check=True)
+
+        # Copy SSC and STC files
         subprocess.run(["sudo", "cp", stars_stc_path, celestia_extras], check=True)
         subprocess.run(["sudo", "cp", planets_ssc_path, celestia_extras], check=True)
-        print(f"Files copied to {celestia_extras} using sudo")
+
+        # Copy all contents of local Scripts folder to system Scripts folder
+        subprocess.run(f"sudo cp -r {scripts_dir}/* {dest_scripts_path}/", shell=True, check=True)
+
+        print(f"Files copied to '{celestia_extras}' (SSC/STC) and Scripts (CEL) using sudo")
     except subprocess.CalledProcessError as e:
         print(f"Error copying files: {e}")
 else:
-    print(f"Celestia extras folder not found at {celestia_extras}")
+    print(f"Celestia extras folder not found at '{celestia_extras}'. CEL file is in local 'Scripts' folder.")

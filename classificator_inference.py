@@ -35,12 +35,12 @@ X_scaled = scaler.transform(X_encoded).astype(np.float32)
 
 labels = ['FALSE POSITIVE', 'CONFIRMED']
 model = keras.models.load_model('xd.keras')
-pred = model.predict(X_scaled)
-pred = (pred >= 0.5).astype(int).flatten()
+pred_org = model.predict(X_scaled)
+pred = (pred_org >= 0.5).astype(int).flatten()
 
 candidates_meta = df.loc[mask, ['kepid', 'kepoi_name']]
 
 with open('results.csv', 'w') as f:
-    f.write('kepid,kepoi_name,koi_disposition_pred\n')
+    f.write('kepid,kepoi_name,koi_disposition_pred,koi_disposition_pred_value\n')
     for i, (_, row) in enumerate(candidates_meta.iterrows()):
-        f.write(f"{row['kepid']},{row['kepoi_name']},{labels[pred[i]]}\n")
+        f.write(f"{row['kepid']},{row['kepoi_name']},{labels[pred[i]]},{pred_org[i][0]}\n")
