@@ -1,170 +1,155 @@
 import os
 import subprocess
-import numpy as np
 import pandas as pd
 import random as rand
+import numpy as np
 
-# Load CSV
-filename = "cumulative_2025.10.01_20.20.34.csv"
-df = pd.read_csv(filename, comment="#")
+G = 6.67430e-11  # m^3 kg^-1 s^-2
+R_sun = 6.957e8  # m
+M_sun = 1.989e30 # kg
 
-R_sun = 6.957e8  # meters
-L_sun = 3.828e26  # watts
-sigma = 5.670374419e-8
-
-distances_ly = []
-df_candidates = df[df["koi_disposition"] == "CANDIDATE"].copy()
-
-for idx, row in df_candidates.iterrows():
+def estimate_semimajor_axis(row):
     try:
-        R = row["koi_srad"] * R_sun
-        T = row["koi_steff"]
-        m = row["koi_kepmag"]
+        R_star = row["st_rad"] * R_sun
+        g_cgs = 10 ** row["st_logg"]       # cm/s^2
+        g = g_cgs / 100                     # m/s^2
+        M_star = g * R_star**2 / G          # kg
 
-        # Compute luminosity
-        L = 4 * np.pi * R**2 * sigma * T**4
+        P_sec = row["pl_orbper"] * 86400   # days -> seconds
 
-        # Absolute magnitude
-        M = 4.74 - 2.5 * np.log10(L / L_sun)
-
-        # Distance in parsecs
-        d_pc = 10 ** ((m - M + 5) / 5)
-
-        # Convert to light-years
-        d_ly = d_pc * 3.26156
-        distances_ly.append(d_ly)
+        a_m = (G * M_star * P_sec**2 / (4 * np.pi**2))**(1/3)
+        a_au = a_m / 1.496e11              # meters -> AU
+        return a_au
     except:
-        distances_ly.append(100)  # fallback
+        return np.nan
 
-df_candidates["distance_ly"] = distances_ly
-
-# Track stars already written
-written_stars = set()
-
+# --- Config ---
+tess_file = "TOI_2025.10.03_22.05.45.csv"
+results_file = "results.csv"
 local_extras = "extras"
 os.makedirs(local_extras, exist_ok=True)
+scripts_dir = os.path.join(local_extras, "Scripts")
+os.makedirs(scripts_dir, exist_ok=True)
 
-# ---------- Generate STC file for host stars ----------
-stars_stc_path = "extras/koi_hosts.stc"
+# --- Load TESS catalog ---
+df = pd.read_csv(tess_file, comment="#")
+
+# Keep only TOIs marked as CANDIDATE
+df_candidates = df[df["tfopwg_disp"] == "PC"].copy()
+
+# Convert distance from parsecs → light-years
+df_candidates["distance_ly"] = df_candidates["st_dist"] * 3.26156
+
+# --- Merge predictions ---
+results = pd.read_csv(results_file)
+df_candidates = df_candidates.merge(
+    results[["toi", "tfopwg_disp_pred", "tfopwg_disp_pred_value"]],
+    on="toi",
+    how="left"
+)
+
+# --- Generate STC file for host stars ---
+stars_stc_path = os.path.join(local_extras, "toi_hosts.stc")
+written_stars = set()
+
 with open(stars_stc_path, "w") as stc_file:
     for idx, row in df_candidates.iterrows():
-        star_id = int(row["kepid"])
-        star_name = f'Star-{row["kepoi_name"]}'
+        if pd.isna(row["pl_rade"]):
+            continue
+        star_id = rand.randint(10000,999999)
+        star_name = f'Star-{row["toi"]}'
 
         if star_name in written_stars:
             continue
 
-        # Use RA/Dec from CSV
         ra = row["ra"]
         dec = row["dec"]
-
-        # Fallback values if needed
-        distance_ly = row['distance_ly']
-        spectral_type = "G0"
-        appmag = 12
+        distance_ly = row["distance_ly"]
+        appmag = row["st_tmag"] if pd.notna(row["st_tmag"]) else 12
+        spectral_type = "G0"  # placeholder
 
         stc_file.write(f'{star_id} "{star_name}" {{\n')
         stc_file.write(f'    RA {ra:.6f}\n')
         stc_file.write(f'    Dec {dec:.6f}\n')
-        stc_file.write(f'    Distance {distance_ly}\n')
+        stc_file.write(f'    Distance {distance_ly:.2f}\n')
         stc_file.write(f'    SpectralType "{spectral_type}"\n')
-        stc_file.write(f'    AppMag {appmag}\n')
+        stc_file.write(f'    AppMag {appmag:.2f}\n')
         stc_file.write('}\n\n')
 
         written_stars.add(star_name)
 
-print("STC file 'koi_hosts.stc' generated successfully.")
+print(f"STC file generated: {stars_stc_path}")
 
-# ---------- Generate SSC file for planets ----------
-textures = ['GJ_504_b.jpg',
-            'HAT-P-11_b.jpg',
-            'Kepler-452_b.jpg',
-            'Proxima_Cen_b.jpg',
-            'HD_189733_b.jpg',
-            'Kepler-7_b.jpg',
-            'YZ_Cet_d.jpg',
-            'Kepler-22_b.jpg',
-            'OGLE-2005-BLG-390L_b.jpg',
-            'exo-class1.*',
-            'exo-class2.*',
-            'exo-class3.*',
-            'exo-class4.*',
-            'exo-class5.*',
-            'venuslike.*',
-            'asteroid.*']
+# --- Generate SSC file for planets ---
+textures = [
+    'GJ_504_b.jpg','HAT-P-11_b.jpg','Kepler-452_b.jpg','Proxima_Cen_b.jpg',
+    'HD_189733_b.jpg','Kepler-7_b.jpg','YZ_Cet_d.jpg','Kepler-22_b.jpg',
+    'OGLE-2005-BLG-390L_b.jpg','exo-class1.*','exo-class2.*','exo-class3.*',
+    'exo-class4.*','exo-class5.*','venuslike.*','asteroid.*'
+]
 
-planets_ssc_path = "extras/koi_candidates.ssc"
+planets_ssc_path = os.path.join(local_extras, "toi_candidates.ssc")
+
 with open(planets_ssc_path, "w") as ssc_file:
     for idx, row in df_candidates.iterrows():
-        star_name = f'Star-{row["kepoi_name"]}'
-        planet_name = row["kepoi_name"]
-        radius_km = row["koi_prad"] * 6378  # convert Earth radii -> km
-        random_texture = rand.randint(0, len(textures) - 1)
+        star_name = f'Star-{row["toi"]}'
+        planet_name = f'TOI-{row["toi"]}'
+
+        if pd.isna(row["pl_rade"]):
+            continue
+
+        radius_km = row["pl_rade"] * 6371.0  # Earth radii → km
+        texture = rand.choice(textures)
 
         ssc_file.write(f'"{planet_name}" "{star_name}"\n')
         ssc_file.write('{\n')
         ssc_file.write('    Class "Planet"\n')
         ssc_file.write(f'    Radius {radius_km:.2f}\n')
-        ssc_file.write(f'    Texture "{textures[random_texture]}"\n')
+        ssc_file.write(f'    Texture "{texture}"\n')
 
-        # Include orbit if SMA and period are available
-        if pd.notna(row["koi_sma"]) and pd.notna(row["koi_period"]):
+        # Orbital info if available
+        if pd.notna(row["pl_orbper"]):
             ssc_file.write('    EllipticalOrbit\n')
             ssc_file.write('    {\n')
-            ssc_file.write(f'        Period {row["koi_period"]:.6f}\n')
-            ssc_file.write(f'        SemiMajorAxis {row["koi_sma"]:.6f}\n')
-            if pd.notna(row["koi_eccen"]):
-                ssc_file.write(f'        Eccentricity {row["koi_eccen"]:.6f}\n')
-            if pd.notna(row["koi_incl"]):
-                ssc_file.write(f'        Inclination {row["koi_incl"]:.6f}\n')
+            ssc_file.write(f'        Period {row["pl_orbper"]:.6f}\n')
+            ssc_file.write(f'        SemiMajorAxis {estimate_semimajor_axis(row):.6f}\n')
             ssc_file.write('    }\n')
 
         ssc_file.write('}\n\n')
 
-print("SSC file 'koi_candidates.ssc' generated successfully.")
+print(f"SSC file generated: {planets_ssc_path}")
 
-results = pd.read_csv("results.csv")
-
-# Merge predictions into candidates dataframe using kepoi_name as key
-df_candidates = df_candidates.merge(
-    results[["kepoi_name", "koi_disposition_pred", "koi_disposition_pred_value"]],
-    on="kepoi_name",
-    how="left"
-)
-
-# --- Local Scripts folder ---
-scripts_dir = os.path.join(local_extras, "Scripts")
-os.makedirs(scripts_dir, exist_ok=True)
-
-cel_file_path = os.path.join(scripts_dir, "koi_candidates.cel")
+# --- Generate CEL tour script ---
+cel_file_path = os.path.join(scripts_dir, "toi_candidates.cel")
 
 with open(cel_file_path, "w") as f_cel:
-    f_cel.write("{\n")  # opening brace for the whole tour
+    f_cel.write("{\n")  # opening brace
 
     for idx, row in df_candidates.iterrows():
-        planet_name = row["kepoi_name"]
-        distance_ly = row['distance_ly']
-        star_name = f"Star-{planet_name}"
+        if pd.isna(row["pl_rade"]):
+            continue
+        planet_name = f'TOI-{row["toi"]}'
+        star_name = f"Star-{row["toi"]}"
+        distance_ly = row["distance_ly"]
 
-        # Get prediction text
-        pred = str(row.get("koi_disposition_pred", "unknown"))
-        value = float(row.get("koi_disposition_pred_value"))
-        text = f'Planet: {planet_name}\nApprox. {round(distance_ly, 2)} light years away\n'
+        pred = str(row.get("tfopwg_disp_pred", "unknown")).upper()
+        value = float(row.get("tfopwg_disp_pred_value", 0.5))
+
+        text = f'Planet: {planet_name}\nApprox. {round(distance_ly,2)} light years away from Earth\n'
         if pred == "CONFIRMED":
             text += "Prediction: Real exoplanet\n"
-            text += f'Confidence: {int(value * 100)}%'
+            text += f'Confidence: {int(value*100)}%'
         elif pred == "FALSE POSITIVE":
             text += 'Prediction: False positive\n'
-            text += f'Confidence: {int( (1 - value) * 100)}%'
-
+            text += f'Confidence: {int((1-value)*100)}%'
         else:
             text += "Prediction: unknown\n"
-        
+
         f_cel.write(f'select {{object "{star_name}"}}\n')
         f_cel.write(f'select {{object "{planet_name}"}}\n')
         f_cel.write('goto { time 8 distance 5 }\n')
         f_cel.write('wait { duration 8 }\n')
-        f_cel.write(f'print  {{ text "{text}"\n')
+        f_cel.write(f'print {{ text "{text}"\n')
         f_cel.write('         origin "top"\n')
         f_cel.write('         row 5\n')
         f_cel.write('         column -8\n')
@@ -173,26 +158,20 @@ with open(cel_file_path, "w") as f_cel:
 
     f_cel.write("}\n")  # closing brace
 
-print(f"CEL file created at '{cel_file_path}'")
+print(f"CEL script generated: {cel_file_path}")
 
-# --- System Celestia extras ---
+# --- Optional: Copy files to system Celestia extras ---
 celestia_extras = "/usr/share/celestia/extras/"
 dest_scripts_path = os.path.join(celestia_extras, "Scripts")
 
 if os.path.isdir(celestia_extras):
     try:
-        # Ensure Scripts folder exists in system extras
         subprocess.run(["sudo", "mkdir", "-p", dest_scripts_path], check=True)
-
-        # Copy SSC and STC files
         subprocess.run(["sudo", "cp", stars_stc_path, celestia_extras], check=True)
         subprocess.run(["sudo", "cp", planets_ssc_path, celestia_extras], check=True)
-
-        # Copy all contents of local Scripts folder to system Scripts folder
         subprocess.run(f"sudo cp -r {scripts_dir}/* {dest_scripts_path}/", shell=True, check=True)
-
-        print(f"Files copied to '{celestia_extras}' (SSC/STC) and Scripts (CEL) using sudo")
+        print("Files copied to system Celestia extras (SSC/STC/CEL)")
     except subprocess.CalledProcessError as e:
         print(f"Error copying files: {e}")
 else:
-    print(f"Celestia extras folder not found at '{celestia_extras}'. CEL file is in local 'Scripts' folder.")
+    print(f"Celestia extras folder not found; CEL file remains in local Scripts folder.")

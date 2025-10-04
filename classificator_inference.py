@@ -4,26 +4,32 @@ import keras
 from sklearn.discriminant_analysis import StandardScaler
 import numpy as np
 
-filename = 'cumulative_2025.10.01_20.20.34.csv'
+filename = 'TOI_2025.10.03_22.05.45.csv'
 
 df = pd.read_csv(filename, comment='#')
 cols_to_drop = [
-    'rowid', 'kepid', 'kepoi_name', 'kepler_name', 'koi_vet_stat', 'koi_vet_date',
-    'koi_pdisposition', 'koi_score', 'koi_fpflag_nt', 'koi_fpflag_ss', 'koi_fpflag_co', 
-    'koi_fpflag_ec', 'koi_disp_prov', 'koi_comment', 'koi_eccen', 'koi_eccen_err1', 
-    'koi_eccen_err2', 'koi_longp', 'koi_longp_err1', 'koi_longp_err2', 'koi_ingress', 
-    'koi_ingress_err1', 'koi_ingress_err2',  'koi_sma_err1', 'koi_sma_err2', 'koi_incl_err1', 
-    'koi_incl_err2', 'koi_teq_err1', 'koi_teq_err2', 'koi_limbdark_mod', 'koi_ldm_coeff4', 
-    'koi_ldm_coeff3', 'koi_tce_plnt_num', 'koi_tce_delivname', 'koi_quarters', 
-    'koi_bin_oedp_sig', 'koi_trans_mod', 'koi_model_dof', 'koi_model_chisq', 
-    'koi_datalink_dvr', 'koi_datalink_dvs', 'koi_sage', 'koi_sage_err1', 'koi_sage_err2'
+    "rowid",'tfopwg_disp', "toi", "toipfx", "tid", "ctoi_alias", "pl_pnum",
+    "rastr", "raerr1", "raerr2", "decstr", "dec", "decerr1", "decerr2",
+    "st_pmralim", "st_pmrasymerr",
+    "st_pmdeclim", "st_pmdecsymerr",
+    "pl_tranmidlim", "pl_tranmidsymerr",
+    "pl_orbperlim", "pl_orbpersymerr",
+    "pl_trandurhlim", "pl_trandurhsymerr",
+    "pl_trandeplim", "pl_trandepsymerr",
+    "pl_radelim", "pl_radesymerr",
+    "pl_insolerr1", "pl_insolerr2", "pl_insollim", "pl_insolsymerr",
+    "pl_eqterr1", "pl_eqterr2", "pl_eqtlim", "pl_eqtsymerr",
+    "st_tmaglim", "st_tmagsymerr",
+    "st_distlim", "st_distsymerr",
+    "st_tefflim", "st_teffsymerr",
+    "st_logglim", "st_loggsymerr",
+    "st_radlim", "st_radsymerr",
+    "toi_created", "rowupdate"
 ]
-
-df = pd.read_csv('cumulative_2025.10.01_20.20.34.csv', comment='#')
 df_clean = df.drop(columns=cols_to_drop).reset_index(drop=True)
 
-Y = df_clean['koi_disposition'].map({'FALSE POSITIVE': 0, 'CONFIRMED': 1})
-X = df_clean.drop(columns=['koi_disposition'])
+Y = df['tfopwg_disp'].map({'FP': 0, 'FA': 0, 'CP': 1, 'KP': 1})
+X = df.drop(columns=cols_to_drop)
 X_filled = X.fillna(0)
 X_encoded = pd.get_dummies(X_filled, drop_first=False).astype(np.float32)
 
@@ -34,13 +40,13 @@ scaler = joblib.load('scaler.pkl')
 X_scaled = scaler.transform(X_encoded).astype(np.float32)
 
 labels = ['FALSE POSITIVE', 'CONFIRMED']
-model = keras.models.load_model('xd.keras')
+model = keras.models.load_model('tess.keras')
 pred_org = model.predict(X_scaled)
 pred = (pred_org >= 0.5).astype(int).flatten()
 
-candidates_meta = df.loc[mask, ['kepid', 'kepoi_name']]
+candidates_meta = df.loc[mask, ['toi']]
 
 with open('results.csv', 'w') as f:
-    f.write('kepid,kepoi_name,koi_disposition_pred,koi_disposition_pred_value\n')
+    f.write('toi,tfopwg_disp_pred,tfopwg_disp_pred_value\n')
     for i, (_, row) in enumerate(candidates_meta.iterrows()):
-        f.write(f"{row['kepid']},{row['kepoi_name']},{labels[pred[i]]},{pred_org[i][0]}\n")
+        f.write(f"{row['toi']},{labels[pred[i]]},{pred_org[i][0]}\n")
