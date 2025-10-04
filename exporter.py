@@ -1,8 +1,8 @@
 import os
-import shutil
 import subprocess
 import numpy as np
 import pandas as pd
+import random as rand
 
 # Load CSV
 filename = "cumulative_2025.10.01_20.20.34.csv"
@@ -76,18 +76,36 @@ with open(stars_stc_path, "w") as stc_file:
 print("STC file 'koi_hosts.stc' generated successfully.")
 
 # ---------- Generate SSC file for planets ----------
+textures = ['GJ_504_b.jpg',
+            'HAT-P-11_b.jpg',
+            'Kepler-452_b.jpg',
+            'Proxima_Cen_b.jpg',
+            'HD_189733_b.jpg',
+            'Kepler-7_b.jpg',
+            'YZ_Cet_d.jpg',
+            'Kepler-22_b.jpg',
+            'OGLE-2005-BLG-390L_b.jpg',
+            'exo-class1.*',
+            'exo-class2.*',
+            'exo-class3.*',
+            'exo-class4.*',
+            'exo-class5.*',
+            'venuslike.*',
+            'asteroid.*']
+
 planets_ssc_path = "extras/koi_candidates.ssc"
 with open(planets_ssc_path, "w") as ssc_file:
     for idx, row in df_candidates.iterrows():
         star_name = f'Star-{row["kepoi_name"]}'
         planet_name = row["kepoi_name"]
         radius_km = row["koi_prad"] * 6378  # convert Earth radii -> km
+        random_texture = rand.randint(0, len(textures) - 1)
 
         ssc_file.write(f'"{planet_name}" "{star_name}"\n')
         ssc_file.write('{\n')
         ssc_file.write('    Class "Planet"\n')
         ssc_file.write(f'    Radius {radius_km:.2f}\n')
-        ssc_file.write('    Texture "neptune.jpg"\n')
+        ssc_file.write(f'    Texture "{textures[random_texture]}"\n')
 
         # Include orbit if SMA and period are available
         if pd.notna(row["koi_sma"]) and pd.notna(row["koi_period"]):
