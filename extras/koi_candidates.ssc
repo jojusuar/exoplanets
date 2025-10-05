@@ -2,7 +2,7 @@
 {
     Class "Planet"
     Radius 93118.80
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 19.899140
@@ -16,7 +16,7 @@
 {
     Class "Planet"
     Radius 124052.10
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.240661
@@ -30,7 +30,7 @@
 {
     Class "Planet"
     Radius 3507.90
-    Texture "exo-class5.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 3.435916
@@ -44,7 +44,7 @@
 {
     Class "Planet"
     Radius 86740.80
-    Texture "Kepler-452_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 19.620347
@@ -58,7 +58,7 @@
 {
     Class "Planet"
     Radius 48536.58
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 34.843986
@@ -72,7 +72,7 @@
 {
     Class "Planet"
     Radius 67543.02
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 235.998640
@@ -86,7 +86,7 @@
 {
     Class "Planet"
     Radius 121309.56
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 13.610148
@@ -100,7 +100,7 @@
 {
     Class "Planet"
     Radius 57274.44
-    Texture "exo-class4.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 119.020704
@@ -114,7 +114,7 @@
 {
     Class "Planet"
     Radius 31060.86
-    Texture "exo-class5.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 12.732624
@@ -128,7 +128,7 @@
 {
     Class "Planet"
     Radius 30486.84
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 83.924940
@@ -142,7 +142,7 @@
 {
     Class "Planet"
     Radius 11926.86
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 3.886655
@@ -156,7 +156,7 @@
 {
     Class "Planet"
     Radius 15434.76
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 2.494170
@@ -170,7 +170,7 @@
 {
     Class "Planet"
     Radius 25894.68
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 39.475909
@@ -184,7 +184,7 @@
 {
     Class "Planet"
     Radius 12373.32
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 9.617314
@@ -198,7 +198,7 @@
 {
     Class "Planet"
     Radius 45411.36
-    Texture "exo-class2.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 90.124051
@@ -212,7 +212,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "venuslike.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 0.689210
@@ -226,7 +226,7 @@
 {
     Class "Planet"
     Radius 16072.56
-    Texture "GJ_504_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 53.505761
@@ -240,7 +240,7 @@
 {
     Class "Planet"
     Radius 17029.26
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 7.372903
@@ -250,31 +250,31 @@
     }
 }
 
+"K01193.01" "Star-K01193.01"
+{
+    Class "Planet"
+    Radius 66331.20
+    Texture "Proxima_Cen_b.jpg"
+    EllipticalOrbit
+    {
+        Period 119.062488
+        SemiMajorAxis 0.432800
+        Eccentricity 0.000000
+        Inclination 89.640000
+    }
+}
+
 "K01194.02" "Star-K01194.02"
 {
     Class "Planet"
     Radius 10013.46
-    Texture "exo-class2.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 14.862308
         SemiMajorAxis 0.099300
         Eccentricity 0.000000
         Inclination 89.470000
-    }
-}
-
-"K01066.01" "Star-K01066.01"
-{
-    Class "Planet"
-    Radius 59251.62
-    Texture "venuslike.*"
-    EllipticalOrbit
-    {
-        Period 5.714818
-        SemiMajorAxis 0.059700
-        Eccentricity 0.000000
-        Inclination 89.640000
     }
 }
 
@@ -296,7 +296,7 @@
 {
     Class "Planet"
     Radius 32591.58
-    Texture "asteroid.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 2.624235
@@ -310,7 +310,7 @@
 {
     Class "Planet"
     Radius 14796.96
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 30.587215
@@ -324,7 +324,7 @@
 {
     Class "Planet"
     Radius 53001.18
-    Texture "Kepler-7_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 31.201692
@@ -338,7 +338,7 @@
 {
     Class "Planet"
     Radius 41903.46
-    Texture "HD_189733_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 51.598096
@@ -352,7 +352,7 @@
 {
     Class "Planet"
     Radius 16455.24
-    Texture "exo-class5.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 20.513602
@@ -366,7 +366,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "GJ_504_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 0.783276
@@ -380,7 +380,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "exo-class3.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 0.783276
@@ -394,7 +394,7 @@
 {
     Class "Planet"
     Radius 13330.02
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 3.174059
@@ -408,7 +408,7 @@
 {
     Class "Planet"
     Radius 13330.02
-    Texture "asteroid.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 3.174059
@@ -422,7 +422,7 @@
 {
     Class "Planet"
     Radius 49684.62
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 345.158935
@@ -436,7 +436,7 @@
 {
     Class "Planet"
     Radius 54085.44
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 99.644278
@@ -450,7 +450,7 @@
 {
     Class "Planet"
     Radius 36609.72
-    Texture "exo-class1.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 19.037234
@@ -464,7 +464,7 @@
 {
     Class "Planet"
     Radius 75898.20
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 78.925742
@@ -478,7 +478,7 @@
 {
     Class "Planet"
     Radius 86549.46
-    Texture "exo-class3.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 268.941097
@@ -492,7 +492,7 @@
 {
     Class "Planet"
     Radius 32145.12
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 80.966956
@@ -506,7 +506,7 @@
 {
     Class "Planet"
     Radius 73474.56
-    Texture "exo-class3.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 162.047950
@@ -520,7 +520,7 @@
 {
     Class "Planet"
     Radius 13521.36
-    Texture "exo-class2.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 1.694740
@@ -534,7 +534,7 @@
 {
     Class "Planet"
     Radius 12054.42
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 6.247031
@@ -562,7 +562,7 @@
 {
     Class "Planet"
     Radius 10587.48
-    Texture "Proxima_Cen_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 42.037066
@@ -576,7 +576,7 @@
 {
     Class "Planet"
     Radius 8929.20
-    Texture "Proxima_Cen_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 21.011207
@@ -590,7 +590,7 @@
 {
     Class "Planet"
     Radius 8929.20
-    Texture "exo-class2.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 21.011207
@@ -600,25 +600,11 @@
     }
 }
 
-"K01399.01" "Star-K01399.01"
-{
-    Class "Planet"
-    Radius 14478.06
-    Texture "venuslike.*"
-    EllipticalOrbit
-    {
-        Period 8.750598
-        SemiMajorAxis 0.079700
-        Eccentricity 0.000000
-        Inclination 89.180000
-    }
-}
-
 "K01225.01" "Star-K01225.01"
 {
     Class "Planet"
     Radius 159450.00
-    Texture "exo-class3.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 1.714275
@@ -632,7 +618,7 @@
 {
     Class "Planet"
     Radius 18304.86
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 3.014331
@@ -646,7 +632,7 @@
 {
     Class "Planet"
     Radius 28318.32
-    Texture "venuslike.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 13.351512
@@ -660,7 +646,7 @@
 {
     Class "Planet"
     Radius 41138.10
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 104.820587
@@ -674,7 +660,7 @@
 {
     Class "Planet"
     Radius 20983.62
-    Texture "exo-class4.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 34.296636
@@ -688,7 +674,7 @@
 {
     Class "Planet"
     Radius 3954.36
-    Texture "YZ_Cet_d.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 0.840594
@@ -716,7 +702,7 @@
 {
     Class "Planet"
     Radius 22386.78
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 69.834798
@@ -730,7 +716,7 @@
 {
     Class "Planet"
     Radius 15052.08
-    Texture "exo-class5.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 2.594884
@@ -744,7 +730,7 @@
 {
     Class "Planet"
     Radius 10970.16
-    Texture "HD_189733_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 19.181095
@@ -758,7 +744,7 @@
 {
     Class "Planet"
     Radius 8929.20
-    Texture "exo-class3.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 11.305080
@@ -772,7 +758,7 @@
 {
     Class "Planet"
     Radius 46240.50
-    Texture "exo-class1.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 12.681734
@@ -786,7 +772,7 @@
 {
     Class "Planet"
     Radius 8801.64
-    Texture "venuslike.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.136922
@@ -800,7 +786,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "Proxima_Cen_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 5.833939
@@ -814,7 +800,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "exo-class1.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 5.833939
@@ -828,7 +814,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 6.330275
@@ -842,7 +828,7 @@
 {
     Class "Planet"
     Radius 20919.84
-    Texture "Kepler-7_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 5.597282
@@ -856,7 +842,7 @@
 {
     Class "Planet"
     Radius 23088.36
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 51.390145
@@ -870,7 +856,7 @@
 {
     Class "Planet"
     Radius 72198.96
-    Texture "HAT-P-11_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 186.436181
@@ -884,7 +870,7 @@
 {
     Class "Planet"
     Radius 12692.22
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 35.636402
@@ -898,7 +884,7 @@
 {
     Class "Planet"
     Radius 45857.82
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 8.981285
@@ -912,7 +898,7 @@
 {
     Class "Planet"
     Radius 23215.92
-    Texture "exo-class2.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 192.667139
@@ -926,7 +912,7 @@
 {
     Class "Planet"
     Radius 185089.56
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 52.971584
@@ -940,7 +926,7 @@
 {
     Class "Planet"
     Radius 64736.70
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 9.771463
@@ -954,41 +940,13 @@
 {
     Class "Planet"
     Radius 69073.74
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 281.562889
         SemiMajorAxis 0.765900
         Eccentricity 0.000000
         Inclination 90.000000
-    }
-}
-
-"K01681.01" "Star-K01681.01"
-{
-    Class "Planet"
-    Radius 8992.98
-    Texture "Kepler-452_b.jpg"
-    EllipticalOrbit
-    {
-        Period 6.939103
-        SemiMajorAxis 0.054600
-        Eccentricity 0.000000
-        Inclination 81.450000
-    }
-}
-
-"K01681.01" "Star-K01681.01"
-{
-    Class "Planet"
-    Radius 8992.98
-    Texture "venuslike.*"
-    EllipticalOrbit
-    {
-        Period 6.939103
-        SemiMajorAxis 0.054600
-        Eccentricity 0.000000
-        Inclination 81.450000
     }
 }
 
@@ -1006,17 +964,59 @@
     }
 }
 
+"K01681.01" "Star-K01681.01"
+{
+    Class "Planet"
+    Radius 8992.98
+    Texture "asteroid.*"
+    EllipticalOrbit
+    {
+        Period 6.939103
+        SemiMajorAxis 0.054600
+        Eccentricity 0.000000
+        Inclination 81.450000
+    }
+}
+
+"K01681.01" "Star-K01681.01"
+{
+    Class "Planet"
+    Radius 8992.98
+    Texture "Kepler-22_b.jpg"
+    EllipticalOrbit
+    {
+        Period 6.939103
+        SemiMajorAxis 0.054600
+        Eccentricity 0.000000
+        Inclination 81.450000
+    }
+}
+
 "K01537.01" "Star-K01537.01"
 {
     Class "Planet"
     Radius 8865.42
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 10.191547
         SemiMajorAxis 0.096700
         Eccentricity 0.000000
         Inclination 86.090000
+    }
+}
+
+"K01590.01" "Star-K01590.01"
+{
+    Class "Planet"
+    Radius 12309.54
+    Texture "HAT-P-11_b.jpg"
+    EllipticalOrbit
+    {
+        Period 12.890067
+        SemiMajorAxis 0.099200
+        Eccentricity 0.000000
+        Inclination 89.830000
     }
 }
 
@@ -1034,25 +1034,11 @@
     }
 }
 
-"K01590.01" "Star-K01590.01"
-{
-    Class "Planet"
-    Radius 12309.54
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 12.890067
-        SemiMajorAxis 0.099200
-        Eccentricity 0.000000
-        Inclination 89.830000
-    }
-}
-
 "K01590.03" "Star-K01590.03"
 {
     Class "Planet"
     Radius 8291.40
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.746661
@@ -1066,7 +1052,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "exo-class5.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 4.746661
@@ -1080,7 +1066,7 @@
 {
     Class "Planet"
     Radius 48345.24
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 23.020285
@@ -1108,7 +1094,7 @@
 {
     Class "Planet"
     Radius 57784.68
-    Texture "Kepler-452_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 169.497609
@@ -1122,7 +1108,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "Proxima_Cen_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 7.004479
@@ -1132,11 +1118,25 @@
     }
 }
 
+"K01547.01" "Star-K01547.01"
+{
+    Class "Planet"
+    Radius 87506.16
+    Texture "YZ_Cet_d.jpg"
+    EllipticalOrbit
+    {
+        Period 30.693955
+        SemiMajorAxis 0.197600
+        Eccentricity 0.000000
+        Inclination 90.000000
+    }
+}
+
 "K01708.01" "Star-K01708.01"
 {
     Class "Planet"
     Radius 31890.00
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 32.773763
@@ -1150,7 +1150,7 @@
 {
     Class "Planet"
     Radius 59953.20
-    Texture "exo-class4.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 77.634246
@@ -1164,7 +1164,7 @@
 {
     Class "Planet"
     Radius 14733.18
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 32.858626
@@ -1178,7 +1178,7 @@
 {
     Class "Planet"
     Radius 3826.80
-    Texture "Kepler-7_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 2.229326
@@ -1192,7 +1192,7 @@
 {
     Class "Planet"
     Radius 14414.28
-    Texture "HD_189733_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 8.562673
@@ -1206,7 +1206,7 @@
 {
     Class "Planet"
     Radius 14414.28
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 8.562673
@@ -1220,7 +1220,7 @@
 {
     Class "Planet"
     Radius 18368.64
-    Texture "Proxima_Cen_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 17.791087
@@ -1234,7 +1234,7 @@
 {
     Class "Planet"
     Radius 113528.40
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 63.073224
@@ -1248,7 +1248,7 @@
 {
     Class "Planet"
     Radius 23024.58
-    Texture "HD_189733_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 8.710442
@@ -1262,7 +1262,7 @@
 {
     Class "Planet"
     Radius 5485.08
-    Texture "exo-class2.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 6.355857
@@ -1276,7 +1276,7 @@
 {
     Class "Planet"
     Radius 27489.18
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 4.224642
@@ -1290,7 +1290,7 @@
 {
     Class "Planet"
     Radius 27616.74
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 46.299105
@@ -1304,7 +1304,7 @@
 {
     Class "Planet"
     Radius 13840.26
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 6.312192
@@ -1318,7 +1318,7 @@
 {
     Class "Planet"
     Radius 56126.40
-    Texture "exo-class4.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 5.007414
@@ -1332,7 +1332,7 @@
 {
     Class "Planet"
     Radius 22705.68
-    Texture "exo-class2.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 17.504417
@@ -1346,7 +1346,7 @@
 {
     Class "Planet"
     Radius 14222.94
-    Texture "GJ_504_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 86.749081
@@ -1360,7 +1360,7 @@
 {
     Class "Planet"
     Radius 13457.58
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 28.782710
@@ -1374,7 +1374,7 @@
 {
     Class "Planet"
     Radius 70987.14
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 124.035899
@@ -1388,7 +1388,7 @@
 {
     Class "Planet"
     Radius 17603.28
-    Texture "venuslike.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 8.294828
@@ -1402,7 +1402,7 @@
 {
     Class "Planet"
     Radius 24874.20
-    Texture "GJ_504_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 10.240611
@@ -1416,7 +1416,7 @@
 {
     Class "Planet"
     Radius 27871.86
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 23.117072
@@ -1430,7 +1430,7 @@
 {
     Class "Planet"
     Radius 27871.86
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 23.117072
@@ -1444,7 +1444,7 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 4.775021
@@ -1458,7 +1458,7 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 4.775021
@@ -1472,7 +1472,7 @@
 {
     Class "Planet"
     Radius 42158.58
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.695902
@@ -1486,35 +1486,21 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "HAT-P-11_b.jpg"
-    EllipticalOrbit
-    {
-        Period 2.646227
-        SemiMajorAxis 0.034900
-        Eccentricity 0.000000
-        Inclination 87.870000
-    }
-}
-
-"K02248.04" "Star-K02248.04"
-{
-    Class "Planet"
-    Radius 6314.22
-    Texture "exo-class4.*"
-    EllipticalOrbit
-    {
-        Period 2.646227
-        SemiMajorAxis 0.034900
-        Eccentricity 0.000000
-        Inclination 87.870000
-    }
-}
-
-"K02248.04" "Star-K02248.04"
-{
-    Class "Planet"
-    Radius 6314.22
     Texture "venuslike.*"
+    EllipticalOrbit
+    {
+        Period 2.646227
+        SemiMajorAxis 0.034900
+        Eccentricity 0.000000
+        Inclination 87.870000
+    }
+}
+
+"K02248.04" "Star-K02248.04"
+{
+    Class "Planet"
+    Radius 6314.22
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 2.646227
@@ -1528,7 +1514,7 @@
 {
     Class "Planet"
     Radius 15562.32
-    Texture "asteroid.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 6.693328
@@ -1542,7 +1528,7 @@
 {
     Class "Planet"
     Radius 15562.32
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 6.693328
@@ -1556,7 +1542,7 @@
 {
     Class "Planet"
     Radius 24172.62
-    Texture "asteroid.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 14.979743
@@ -1570,7 +1556,7 @@
 {
     Class "Planet"
     Radius 28318.32
-    Texture "exo-class4.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 33.358599
@@ -1584,7 +1570,7 @@
 {
     Class "Planet"
     Radius 8546.52
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 6.314345
@@ -1598,7 +1584,7 @@
 {
     Class "Planet"
     Radius 49493.28
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 78.732702
@@ -1612,7 +1598,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 42.337580
@@ -1626,7 +1612,7 @@
 {
     Class "Planet"
     Radius 10459.92
-    Texture "Kepler-452_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 1.834277
@@ -1640,7 +1626,7 @@
 {
     Class "Planet"
     Radius 14478.06
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 2.420883
@@ -1654,7 +1640,7 @@
 {
     Class "Planet"
     Radius 14478.06
-    Texture "exo-class1.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 2.420883
@@ -1668,7 +1654,7 @@
 {
     Class "Planet"
     Radius 24619.08
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.242420
@@ -1682,7 +1668,7 @@
 {
     Class "Planet"
     Radius 18815.10
-    Texture "Proxima_Cen_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 37.803412
@@ -1696,7 +1682,7 @@
 {
     Class "Planet"
     Radius 19325.34
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 131.485184
@@ -1710,7 +1696,7 @@
 {
     Class "Planet"
     Radius 3316.56
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 16.290853
@@ -1724,7 +1710,7 @@
 {
     Class "Planet"
     Radius 14541.84
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 147.281212
@@ -1738,7 +1724,7 @@
 {
     Class "Planet"
     Radius 4464.60
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 16.667141
@@ -1752,7 +1738,7 @@
 {
     Class "Planet"
     Radius 4464.60
-    Texture "Kepler-452_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 16.667141
@@ -1766,7 +1752,7 @@
 {
     Class "Planet"
     Radius 16008.78
-    Texture "HAT-P-11_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 8.463544
@@ -1780,7 +1766,7 @@
 {
     Class "Planet"
     Radius 27234.06
-    Texture "Proxima_Cen_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 6.214150
@@ -1794,7 +1780,7 @@
 {
     Class "Planet"
     Radius 15626.10
-    Texture "HD_189733_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 17.657378
@@ -1808,7 +1794,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "exo-class5.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 7.596700
@@ -1822,7 +1808,7 @@
 {
     Class "Planet"
     Radius 6696.90
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 9.490764
@@ -1836,37 +1822,23 @@
 {
     Class "Planet"
     Radius 6696.90
+    Texture "exo-class2.*"
+    EllipticalOrbit
+    {
+        Period 9.490764
+        SemiMajorAxis 0.082000
+        Eccentricity 0.000000
+        Inclination 89.380000
+    }
+}
+
+"K02248.03" "Star-K02248.03"
+{
+    Class "Planet"
+    Radius 6888.24
     Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
-        Period 9.490764
-        SemiMajorAxis 0.082000
-        Eccentricity 0.000000
-        Inclination 89.380000
-    }
-}
-
-"K02248.02" "Star-K02248.02"
-{
-    Class "Planet"
-    Radius 6696.90
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 9.490764
-        SemiMajorAxis 0.082000
-        Eccentricity 0.000000
-        Inclination 89.380000
-    }
-}
-
-"K02248.03" "Star-K02248.03"
-{
-    Class "Planet"
-    Radius 6888.24
-    Texture "OGLE-2005-BLG-390L_b.jpg"
-    EllipticalOrbit
-    {
         Period 0.761962
         SemiMajorAxis 0.015200
         Eccentricity 0.000000
@@ -1878,21 +1850,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "exo-class1.*"
-    EllipticalOrbit
-    {
-        Period 0.761962
-        SemiMajorAxis 0.015200
-        Eccentricity 0.000000
-        Inclination 85.820000
-    }
-}
-
-"K02248.03" "Star-K02248.03"
-{
-    Class "Planet"
-    Radius 6888.24
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 0.761962
@@ -1920,7 +1878,7 @@
 {
     Class "Planet"
     Radius 87506.16
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 39.755764
@@ -1934,7 +1892,7 @@
 {
     Class "Planet"
     Radius 87506.16
-    Texture "venuslike.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 39.755764
@@ -1948,7 +1906,7 @@
 {
     Class "Planet"
     Radius 5995.32
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 10.271275
@@ -1962,7 +1920,7 @@
 {
     Class "Planet"
     Radius 5995.32
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 10.271275
@@ -1976,7 +1934,7 @@
 {
     Class "Planet"
     Radius 9056.76
-    Texture "Proxima_Cen_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 4.267961
@@ -1990,7 +1948,7 @@
 {
     Class "Planet"
     Radius 10715.04
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 18.120939
@@ -2004,7 +1962,7 @@
 {
     Class "Planet"
     Radius 7334.70
-    Texture "exo-class2.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 3.988650
@@ -2018,7 +1976,7 @@
 {
     Class "Planet"
     Radius 14159.16
-    Texture "exo-class2.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 25.112336
@@ -2032,7 +1990,7 @@
 {
     Class "Planet"
     Radius 36673.50
-    Texture "venuslike.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 2.121024
@@ -2060,7 +2018,7 @@
 {
     Class "Planet"
     Radius 8737.86
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 8.281571
@@ -2074,7 +2032,7 @@
 {
     Class "Planet"
     Radius 6122.88
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 0.826284
@@ -2088,7 +2046,7 @@
 {
     Class "Planet"
     Radius 13712.70
-    Texture "GJ_504_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 6.377053
@@ -2102,21 +2060,7 @@
 {
     Class "Planet"
     Radius 3507.90
-    Texture "OGLE-2005-BLG-390L_b.jpg"
-    EllipticalOrbit
-    {
-        Period 2.270501
-        SemiMajorAxis 0.027500
-        Eccentricity 0.000000
-        Inclination 86.680000
-    }
-}
-
-"K02421.01" "Star-K02421.01"
-{
-    Class "Planet"
-    Radius 3507.90
-    Texture "exo-class4.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 2.270501
@@ -2130,7 +2074,7 @@
 {
     Class "Planet"
     Radius 132853.74
-    Texture "venuslike.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 18.555816
@@ -2158,7 +2102,7 @@
 {
     Class "Planet"
     Radius 9630.78
-    Texture "venuslike.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 7.103979
@@ -2172,7 +2116,7 @@
 {
     Class "Planet"
     Radius 8482.74
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 6.773679
@@ -2186,7 +2130,7 @@
 {
     Class "Planet"
     Radius 3699.24
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 5.224024
@@ -2200,7 +2144,7 @@
 {
     Class "Planet"
     Radius 20026.92
-    Texture "exo-class5.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 15.921081
@@ -2214,7 +2158,7 @@
 {
     Class "Planet"
     Radius 9120.54
-    Texture "HD_189733_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 2.810432
@@ -2228,7 +2172,7 @@
 {
     Class "Planet"
     Radius 18304.86
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 175.603366
@@ -2242,7 +2186,7 @@
 {
     Class "Planet"
     Radius 76344.66
-    Texture "YZ_Cet_d.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 47.365933
@@ -2256,7 +2200,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 29.225437
@@ -2270,7 +2214,7 @@
 {
     Class "Planet"
     Radius 9885.90
-    Texture "exo-class3.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 13.903406
@@ -2284,7 +2228,7 @@
 {
     Class "Planet"
     Radius 21748.98
-    Texture "exo-class4.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 53.358044
@@ -2298,7 +2242,7 @@
 {
     Class "Planet"
     Radius 11289.06
-    Texture "venuslike.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 73.711039
@@ -2312,7 +2256,7 @@
 {
     Class "Planet"
     Radius 10141.02
-    Texture "exo-class5.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 6.357053
@@ -2326,7 +2270,7 @@
 {
     Class "Planet"
     Radius 12500.88
-    Texture "exo-class5.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 17.699739
@@ -2340,7 +2284,7 @@
 {
     Class "Planet"
     Radius 13202.46
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 0.754458
@@ -2354,7 +2298,7 @@
 {
     Class "Planet"
     Radius 181262.76
-    Texture "HD_189733_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 16.270721
@@ -2368,7 +2312,7 @@
 {
     Class "Planet"
     Radius 8865.42
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 5.422043
@@ -2382,7 +2326,7 @@
 {
     Class "Planet"
     Radius 17475.72
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 24.107317
@@ -2396,7 +2340,7 @@
 {
     Class "Planet"
     Radius 17475.72
-    Texture "Proxima_Cen_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 24.107317
@@ -2410,7 +2354,7 @@
 {
     Class "Planet"
     Radius 15370.98
-    Texture "YZ_Cet_d.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 51.573865
@@ -2424,7 +2368,7 @@
 {
     Class "Planet"
     Radius 14095.38
-    Texture "exo-class1.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 11.619171
@@ -2438,7 +2382,7 @@
 {
     Class "Planet"
     Radius 9630.78
-    Texture "Kepler-22_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 38.229204
@@ -2452,7 +2396,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 18.024348
@@ -2466,7 +2410,7 @@
 {
     Class "Planet"
     Radius 9758.34
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 16.479323
@@ -2480,7 +2424,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "GJ_504_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 2.100816
@@ -2494,7 +2438,7 @@
 {
     Class "Planet"
     Radius 5867.76
-    Texture "exo-class1.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 3.679369
@@ -2508,7 +2452,7 @@
 {
     Class "Planet"
     Radius 5867.76
-    Texture "exo-class3.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 3.679369
@@ -2522,7 +2466,7 @@
 {
     Class "Planet"
     Radius 4911.06
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 7.446464
@@ -2536,7 +2480,7 @@
 {
     Class "Planet"
     Radius 4911.06
-    Texture "exo-class3.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.446464
@@ -2550,7 +2494,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 2.252977
@@ -2564,7 +2508,7 @@
 {
     Class "Planet"
     Radius 9503.22
-    Texture "asteroid.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 16.614622
@@ -2578,7 +2522,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "exo-class1.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 5.838930
@@ -2592,7 +2536,7 @@
 {
     Class "Planet"
     Radius 11161.50
-    Texture "Kepler-22_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 3.097569
@@ -2606,7 +2550,7 @@
 {
     Class "Planet"
     Radius 13457.58
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 205.385912
@@ -2620,7 +2564,7 @@
 {
     Class "Planet"
     Radius 9567.00
-    Texture "Kepler-452_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 1.239357
@@ -2634,7 +2578,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "exo-class1.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 1.407020
@@ -2648,7 +2592,7 @@
 {
     Class "Planet"
     Radius 14733.18
-    Texture "Kepler-7_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 24.435996
@@ -2662,7 +2606,7 @@
 {
     Class "Planet"
     Radius 173545.38
-    Texture "Kepler-22_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 17.577046
@@ -2676,7 +2620,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 1.400756
@@ -2690,7 +2634,7 @@
 {
     Class "Planet"
     Radius 9822.12
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 27.881315
@@ -2704,7 +2648,7 @@
 {
     Class "Planet"
     Radius 11289.06
-    Texture "venuslike.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 7.507900
@@ -2718,7 +2662,7 @@
 {
     Class "Planet"
     Radius 19261.56
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 110.378383
@@ -2732,7 +2676,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 4.288868
@@ -2746,7 +2690,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "exo-class5.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 4.288868
@@ -2760,7 +2704,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "exo-class5.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 4.288868
@@ -2774,7 +2718,7 @@
 {
     Class "Planet"
     Radius 10459.92
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 24.575252
@@ -2788,7 +2732,7 @@
 {
     Class "Planet"
     Radius 6633.12
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 10.174704
@@ -2802,7 +2746,7 @@
 {
     Class "Planet"
     Radius 6633.12
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 10.174704
@@ -2816,7 +2760,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 2.172911
@@ -2830,7 +2774,7 @@
 {
     Class "Planet"
     Radius 9056.76
-    Texture "asteroid.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.351013
@@ -2844,7 +2788,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 0.868122
@@ -2858,7 +2802,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 13.843012
@@ -2872,7 +2816,7 @@
 {
     Class "Planet"
     Radius 12054.42
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 31.608437
@@ -2886,7 +2830,7 @@
 {
     Class "Planet"
     Radius 14924.52
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 3.375717
@@ -2900,7 +2844,7 @@
 {
     Class "Planet"
     Radius 17348.16
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 75.858003
@@ -2928,7 +2872,7 @@
 {
     Class "Planet"
     Radius 63205.98
-    Texture "exo-class5.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 237.787237
@@ -2942,7 +2886,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 7.095639
@@ -2956,7 +2900,7 @@
 {
     Class "Planet"
     Radius 28637.22
-    Texture "exo-class4.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 126.445127
@@ -2970,7 +2914,7 @@
 {
     Class "Planet"
     Radius 9822.12
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 5.772072
@@ -2984,7 +2928,7 @@
 {
     Class "Planet"
     Radius 13266.24
-    Texture "asteroid.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 46.151253
@@ -2998,7 +2942,7 @@
 {
     Class "Planet"
     Radius 19452.90
-    Texture "exo-class5.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 97.446319
@@ -3012,7 +2956,7 @@
 {
     Class "Planet"
     Radius 70923.36
-    Texture "asteroid.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 174.636181
@@ -3026,7 +2970,7 @@
 {
     Class "Planet"
     Radius 9439.44
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 1.791877
@@ -3040,7 +2984,7 @@
 {
     Class "Planet"
     Radius 11480.40
-    Texture "Kepler-22_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 145.881936
@@ -3054,7 +2998,7 @@
 {
     Class "Planet"
     Radius 11480.40
-    Texture "Kepler-22_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 145.881936
@@ -3068,7 +3012,7 @@
 {
     Class "Planet"
     Radius 58039.80
-    Texture "HAT-P-11_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 96.456220
@@ -3082,7 +3026,7 @@
 {
     Class "Planet"
     Radius 58039.80
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 96.456220
@@ -3096,7 +3040,7 @@
 {
     Class "Planet"
     Radius 36992.40
-    Texture "asteroid.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 44.564383
@@ -3110,7 +3054,7 @@
 {
     Class "Planet"
     Radius 36992.40
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 44.564383
@@ -3124,7 +3068,7 @@
 {
     Class "Planet"
     Radius 18432.42
-    Texture "exo-class5.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 21.118165
@@ -3138,7 +3082,7 @@
 {
     Class "Planet"
     Radius 6250.44
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 5.060923
@@ -3152,7 +3096,7 @@
 {
     Class "Planet"
     Radius 6441.78
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 1.078085
@@ -3166,7 +3110,7 @@
 {
     Class "Planet"
     Radius 9375.66
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 11.191620
@@ -3180,7 +3124,7 @@
 {
     Class "Planet"
     Radius 19134.00
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 174.731515
@@ -3190,25 +3134,11 @@
     }
 }
 
-"K03089.01" "Star-K03089.01"
-{
-    Class "Planet"
-    Radius 5612.64
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 0.858547
-        SemiMajorAxis 0.016700
-        Eccentricity 0.000000
-        Inclination 87.650000
-    }
-}
-
 "K00366.01" "Star-K00366.01"
 {
     Class "Planet"
     Radius 148160.94
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 75.112213
@@ -3222,7 +3152,7 @@
 {
     Class "Planet"
     Radius 12118.20
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 10.919265
@@ -3236,7 +3166,7 @@
 {
     Class "Planet"
     Radius 66012.30
-    Texture "Kepler-7_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 1.951082
@@ -3250,7 +3180,7 @@
 {
     Class "Planet"
     Radius 11671.74
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 23.137592
@@ -3264,7 +3194,7 @@
 {
     Class "Planet"
     Radius 14286.72
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 18.976329
@@ -3278,7 +3208,7 @@
 {
     Class "Planet"
     Radius 14286.72
-    Texture "exo-class3.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 18.976329
@@ -3292,7 +3222,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 6.347247
@@ -3306,7 +3236,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "YZ_Cet_d.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 6.347247
@@ -3320,7 +3250,7 @@
 {
     Class "Planet"
     Radius 5867.76
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 10.768001
@@ -3334,7 +3264,7 @@
 {
     Class "Planet"
     Radius 5867.76
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 10.768001
@@ -3348,7 +3278,7 @@
 {
     Class "Planet"
     Radius 4209.48
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 4.328483
@@ -3362,7 +3292,7 @@
 {
     Class "Planet"
     Radius 4209.48
-    Texture "asteroid.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.328483
@@ -3376,7 +3306,7 @@
 {
     Class "Planet"
     Radius 63907.56
-    Texture "exo-class2.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 46.151195
@@ -3390,7 +3320,7 @@
 {
     Class "Planet"
     Radius 45538.92
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 4.780328
@@ -3418,7 +3348,7 @@
 {
     Class "Planet"
     Radius 10587.48
-    Texture "Proxima_Cen_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 31.020917
@@ -3432,7 +3362,7 @@
 {
     Class "Planet"
     Radius 6441.78
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 7.491338
@@ -3446,7 +3376,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 5.465417
@@ -3460,7 +3390,7 @@
 {
     Class "Planet"
     Radius 5548.86
-    Texture "exo-class1.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 6.066649
@@ -3474,7 +3404,7 @@
 {
     Class "Planet"
     Radius 5995.32
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 2.184438
@@ -3488,7 +3418,7 @@
 {
     Class "Planet"
     Radius 12373.32
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 15.231120
@@ -3516,7 +3446,7 @@
 {
     Class "Planet"
     Radius 7334.70
-    Texture "GJ_504_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 5.082881
@@ -3544,7 +3474,7 @@
 {
     Class "Planet"
     Radius 6824.46
-    Texture "Kepler-22_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 3.089428
@@ -3558,7 +3488,7 @@
 {
     Class "Planet"
     Radius 16710.36
-    Texture "HAT-P-11_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 21.236002
@@ -3572,7 +3502,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 1.242640
@@ -3586,7 +3516,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "GJ_504_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 6.095957
@@ -3600,7 +3530,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 6.095957
@@ -3614,7 +3544,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "Kepler-452_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 13.251121
@@ -3628,7 +3558,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "Kepler-452_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 13.251121
@@ -3642,7 +3572,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 11.682369
@@ -3670,7 +3600,7 @@
 {
     Class "Planet"
     Radius 12373.32
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 21.613134
@@ -3726,13 +3656,27 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "exo-class4.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 11.455419
         SemiMajorAxis 0.107700
         Eccentricity 0.000000
         Inclination 89.620000
+    }
+}
+
+"K03429.04" "Star-K03429.04"
+{
+    Class "Planet"
+    Radius 11799.30
+    Texture "YZ_Cet_d.jpg"
+    EllipticalOrbit
+    {
+        Period 44.433726
+        SemiMajorAxis 0.241500
+        Eccentricity 0.000000
+        Inclination 89.190000
     }
 }
 
@@ -3750,25 +3694,11 @@
     }
 }
 
-"K03429.04" "Star-K03429.04"
-{
-    Class "Planet"
-    Radius 11799.30
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 44.433726
-        SemiMajorAxis 0.241500
-        Eccentricity 0.000000
-        Inclination 89.190000
-    }
-}
-
 "K03068.01" "Star-K03068.01"
 {
     Class "Planet"
     Radius 5421.30
-    Texture "Kepler-452_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 3.916796
@@ -3796,7 +3726,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 43.102443
@@ -3810,7 +3740,7 @@
 {
     Class "Planet"
     Radius 29019.90
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 31.445271
@@ -3824,7 +3754,7 @@
 {
     Class "Planet"
     Radius 12883.56
-    Texture "asteroid.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 12.990651
@@ -3838,7 +3768,7 @@
 {
     Class "Planet"
     Radius 12947.34
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 82.659517
@@ -3852,7 +3782,7 @@
 {
     Class "Planet"
     Radius 12437.10
-    Texture "asteroid.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 24.336703
@@ -3880,7 +3810,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 15.594376
@@ -3894,7 +3824,7 @@
 {
     Class "Planet"
     Radius 22131.66
-    Texture "venuslike.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 75.731195
@@ -3908,7 +3838,7 @@
 {
     Class "Planet"
     Radius 73857.24
-    Texture "Kepler-22_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 152.106043
@@ -3922,7 +3852,7 @@
 {
     Class "Planet"
     Radius 73857.24
-    Texture "Kepler-7_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 152.106043
@@ -3936,7 +3866,7 @@
 {
     Class "Planet"
     Radius 5803.98
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 7.251020
@@ -3950,7 +3880,7 @@
 {
     Class "Planet"
     Radius 10332.36
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 57.384037
@@ -3964,7 +3894,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "exo-class5.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 2.573844
@@ -3978,21 +3908,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "Kepler-7_b.jpg"
-    EllipticalOrbit
-    {
-        Period 10.183182
-        SemiMajorAxis 0.095800
-        Eccentricity 0.000000
-        Inclination 88.850000
-    }
-}
-
-"K03083.01" "Star-K03083.01"
-{
-    Class "Planet"
-    Radius 5038.62
-    Texture "asteroid.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 10.183182
@@ -4011,6 +3927,48 @@
     {
         Period 10.183182
         SemiMajorAxis 0.095800
+        Eccentricity 0.000000
+        Inclination 88.850000
+    }
+}
+
+"K03083.01" "Star-K03083.01"
+{
+    Class "Planet"
+    Radius 5038.62
+    Texture "exo-class1.*"
+    EllipticalOrbit
+    {
+        Period 10.183182
+        SemiMajorAxis 0.095800
+        Eccentricity 0.000000
+        Inclination 88.850000
+    }
+}
+
+"K03083.02" "Star-K03083.02"
+{
+    Class "Planet"
+    Radius 3890.58
+    Texture "OGLE-2005-BLG-390L_b.jpg"
+    EllipticalOrbit
+    {
+        Period 6.232123
+        SemiMajorAxis 0.069100
+        Eccentricity 0.000000
+        Inclination 88.850000
+    }
+}
+
+"K03083.02" "Star-K03083.02"
+{
+    Class "Planet"
+    Radius 3890.58
+    Texture "YZ_Cet_d.jpg"
+    EllipticalOrbit
+    {
+        Period 6.232123
+        SemiMajorAxis 0.069100
         Eccentricity 0.000000
         Inclination 88.850000
     }
@@ -4030,39 +3988,11 @@
     }
 }
 
-"K03083.02" "Star-K03083.02"
-{
-    Class "Planet"
-    Radius 3890.58
-    Texture "Kepler-7_b.jpg"
-    EllipticalOrbit
-    {
-        Period 6.232123
-        SemiMajorAxis 0.069100
-        Eccentricity 0.000000
-        Inclination 88.850000
-    }
-}
-
-"K03083.02" "Star-K03083.02"
-{
-    Class "Planet"
-    Radius 3890.58
-    Texture "Kepler-452_b.jpg"
-    EllipticalOrbit
-    {
-        Period 6.232123
-        SemiMajorAxis 0.069100
-        Eccentricity 0.000000
-        Inclination 88.850000
-    }
-}
-
 "K03083.03" "Star-K03083.03"
 {
     Class "Planet"
     Radius 4145.70
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 8.294293
@@ -4076,7 +4006,7 @@
 {
     Class "Planet"
     Radius 4145.70
-    Texture "exo-class4.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 8.294293
@@ -4090,7 +4020,7 @@
 {
     Class "Planet"
     Radius 4145.70
-    Texture "asteroid.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 8.294293
@@ -4118,7 +4048,7 @@
 {
     Class "Planet"
     Radius 2296.08
-    Texture "exo-class4.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 2.472409
@@ -4132,7 +4062,7 @@
 {
     Class "Planet"
     Radius 2296.08
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 2.472409
@@ -4146,7 +4076,7 @@
 {
     Class "Planet"
     Radius 25384.44
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 11.530293
@@ -4160,7 +4090,7 @@
 {
     Class "Planet"
     Radius 7207.14
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 7.906976
@@ -4174,7 +4104,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "venuslike.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 13.950957
@@ -4188,7 +4118,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "Kepler-452_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 13.950957
@@ -4202,7 +4132,7 @@
 {
     Class "Planet"
     Radius 24491.52
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 16.301413
@@ -4216,7 +4146,7 @@
 {
     Class "Planet"
     Radius 36864.84
-    Texture "Kepler-7_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 3.687470
@@ -4226,25 +4156,11 @@
     }
 }
 
-"K04260.04" "Star-K04260.04"
-{
-    Class "Planet"
-    Radius 7398.48
-    Texture "OGLE-2005-BLG-390L_b.jpg"
-    EllipticalOrbit
-    {
-        Period 84.799829
-        SemiMajorAxis 0.357600
-        Eccentricity 0.000000
-        Inclination 88.270000
-    }
-}
-
 "K00430.02" "Star-K00430.02"
 {
     Class "Planet"
     Radius 5357.52
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 9.340538
@@ -4258,7 +4174,7 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "exo-class1.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 11.505879
@@ -4272,7 +4188,7 @@
 {
     Class "Planet"
     Radius 50322.42
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 934.094185
@@ -4286,7 +4202,7 @@
 {
     Class "Planet"
     Radius 136999.44
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 199.839205
@@ -4300,7 +4216,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "asteroid.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 20.605501
@@ -4314,7 +4230,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 20.605501
@@ -4328,7 +4244,7 @@
 {
     Class "Planet"
     Radius 4337.04
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 9.553913
@@ -4342,7 +4258,7 @@
 {
     Class "Planet"
     Radius 12118.20
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 6.770676
@@ -4356,7 +4272,7 @@
 {
     Class "Planet"
     Radius 12118.20
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 6.770676
@@ -4370,7 +4286,7 @@
 {
     Class "Planet"
     Radius 7908.72
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 1.746101
@@ -4384,7 +4300,7 @@
 {
     Class "Planet"
     Radius 17220.60
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 24.796280
@@ -4398,7 +4314,7 @@
 {
     Class "Planet"
     Radius 9630.78
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 6.936509
@@ -4412,7 +4328,7 @@
 {
     Class "Planet"
     Radius 7334.70
-    Texture "HD_189733_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 18.384833
@@ -4436,11 +4352,25 @@
     }
 }
 
+"K01942.02" "Star-K01942.02"
+{
+    Class "Planet"
+    Radius 10587.48
+    Texture "exo-class4.*"
+    EllipticalOrbit
+    {
+        Period 2.433703
+        SemiMajorAxis 0.033700
+        Eccentricity 0.000000
+        Inclination 82.210000
+    }
+}
+
 "K02871.04" "Star-K02871.04"
 {
     Class "Planet"
     Radius 6314.22
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 7.978820
@@ -4454,7 +4384,7 @@
 {
     Class "Planet"
     Radius 148352.28
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 10.522867
@@ -4468,7 +4398,7 @@
 {
     Class "Planet"
     Radius 989355.36
-    Texture "Kepler-7_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 53.717985
@@ -4478,25 +4408,11 @@
     }
 }
 
-"K00075.01" "Star-K00075.01"
-{
-    Class "Planet"
-    Radius 64800.48
-    Texture "HAT-P-11_b.jpg"
-    EllipticalOrbit
-    {
-        Period 105.881767
-        SemiMajorAxis 0.478500
-        Eccentricity 0.000000
-        Inclination 89.220000
-    }
-}
-
 "K01083.02" "Star-K01083.02"
 {
     Class "Planet"
     Radius 6122.88
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 4.577974
@@ -4510,7 +4426,7 @@
 {
     Class "Planet"
     Radius 6122.88
-    Texture "Kepler-452_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 3.016096
@@ -4524,7 +4440,7 @@
 {
     Class "Planet"
     Radius 6122.88
-    Texture "exo-class1.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 3.016096
@@ -4538,7 +4454,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "asteroid.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 21.942432
@@ -4552,7 +4468,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 21.942432
@@ -4566,7 +4482,7 @@
 {
     Class "Planet"
     Radius 74813.94
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 9.391039
@@ -4580,7 +4496,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 11.143809
@@ -4594,7 +4510,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "venuslike.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 11.143809
@@ -4608,7 +4524,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 32.526674
@@ -4622,7 +4538,7 @@
 {
     Class "Planet"
     Radius 39352.26
-    Texture "exo-class4.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 10.329066
@@ -4646,25 +4562,11 @@
     }
 }
 
-"K04896.02" "Star-K04896.02"
-{
-    Class "Planet"
-    Radius 9439.44
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 49.537365
-        SemiMajorAxis 0.263700
-        Eccentricity 0.000000
-        Inclination 89.290000
-    }
-}
-
 "K04838.03" "Star-K04838.03"
 {
     Class "Planet"
     Radius 7015.80
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 24.072165
@@ -4678,7 +4580,7 @@
 {
     Class "Planet"
     Radius 78002.94
-    Texture "exo-class5.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 19.193104
@@ -4692,7 +4594,7 @@
 {
     Class "Planet"
     Radius 14478.06
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 80.881757
@@ -4706,7 +4608,7 @@
 {
     Class "Planet"
     Radius 4400.82
-    Texture "exo-class4.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 1.813438
@@ -4720,7 +4622,7 @@
 {
     Class "Planet"
     Radius 69520.20
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 562.172591
@@ -4734,7 +4636,7 @@
 {
     Class "Planet"
     Radius 37375.08
-    Texture "exo-class3.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 278.124398
@@ -4748,7 +4650,7 @@
 {
     Class "Planet"
     Radius 44327.10
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 4.034914
@@ -4762,7 +4664,7 @@
 {
     Class "Planet"
     Radius 79278.54
-    Texture "exo-class1.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 52.513549
@@ -4772,25 +4674,11 @@
     }
 }
 
-"K00687.01" "Star-K00687.01"
-{
-    Class "Planet"
-    Radius 19963.14
-    Texture "HD_189733_b.jpg"
-    EllipticalOrbit
-    {
-        Period 4.178387
-        SemiMajorAxis 0.053000
-        Eccentricity 0.000000
-        Inclination 87.100000
-    }
-}
-
 "K07630.01" "Star-K07630.01"
 {
     Class "Planet"
     Radius 4974.84
-    Texture "venuslike.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 16.298220
@@ -4800,25 +4688,11 @@
     }
 }
 
-"K00099.01" "Star-K00099.01"
-{
-    Class "Planet"
-    Radius 19899.36
-    Texture "Kepler-452_b.jpg"
-    EllipticalOrbit
-    {
-        Period 2190.701035
-        SemiMajorAxis 2.945600
-        Eccentricity 0.000000
-        Inclination 89.950000
-    }
-}
-
 "K00732.02" "Star-K00732.02"
 {
     Class "Planet"
     Radius 7844.94
-    Texture "exo-class5.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 3.295346
@@ -4832,7 +4706,7 @@
 {
     Class "Planet"
     Radius 5485.08
-    Texture "Proxima_Cen_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 6.079946
@@ -4846,7 +4720,7 @@
 {
     Class "Planet"
     Radius 16200.12
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 70.278091
@@ -4860,7 +4734,7 @@
 {
     Class "Planet"
     Radius 107724.42
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 9.966400
@@ -4874,7 +4748,7 @@
 {
     Class "Planet"
     Radius 17411.94
-    Texture "venuslike.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 14.851855
@@ -4888,7 +4762,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "asteroid.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 3.073651
@@ -4902,7 +4776,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "exo-class5.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 3.073651
@@ -4916,7 +4790,7 @@
 {
     Class "Planet"
     Radius 4655.94
-    Texture "HD_189733_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.501582
@@ -4930,7 +4804,7 @@
 {
     Class "Planet"
     Radius 3954.36
-    Texture "venuslike.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.065469
@@ -4944,7 +4818,7 @@
 {
     Class "Planet"
     Radius 71178.48
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 5.893991
@@ -4958,7 +4832,7 @@
 {
     Class "Planet"
     Radius 11671.74
-    Texture "exo-class5.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 66.477620
@@ -4972,7 +4846,7 @@
 {
     Class "Planet"
     Radius 11671.74
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 66.477620
@@ -4986,7 +4860,7 @@
 {
     Class "Planet"
     Radius 43242.84
-    Texture "exo-class5.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 26.893161
@@ -5000,7 +4874,7 @@
 {
     Class "Planet"
     Radius 168634.32
-    Texture "HAT-P-11_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 155.042265
@@ -5014,7 +4888,7 @@
 {
     Class "Planet"
     Radius 9375.66
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 25.003202
@@ -5028,7 +4902,7 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "exo-class4.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 8.029202
@@ -5042,7 +4916,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "exo-class4.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 2.417500
@@ -5056,7 +4930,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "exo-class3.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 2.417500
@@ -5070,7 +4944,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 4.033574
@@ -5084,7 +4958,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "exo-class3.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 4.033574
@@ -5098,7 +4972,7 @@
 {
     Class "Planet"
     Radius 10204.80
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 7.664629
@@ -5112,7 +4986,7 @@
 {
     Class "Planet"
     Radius 10204.80
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.664629
@@ -5126,7 +5000,7 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 0.487656
@@ -5140,7 +5014,7 @@
 {
     Class "Planet"
     Radius 6122.88
-    Texture "exo-class3.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 3.254247
@@ -5154,7 +5028,7 @@
 {
     Class "Planet"
     Radius 6696.90
-    Texture "asteroid.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 11.929457
@@ -5168,7 +5042,7 @@
 {
     Class "Planet"
     Radius 6696.90
-    Texture "exo-class1.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 11.929457
@@ -5182,7 +5056,7 @@
 {
     Class "Planet"
     Radius 10906.38
-    Texture "YZ_Cet_d.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 9.546992
@@ -5210,7 +5084,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "Kepler-452_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 13.603208
@@ -5224,7 +5098,7 @@
 {
     Class "Planet"
     Radius 9758.34
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 7.235313
@@ -5238,7 +5112,7 @@
 {
     Class "Planet"
     Radius 9758.34
-    Texture "exo-class4.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 7.235313
@@ -5252,7 +5126,7 @@
 {
     Class "Planet"
     Radius 51024.00
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 64.186226
@@ -5266,7 +5140,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.932119
@@ -5280,7 +5154,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "exo-class2.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 4.932119
@@ -5294,7 +5168,7 @@
 {
     Class "Planet"
     Radius 13011.12
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 4.858194
@@ -5308,7 +5182,7 @@
 {
     Class "Planet"
     Radius 24172.62
-    Texture "YZ_Cet_d.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 15.904240
@@ -5322,7 +5196,7 @@
 {
     Class "Planet"
     Radius 24172.62
-    Texture "exo-class4.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 15.904240
@@ -5350,7 +5224,7 @@
 {
     Class "Planet"
     Radius 15243.42
-    Texture "exo-class4.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 1.121733
@@ -5364,7 +5238,7 @@
 {
     Class "Planet"
     Radius 21430.08
-    Texture "venuslike.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 215.956008
@@ -5378,7 +5252,7 @@
 {
     Class "Planet"
     Radius 3507.90
-    Texture "exo-class3.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 2.008707
@@ -5392,7 +5266,7 @@
 {
     Class "Planet"
     Radius 9439.44
-    Texture "exo-class3.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 0.655940
@@ -5406,7 +5280,7 @@
 {
     Class "Planet"
     Radius 12309.54
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 110.461746
@@ -5420,7 +5294,7 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "exo-class4.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 44.622673
@@ -5434,7 +5308,7 @@
 {
     Class "Planet"
     Radius 15052.08
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 225.262130
@@ -5448,7 +5322,7 @@
 {
     Class "Planet"
     Radius 4400.82
-    Texture "Kepler-452_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 2.314823
@@ -5462,7 +5336,7 @@
 {
     Class "Planet"
     Radius 7972.50
-    Texture "exo-class2.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 10.778313
@@ -5476,7 +5350,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "exo-class3.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 2.905120
@@ -5490,7 +5364,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "exo-class1.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 2.905120
@@ -5504,7 +5378,7 @@
 {
     Class "Planet"
     Radius 3635.46
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 2.905120
@@ -5518,7 +5392,7 @@
 {
     Class "Planet"
     Radius 9375.66
-    Texture "exo-class2.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 5.044044
@@ -5532,7 +5406,7 @@
 {
     Class "Planet"
     Radius 5612.64
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 1.166960
@@ -5546,7 +5420,7 @@
 {
     Class "Planet"
     Radius 5102.40
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 0.701944
@@ -5560,7 +5434,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "YZ_Cet_d.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 3.057727
@@ -5574,7 +5448,7 @@
 {
     Class "Planet"
     Radius 14988.30
-    Texture "Kepler-22_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 9.909211
@@ -5588,7 +5462,7 @@
 {
     Class "Planet"
     Radius 7717.38
-    Texture "Proxima_Cen_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 6.392698
@@ -5602,7 +5476,7 @@
 {
     Class "Planet"
     Radius 4974.84
-    Texture "exo-class4.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 7.878458
@@ -5616,21 +5490,7 @@
 {
     Class "Planet"
     Radius 13967.82
-    Texture "exo-class4.*"
-    EllipticalOrbit
-    {
-        Period 27.904051
-        SemiMajorAxis 0.189100
-        Eccentricity 0.000000
-        Inclination 87.790000
-    }
-}
-
-"K02433.04" "Star-K02433.04"
-{
-    Class "Planet"
-    Radius 13967.82
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 27.904051
@@ -5645,6 +5505,20 @@
     Class "Planet"
     Radius 13967.82
     Texture "exo-class1.*"
+    EllipticalOrbit
+    {
+        Period 27.904051
+        SemiMajorAxis 0.189100
+        Eccentricity 0.000000
+        Inclination 87.790000
+    }
+}
+
+"K02433.04" "Star-K02433.04"
+{
+    Class "Planet"
+    Radius 13967.82
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 27.904051
@@ -5658,7 +5532,7 @@
 {
     Class "Planet"
     Radius 25001.76
-    Texture "exo-class5.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 17.807566
@@ -5672,7 +5546,7 @@
 {
     Class "Planet"
     Radius 5548.86
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 3.750305
@@ -5686,7 +5560,7 @@
 {
     Class "Planet"
     Radius 5548.86
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 3.750305
@@ -5700,7 +5574,7 @@
 {
     Class "Planet"
     Radius 3890.58
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 4.726931
@@ -5714,7 +5588,7 @@
 {
     Class "Planet"
     Radius 6569.34
-    Texture "exo-class5.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 10.098963
@@ -5728,7 +5602,7 @@
 {
     Class "Planet"
     Radius 8227.62
-    Texture "exo-class1.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 13.122973
@@ -5742,7 +5616,7 @@
 {
     Class "Planet"
     Radius 8227.62
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 13.122973
@@ -5770,7 +5644,7 @@
 {
     Class "Planet"
     Radius 4655.94
-    Texture "asteroid.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 9.087452
@@ -5784,7 +5658,7 @@
 {
     Class "Planet"
     Radius 4655.94
-    Texture "YZ_Cet_d.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 9.087452
@@ -5798,7 +5672,7 @@
 {
     Class "Planet"
     Radius 15307.20
-    Texture "Kepler-452_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 106.957467
@@ -5812,7 +5686,7 @@
 {
     Class "Planet"
     Radius 10141.02
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 147.661729
@@ -5826,7 +5700,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 13.002917
@@ -5840,7 +5714,7 @@
 {
     Class "Planet"
     Radius 14860.74
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 42.029230
@@ -5854,7 +5728,7 @@
 {
     Class "Planet"
     Radius 14860.74
-    Texture "exo-class1.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 42.029230
@@ -5868,7 +5742,7 @@
 {
     Class "Planet"
     Radius 3763.02
-    Texture "GJ_504_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 2.493853
@@ -5882,7 +5756,7 @@
 {
     Class "Planet"
     Radius 7462.26
-    Texture "venuslike.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 16.534002
@@ -5896,7 +5770,7 @@
 {
     Class "Planet"
     Radius 16136.34
-    Texture "Kepler-7_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 13.948220
@@ -5910,7 +5784,7 @@
 {
     Class "Planet"
     Radius 7781.16
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.675780
@@ -5924,7 +5798,7 @@
 {
     Class "Planet"
     Radius 10396.14
-    Texture "exo-class4.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 49.564693
@@ -5938,7 +5812,7 @@
 {
     Class "Planet"
     Radius 31252.20
-    Texture "HAT-P-11_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 170.995748
@@ -5952,7 +5826,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "HD_189733_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 19.565080
@@ -5966,7 +5840,7 @@
 {
     Class "Planet"
     Radius 6696.90
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 5.533120
@@ -5976,11 +5850,25 @@
     }
 }
 
+"K04303.01" "Star-K04303.01"
+{
+    Class "Planet"
+    Radius 21174.96
+    Texture "HD_189733_b.jpg"
+    EllipticalOrbit
+    {
+        Period 200.721168
+        SemiMajorAxis 0.657700
+        Eccentricity 0.000000
+        Inclination 89.910000
+    }
+}
+
 "K04435.01" "Star-K04435.01"
 {
     Class "Planet"
     Radius 6441.78
-    Texture "Kepler-452_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 10.861416
@@ -5994,7 +5882,7 @@
 {
     Class "Planet"
     Radius 17348.16
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 7.039651
@@ -6008,7 +5896,7 @@
 {
     Class "Planet"
     Radius 19070.22
-    Texture "exo-class1.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 66.643456
@@ -6022,7 +5910,7 @@
 {
     Class "Planet"
     Radius 21748.98
-    Texture "HAT-P-11_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 160.850075
@@ -6036,7 +5924,7 @@
 {
     Class "Planet"
     Radius 5166.18
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.261423
@@ -6050,7 +5938,7 @@
 {
     Class "Planet"
     Radius 5485.08
-    Texture "exo-class5.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 3.703867
@@ -6064,7 +5952,7 @@
 {
     Class "Planet"
     Radius 15881.22
-    Texture "Proxima_Cen_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 19.875135
@@ -6078,7 +5966,7 @@
 {
     Class "Planet"
     Radius 4655.94
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 7.292989
@@ -6092,7 +5980,7 @@
 {
     Class "Planet"
     Radius 11607.96
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 145.786556
@@ -6106,7 +5994,7 @@
 {
     Class "Planet"
     Radius 7207.14
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 24.560711
@@ -6120,7 +6008,7 @@
 {
     Class "Planet"
     Radius 11225.28
-    Texture "YZ_Cet_d.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 24.668383
@@ -6134,7 +6022,7 @@
 {
     Class "Planet"
     Radius 10013.46
-    Texture "HAT-P-11_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 14.816292
@@ -6148,7 +6036,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 42.068554
@@ -6162,7 +6050,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 42.068554
@@ -6190,7 +6078,7 @@
 {
     Class "Planet"
     Radius 13393.80
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 41.675751
@@ -6204,7 +6092,7 @@
 {
     Class "Planet"
     Radius 10141.02
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 11.495896
@@ -6218,7 +6106,7 @@
 {
     Class "Planet"
     Radius 10332.36
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 49.474697
@@ -6232,7 +6120,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "asteroid.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 1.920063
@@ -6246,7 +6134,7 @@
 {
     Class "Planet"
     Radius 10204.80
-    Texture "HD_189733_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 10.301485
@@ -6260,7 +6148,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 17.800781
@@ -6274,7 +6162,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "Kepler-22_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 1.717860
@@ -6288,7 +6176,7 @@
 {
     Class "Planet"
     Radius 10204.80
-    Texture "exo-class3.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.342247
@@ -6302,7 +6190,7 @@
 {
     Class "Planet"
     Radius 5867.76
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 8.113468
@@ -6316,7 +6204,7 @@
 {
     Class "Planet"
     Radius 6824.46
-    Texture "Kepler-452_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 5.467551
@@ -6330,7 +6218,7 @@
 {
     Class "Planet"
     Radius 9056.76
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 42.100335
@@ -6344,7 +6232,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "exo-class3.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 1.182863
@@ -6354,25 +6242,11 @@
     }
 }
 
-"K04269.02" "Star-K04269.02"
-{
-    Class "Planet"
-    Radius 11097.72
-    Texture "Kepler-452_b.jpg"
-    EllipticalOrbit
-    {
-        Period 4.440854
-        SemiMajorAxis 0.058800
-        Eccentricity 0.000000
-        Inclination 89.930000
-    }
-}
-
 "K07679.01" "Star-K07679.01"
 {
     Class "Planet"
     Radius 4464.60
-    Texture "GJ_504_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 1.867994
@@ -6386,7 +6260,7 @@
 {
     Class "Planet"
     Radius 8355.18
-    Texture "venuslike.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 17.373182
@@ -6400,7 +6274,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "asteroid.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 1.975074
@@ -6414,7 +6288,7 @@
 {
     Class "Planet"
     Radius 6952.02
-    Texture "exo-class2.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 3.387917
@@ -6428,7 +6302,7 @@
 {
     Class "Planet"
     Radius 11161.50
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 58.748863
@@ -6442,7 +6316,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 64.740274
@@ -6456,7 +6330,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "YZ_Cet_d.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 64.740274
@@ -6470,7 +6344,7 @@
 {
     Class "Planet"
     Radius 4974.84
-    Texture "Proxima_Cen_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 5.382993
@@ -6484,7 +6358,7 @@
 {
     Class "Planet"
     Radius 7972.50
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 14.717934
@@ -6498,7 +6372,7 @@
 {
     Class "Planet"
     Radius 7908.72
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 19.252765
@@ -6512,7 +6386,7 @@
 {
     Class "Planet"
     Radius 4592.16
-    Texture "exo-class2.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 3.487541
@@ -6526,7 +6400,7 @@
 {
     Class "Planet"
     Radius 16646.58
-    Texture "exo-class4.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 8.077246
@@ -6540,7 +6414,7 @@
 {
     Class "Planet"
     Radius 5293.74
-    Texture "exo-class4.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 5.756520
@@ -6554,7 +6428,7 @@
 {
     Class "Planet"
     Radius 16965.48
-    Texture "Kepler-22_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 91.957230
@@ -6568,7 +6442,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "YZ_Cet_d.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 7.517317
@@ -6582,7 +6456,7 @@
 {
     Class "Planet"
     Radius 15689.88
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 44.696618
@@ -6596,7 +6470,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "exo-class5.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 3.077142
@@ -6610,7 +6484,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "exo-class3.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 3.834884
@@ -6624,7 +6498,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 3.834884
@@ -6638,7 +6512,7 @@
 {
     Class "Planet"
     Radius 7207.14
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 8.823400
@@ -6652,7 +6526,7 @@
 {
     Class "Planet"
     Radius 84508.50
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 40.069148
@@ -6666,7 +6540,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 11.693345
@@ -6680,7 +6554,7 @@
 {
     Class "Planet"
     Radius 6250.44
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 4.027454
@@ -6694,7 +6568,7 @@
 {
     Class "Planet"
     Radius 3763.02
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.960611
@@ -6708,7 +6582,7 @@
 {
     Class "Planet"
     Radius 3763.02
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 4.960611
@@ -6722,7 +6596,7 @@
 {
     Class "Planet"
     Radius 8865.42
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 5.932182
@@ -6736,7 +6610,7 @@
 {
     Class "Planet"
     Radius 15370.98
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 96.384483
@@ -6750,7 +6624,7 @@
 {
     Class "Planet"
     Radius 5867.76
-    Texture "Proxima_Cen_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 6.055520
@@ -6764,7 +6638,7 @@
 {
     Class "Planet"
     Radius 10842.60
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 54.333582
@@ -6778,7 +6652,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "asteroid.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.117544
@@ -6792,7 +6666,7 @@
 {
     Class "Planet"
     Radius 5166.18
-    Texture "asteroid.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 4.379923
@@ -6806,7 +6680,7 @@
 {
     Class "Planet"
     Radius 8482.74
-    Texture "exo-class5.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 3.708586
@@ -6820,7 +6694,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "venuslike.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 9.452772
@@ -6834,7 +6708,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 4.363831
@@ -6848,7 +6722,7 @@
 {
     Class "Planet"
     Radius 6952.02
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 6.830062
@@ -6862,7 +6736,7 @@
 {
     Class "Planet"
     Radius 142994.76
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 17.162259
@@ -6876,7 +6750,7 @@
 {
     Class "Planet"
     Radius 6633.12
-    Texture "Proxima_Cen_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 5.198986
@@ -6890,7 +6764,7 @@
 {
     Class "Planet"
     Radius 51661.80
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 14.744260
@@ -6904,7 +6778,7 @@
 {
     Class "Planet"
     Radius 13585.14
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 35.017505
@@ -6918,7 +6792,7 @@
 {
     Class "Planet"
     Radius 9822.12
-    Texture "Kepler-22_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 5.890895
@@ -6932,7 +6806,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "asteroid.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 201.325036
@@ -6946,7 +6820,7 @@
 {
     Class "Planet"
     Radius 9120.54
-    Texture "exo-class5.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 5.593464
@@ -6960,7 +6834,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 3.449281
@@ -6988,7 +6862,7 @@
 {
     Class "Planet"
     Radius 12564.66
-    Texture "asteroid.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 37.904389
@@ -7002,7 +6876,7 @@
 {
     Class "Planet"
     Radius 4911.06
-    Texture "exo-class1.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 6.882978
@@ -7016,7 +6890,7 @@
 {
     Class "Planet"
     Radius 4911.06
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 6.882978
@@ -7030,7 +6904,7 @@
 {
     Class "Planet"
     Radius 9184.32
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 53.285584
@@ -7044,7 +6918,7 @@
 {
     Class "Planet"
     Radius 3890.58
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 5.894334
@@ -7058,7 +6932,7 @@
 {
     Class "Planet"
     Radius 6696.90
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 18.007144
@@ -7072,7 +6946,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "Kepler-22_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 2.499153
@@ -7086,7 +6960,7 @@
 {
     Class "Planet"
     Radius 11671.74
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 105.997107
@@ -7114,7 +6988,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 6.304324
@@ -7128,7 +7002,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "venuslike.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 3.384199
@@ -7142,7 +7016,7 @@
 {
     Class "Planet"
     Radius 23024.58
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 216.456055
@@ -7156,7 +7030,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "exo-class2.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 12.003678
@@ -7170,7 +7044,7 @@
 {
     Class "Planet"
     Radius 2232.30
-    Texture "YZ_Cet_d.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.224270
@@ -7184,7 +7058,7 @@
 {
     Class "Planet"
     Radius 6824.46
-    Texture "exo-class4.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 19.977860
@@ -7198,7 +7072,7 @@
 {
     Class "Planet"
     Radius 8865.42
-    Texture "exo-class4.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 3.818372
@@ -7212,7 +7086,7 @@
 {
     Class "Planet"
     Radius 8929.20
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 6.410972
@@ -7226,7 +7100,7 @@
 {
     Class "Planet"
     Radius 18049.74
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 75.211637
@@ -7240,7 +7114,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "venuslike.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 7.537375
@@ -7254,7 +7128,7 @@
 {
     Class "Planet"
     Radius 3444.12
-    Texture "exo-class1.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 7.576009
@@ -7268,7 +7142,7 @@
 {
     Class "Planet"
     Radius 3444.12
-    Texture "exo-class2.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 7.576009
@@ -7282,7 +7156,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "Kepler-22_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 8.830368
@@ -7296,7 +7170,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 12.857559
@@ -7310,7 +7184,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "exo-class1.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 33.502923
@@ -7324,7 +7198,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 33.502923
@@ -7352,7 +7226,7 @@
 {
     Class "Planet"
     Radius 10778.82
-    Texture "Kepler-452_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 9.333549
@@ -7366,7 +7240,7 @@
 {
     Class "Planet"
     Radius 11161.50
-    Texture "HD_189733_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 9.540609
@@ -7380,7 +7254,7 @@
 {
     Class "Planet"
     Radius 7526.04
-    Texture "exo-class3.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 5.044140
@@ -7394,7 +7268,7 @@
 {
     Class "Planet"
     Radius 7526.04
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 5.044140
@@ -7422,7 +7296,7 @@
 {
     Class "Planet"
     Radius 11544.18
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 7.429932
@@ -7432,25 +7306,11 @@
     }
 }
 
-"K04457.01" "Star-K04457.01"
-{
-    Class "Planet"
-    Radius 9949.68
-    Texture "HD_189733_b.jpg"
-    EllipticalOrbit
-    {
-        Period 79.334347
-        SemiMajorAxis 0.365300
-        Eccentricity 0.000000
-        Inclination 89.130000
-    }
-}
-
 "K04523.01" "Star-K04523.01"
 {
     Class "Planet"
     Radius 6569.34
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 5.682516
@@ -7464,7 +7324,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "Kepler-22_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 4.526287
@@ -7478,7 +7338,7 @@
 {
     Class "Planet"
     Radius 6505.56
-    Texture "exo-class4.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 4.526287
@@ -7492,7 +7352,7 @@
 {
     Class "Planet"
     Radius 4974.84
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 4.820251
@@ -7506,7 +7366,7 @@
 {
     Class "Planet"
     Radius 9503.22
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 12.401926
@@ -7520,7 +7380,7 @@
 {
     Class "Planet"
     Radius 7462.26
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 77.915425
@@ -7534,7 +7394,7 @@
 {
     Class "Planet"
     Radius 12883.56
-    Texture "asteroid.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 284.727213
@@ -7548,7 +7408,7 @@
 {
     Class "Planet"
     Radius 17348.16
-    Texture "Kepler-22_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 30.539293
@@ -7562,7 +7422,7 @@
 {
     Class "Planet"
     Radius 17348.16
-    Texture "Kepler-22_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 30.539293
@@ -7576,7 +7436,7 @@
 {
     Class "Planet"
     Radius 7015.80
-    Texture "exo-class4.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 12.636205
@@ -7590,7 +7450,7 @@
 {
     Class "Planet"
     Radius 16965.48
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 23.266633
@@ -7604,7 +7464,7 @@
 {
     Class "Planet"
     Radius 6250.44
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 7.940043
@@ -7618,7 +7478,7 @@
 {
     Class "Planet"
     Radius 7844.94
-    Texture "Proxima_Cen_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 2.858550
@@ -7632,7 +7492,7 @@
 {
     Class "Planet"
     Radius 5485.08
-    Texture "exo-class1.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 8.952940
@@ -7646,7 +7506,7 @@
 {
     Class "Planet"
     Radius 14605.62
-    Texture "Kepler-22_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 154.674369
@@ -7660,7 +7520,7 @@
 {
     Class "Planet"
     Radius 9056.76
-    Texture "exo-class1.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 2.942423
@@ -7674,7 +7534,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "exo-class4.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 13.091488
@@ -7684,11 +7544,25 @@
     }
 }
 
+"K04680.01" "Star-K04680.01"
+{
+    Class "Planet"
+    Radius 9822.12
+    Texture "Kepler-7_b.jpg"
+    EllipticalOrbit
+    {
+        Period 54.081224
+        SemiMajorAxis 0.264000
+        Eccentricity 0.000000
+        Inclination 89.840000
+    }
+}
+
 "K04541.01" "Star-K04541.01"
 {
     Class "Planet"
     Radius 13266.24
-    Texture "exo-class4.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 8.529122
@@ -7702,7 +7576,7 @@
 {
     Class "Planet"
     Radius 13266.24
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 8.529122
@@ -7716,7 +7590,7 @@
 {
     Class "Planet"
     Radius 8801.64
-    Texture "venuslike.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 6.454684
@@ -7730,7 +7604,7 @@
 {
     Class "Planet"
     Radius 10204.80
-    Texture "exo-class1.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 11.829938
@@ -7744,7 +7618,7 @@
 {
     Class "Planet"
     Radius 7781.16
-    Texture "asteroid.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 5.301798
@@ -7754,25 +7628,11 @@
     }
 }
 
-"K04545.01" "Star-K04545.01"
-{
-    Class "Planet"
-    Radius 5421.30
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 0.849362
-        SemiMajorAxis 0.016900
-        Eccentricity 0.000000
-        Inclination 84.050000
-    }
-}
-
 "K04904.01" "Star-K04904.01"
 {
     Class "Planet"
     Radius 6250.44
-    Texture "YZ_Cet_d.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 3.594489
@@ -7786,7 +7646,7 @@
 {
     Class "Planet"
     Radius 7717.38
-    Texture "Kepler-452_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 4.860806
@@ -7800,7 +7660,7 @@
 {
     Class "Planet"
     Radius 10013.46
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 56.446465
@@ -7814,7 +7674,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 31.420211
@@ -7828,7 +7688,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "Kepler-7_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 5.566766
@@ -7842,7 +7702,7 @@
 {
     Class "Planet"
     Radius 5612.64
-    Texture "exo-class1.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 13.296504
@@ -7852,11 +7712,25 @@
     }
 }
 
+"K04839.01" "Star-K04839.01"
+{
+    Class "Planet"
+    Radius 12819.78
+    Texture "Proxima_Cen_b.jpg"
+    EllipticalOrbit
+    {
+        Period 21.842030
+        SemiMajorAxis 0.162200
+        Eccentricity 0.000000
+        Inclination 89.720000
+    }
+}
+
 "K03301.01" "Star-K03301.01"
 {
     Class "Planet"
     Radius 7143.36
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 20.710637
@@ -7870,7 +7744,7 @@
 {
     Class "Planet"
     Radius 12437.10
-    Texture "Kepler-7_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 142.703888
@@ -7884,7 +7758,7 @@
 {
     Class "Planet"
     Radius 10778.82
-    Texture "Kepler-22_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 3.380805
@@ -7898,7 +7772,7 @@
 {
     Class "Planet"
     Radius 11097.72
-    Texture "exo-class5.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 10.471619
@@ -7912,7 +7786,7 @@
 {
     Class "Planet"
     Radius 15562.32
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 6.787881
@@ -7926,7 +7800,7 @@
 {
     Class "Planet"
     Radius 15562.32
-    Texture "Kepler-452_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 6.787881
@@ -7940,7 +7814,7 @@
 {
     Class "Planet"
     Radius 8929.20
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 5.474552
@@ -7968,7 +7842,7 @@
 {
     Class "Planet"
     Radius 5102.40
-    Texture "exo-class2.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 4.875477
@@ -7982,7 +7856,7 @@
 {
     Class "Planet"
     Radius 8992.98
-    Texture "exo-class4.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 10.507178
@@ -7996,7 +7870,7 @@
 {
     Class "Planet"
     Radius 6378.00
-    Texture "exo-class2.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 5.439803
@@ -8010,7 +7884,7 @@
 {
     Class "Planet"
     Radius 5229.96
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 8.849395
@@ -8024,7 +7898,7 @@
 {
     Class "Planet"
     Radius 5229.96
-    Texture "exo-class1.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 8.849395
@@ -8038,7 +7912,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "GJ_504_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 51.567801
@@ -8052,7 +7926,7 @@
 {
     Class "Planet"
     Radius 17539.50
-    Texture "HD_189733_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 16.449151
@@ -8066,7 +7940,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "exo-class5.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 19.254536
@@ -8080,7 +7954,7 @@
 {
     Class "Planet"
     Radius 37693.98
-    Texture "HD_189733_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 71.054576
@@ -8094,7 +7968,7 @@
 {
     Class "Planet"
     Radius 6824.46
-    Texture "exo-class2.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 7.586159
@@ -8108,7 +7982,7 @@
 {
     Class "Planet"
     Radius 4528.38
-    Texture "exo-class1.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 3.041852
@@ -8122,7 +7996,7 @@
 {
     Class "Planet"
     Radius 7526.04
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 7.130441
@@ -8136,7 +8010,7 @@
 {
     Class "Planet"
     Radius 12181.98
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 18.093900
@@ -8150,7 +8024,7 @@
 {
     Class "Planet"
     Radius 138657.72
-    Texture "exo-class2.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 34.952426
@@ -8164,7 +8038,7 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 7.421344
@@ -8178,7 +8052,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "Kepler-452_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 17.741230
@@ -8192,7 +8066,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "YZ_Cet_d.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 2.635277
@@ -8202,11 +8076,25 @@
     }
 }
 
+"K04856.01" "Star-K04856.01"
+{
+    Class "Planet"
+    Radius 19325.34
+    Texture "exo-class5.*"
+    EllipticalOrbit
+    {
+        Period 147.388124
+        SemiMajorAxis 0.566100
+        Eccentricity 0.000000
+        Inclination 90.000000
+    }
+}
+
 "K04857.01" "Star-K04857.01"
 {
     Class "Planet"
     Radius 7462.26
-    Texture "exo-class2.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 4.114974
@@ -8220,7 +8108,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "asteroid.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 7.501974
@@ -8234,7 +8122,7 @@
 {
     Class "Planet"
     Radius 4081.92
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.912615
@@ -8248,7 +8136,7 @@
 {
     Class "Planet"
     Radius 5548.86
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 18.906092
@@ -8262,7 +8150,7 @@
 {
     Class "Planet"
     Radius 24427.74
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 25.697069
@@ -8276,7 +8164,7 @@
 {
     Class "Planet"
     Radius 3571.68
-    Texture "exo-class5.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 2.131661
@@ -8286,11 +8174,25 @@
     }
 }
 
+"K04792.01" "Star-K04792.01"
+{
+    Class "Planet"
+    Radius 5803.98
+    Texture "GJ_504_b.jpg"
+    EllipticalOrbit
+    {
+        Period 5.759022
+        SemiMajorAxis 0.065400
+        Eccentricity 0.000000
+        Inclination 88.790000
+    }
+}
+
 "K03320.01" "Star-K03320.01"
 {
     Class "Planet"
     Radius 135596.28
-    Texture "Kepler-22_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 85.062416
@@ -8304,7 +8206,7 @@
 {
     Class "Planet"
     Radius 13138.68
-    Texture "Kepler-7_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 14.319642
@@ -8332,7 +8234,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 9.972020
@@ -8346,7 +8248,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 40.351171
@@ -8360,7 +8262,7 @@
 {
     Class "Planet"
     Radius 15626.10
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 72.933276
@@ -8374,7 +8276,7 @@
 {
     Class "Planet"
     Radius 13776.48
-    Texture "exo-class4.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 12.687818
@@ -8388,7 +8290,7 @@
 {
     Class "Planet"
     Radius 10778.82
-    Texture "venuslike.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 12.072976
@@ -8402,7 +8304,7 @@
 {
     Class "Planet"
     Radius 16646.58
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 11.912567
@@ -8416,7 +8318,7 @@
 {
     Class "Planet"
     Radius 16646.58
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 11.912567
@@ -8430,7 +8332,7 @@
 {
     Class "Planet"
     Radius 3826.80
-    Texture "YZ_Cet_d.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.081977
@@ -8444,7 +8346,7 @@
 {
     Class "Planet"
     Radius 4145.70
-    Texture "exo-class2.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 0.912179
@@ -8458,7 +8360,7 @@
 {
     Class "Planet"
     Radius 49174.38
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 76.879359
@@ -8472,7 +8374,7 @@
 {
     Class "Planet"
     Radius 8674.08
-    Texture "exo-class3.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 13.015183
@@ -8486,7 +8388,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "asteroid.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 2.879983
@@ -8500,7 +8402,7 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "exo-class5.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 5.192066
@@ -8514,7 +8416,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "exo-class2.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 17.453294
@@ -8528,7 +8430,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "exo-class3.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 17.453294
@@ -8542,7 +8444,7 @@
 {
     Class "Planet"
     Radius 6824.46
-    Texture "exo-class4.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 7.795340
@@ -8556,7 +8458,7 @@
 {
     Class "Planet"
     Radius 4145.70
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 2.401750
@@ -8570,7 +8472,7 @@
 {
     Class "Planet"
     Radius 20218.26
-    Texture "exo-class4.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 115.238544
@@ -8584,7 +8486,7 @@
 {
     Class "Planet"
     Radius 14222.94
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 21.743414
@@ -8598,7 +8500,7 @@
 {
     Class "Planet"
     Radius 7398.48
-    Texture "HD_189733_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 5.679538
@@ -8612,7 +8514,7 @@
 {
     Class "Planet"
     Radius 17029.26
-    Texture "exo-class2.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 9.339556
@@ -8626,7 +8528,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "HD_189733_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 7.418346
@@ -8640,7 +8542,7 @@
 {
     Class "Planet"
     Radius 18241.08
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 92.461135
@@ -8654,7 +8556,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 18.372183
@@ -8668,7 +8570,7 @@
 {
     Class "Planet"
     Radius 74431.26
-    Texture "Kepler-7_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 63.095068
@@ -8682,7 +8584,7 @@
 {
     Class "Planet"
     Radius 5102.40
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 21.720336
@@ -8696,7 +8598,7 @@
 {
     Class "Planet"
     Radius 5102.40
-    Texture "exo-class2.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 21.720336
@@ -8710,7 +8612,7 @@
 {
     Class "Planet"
     Radius 9311.88
-    Texture "exo-class1.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 3.798928
@@ -8724,7 +8626,7 @@
 {
     Class "Planet"
     Radius 9439.44
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 14.740106
@@ -8738,7 +8640,7 @@
 {
     Class "Planet"
     Radius 8865.42
-    Texture "Kepler-452_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 4.730901
@@ -8748,25 +8650,11 @@
     }
 }
 
-"K04892.01" "Star-K04892.01"
-{
-    Class "Planet"
-    Radius 6888.24
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 21.376182
-        SemiMajorAxis 0.142700
-        Eccentricity 0.000000
-        Inclination 89.950000
-    }
-}
-
 "K04893.01" "Star-K04893.01"
 {
     Class "Planet"
     Radius 9630.78
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 6.587537
@@ -8780,7 +8668,7 @@
 {
     Class "Planet"
     Radius 20345.82
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 96.816470
@@ -8794,7 +8682,7 @@
 {
     Class "Planet"
     Radius 9630.78
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 4.965050
@@ -8808,7 +8696,7 @@
 {
     Class "Planet"
     Radius 10651.26
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 1.141149
@@ -8822,7 +8710,7 @@
 {
     Class "Planet"
     Radius 7015.80
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 12.460565
@@ -8832,25 +8720,11 @@
     }
 }
 
-"K04896.01" "Star-K04896.01"
-{
-    Class "Planet"
-    Radius 7526.04
-    Texture "Kepler-7_b.jpg"
-    EllipticalOrbit
-    {
-        Period 19.594577
-        SemiMajorAxis 0.142100
-        Eccentricity 0.000000
-        Inclination 88.920000
-    }
-}
-
 "K04754.01" "Star-K04754.01"
 {
     Class "Planet"
     Radius 8163.84
-    Texture "asteroid.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 7.087575
@@ -8864,7 +8738,7 @@
 {
     Class "Planet"
     Radius 11161.50
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 3.743180
@@ -8878,7 +8752,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 31.192023
@@ -8892,7 +8766,7 @@
 {
     Class "Planet"
     Radius 8100.06
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 6.671672
@@ -8906,7 +8780,7 @@
 {
     Class "Planet"
     Radius 9822.12
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 17.766294
@@ -8920,7 +8794,7 @@
 {
     Class "Planet"
     Radius 8227.62
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 11.567226
@@ -8934,7 +8808,7 @@
 {
     Class "Planet"
     Radius 5740.20
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 94.094392
@@ -8962,7 +8836,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "exo-class4.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 25.373654
@@ -8976,7 +8850,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "exo-class2.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 10.085353
@@ -8990,7 +8864,7 @@
 {
     Class "Planet"
     Radius 7908.72
-    Texture "exo-class5.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 10.285637
@@ -9004,7 +8878,7 @@
 {
     Class "Planet"
     Radius 22386.78
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 34.749604
@@ -9018,7 +8892,7 @@
 {
     Class "Planet"
     Radius 9694.56
-    Texture "exo-class3.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 24.352541
@@ -9032,7 +8906,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "HD_189733_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 58.126377
@@ -9046,7 +8920,7 @@
 {
     Class "Planet"
     Radius 17539.50
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 3.806759
@@ -9060,7 +8934,7 @@
 {
     Class "Planet"
     Radius 12437.10
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 34.108656
@@ -9074,7 +8948,7 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "exo-class2.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 10.010031
@@ -9088,7 +8962,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 12.671437
@@ -9102,7 +8976,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 12.671437
@@ -9130,13 +9004,41 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 12.671437
         SemiMajorAxis 0.086500
         Eccentricity 0.000000
         Inclination 89.930000
+    }
+}
+
+"K03444.02" "Star-K03444.02"
+{
+    Class "Planet"
+    Radius 31762.44
+    Texture "Kepler-7_b.jpg"
+    EllipticalOrbit
+    {
+        Period 60.326688
+        SemiMajorAxis 0.244800
+        Eccentricity 0.000000
+        Inclination 89.570000
+    }
+}
+
+"K03444.02" "Star-K03444.02"
+{
+    Class "Planet"
+    Radius 31762.44
+    Texture "exo-class1.*"
+    EllipticalOrbit
+    {
+        Period 60.326688
+        SemiMajorAxis 0.244800
+        Eccentricity 0.000000
+        Inclination 89.570000
     }
 }
 
@@ -9158,7 +9060,7 @@
 {
     Class "Planet"
     Radius 31762.44
-    Texture "venuslike.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 60.326688
@@ -9168,31 +9070,17 @@
     }
 }
 
-"K03444.02" "Star-K03444.02"
+"K03444.03" "Star-K03444.03"
 {
     Class "Planet"
-    Radius 31762.44
+    Radius 3189.00
     Texture "exo-class3.*"
     EllipticalOrbit
     {
-        Period 60.326688
-        SemiMajorAxis 0.244800
+        Period 2.635954
+        SemiMajorAxis 0.030400
         Eccentricity 0.000000
-        Inclination 89.570000
-    }
-}
-
-"K03444.02" "Star-K03444.02"
-{
-    Class "Planet"
-    Radius 31762.44
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 60.326688
-        SemiMajorAxis 0.244800
-        Eccentricity 0.000000
-        Inclination 89.570000
+        Inclination 89.980000
     }
 }
 
@@ -9200,7 +9088,7 @@
 {
     Class "Planet"
     Radius 3189.00
-    Texture "GJ_504_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 2.635954
@@ -9214,55 +9102,27 @@
 {
     Class "Planet"
     Radius 3189.00
-    Texture "exo-class4.*"
-    EllipticalOrbit
-    {
-        Period 2.635954
-        SemiMajorAxis 0.030400
-        Eccentricity 0.000000
-        Inclination 89.980000
-    }
-}
-
-"K03444.03" "Star-K03444.03"
-{
-    Class "Planet"
-    Radius 3189.00
-    Texture "exo-class2.*"
-    EllipticalOrbit
-    {
-        Period 2.635954
-        SemiMajorAxis 0.030400
-        Eccentricity 0.000000
-        Inclination 89.980000
-    }
-}
-
-"K03444.03" "Star-K03444.03"
-{
-    Class "Planet"
-    Radius 3189.00
-    Texture "HAT-P-11_b.jpg"
-    EllipticalOrbit
-    {
-        Period 2.635954
-        SemiMajorAxis 0.030400
-        Eccentricity 0.000000
-        Inclination 89.980000
-    }
-}
-
-"K07780.01" "Star-K07780.01"
-{
-    Class "Planet"
-    Radius 9694.56
     Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
-        Period 5.336057
-        SemiMajorAxis 0.064700
+        Period 2.635954
+        SemiMajorAxis 0.030400
         Eccentricity 0.000000
-        Inclination 89.970000
+        Inclination 89.980000
+    }
+}
+
+"K03444.03" "Star-K03444.03"
+{
+    Class "Planet"
+    Radius 3189.00
+    Texture "OGLE-2005-BLG-390L_b.jpg"
+    EllipticalOrbit
+    {
+        Period 2.635954
+        SemiMajorAxis 0.030400
+        Eccentricity 0.000000
+        Inclination 89.980000
     }
 }
 
@@ -9270,7 +9130,7 @@
 {
     Class "Planet"
     Radius 24810.42
-    Texture "HAT-P-11_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 10.548413
@@ -9284,7 +9144,7 @@
 {
     Class "Planet"
     Radius 16710.36
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 32.510844
@@ -9298,7 +9158,7 @@
 {
     Class "Planet"
     Radius 10077.24
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 10.907530
@@ -9312,7 +9172,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "exo-class5.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 10.522637
@@ -9326,7 +9186,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 14.054572
@@ -9340,7 +9200,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 6.866742
@@ -9354,7 +9214,7 @@
 {
     Class "Planet"
     Radius 25384.44
-    Texture "HD_189733_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 29.768183
@@ -9368,7 +9228,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "exo-class2.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 36.766236
@@ -9382,7 +9242,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 2.537422
@@ -9396,7 +9256,7 @@
 {
     Class "Planet"
     Radius 14350.50
-    Texture "exo-class2.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 62.596544
@@ -9410,7 +9270,7 @@
 {
     Class "Planet"
     Radius 11416.62
-    Texture "YZ_Cet_d.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 15.576406
@@ -9424,7 +9284,7 @@
 {
     Class "Planet"
     Radius 7079.58
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 10.005070
@@ -9438,7 +9298,7 @@
 {
     Class "Planet"
     Radius 11607.96
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 36.258075
@@ -9452,7 +9312,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "exo-class5.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 12.432700
@@ -9466,7 +9326,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "Kepler-22_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 12.432700
@@ -9480,7 +9340,7 @@
 {
     Class "Planet"
     Radius 14095.38
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 30.990300
@@ -9494,7 +9354,7 @@
 {
     Class "Planet"
     Radius 14095.38
-    Texture "exo-class5.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 30.990300
@@ -9508,7 +9368,7 @@
 {
     Class "Planet"
     Radius 14988.30
-    Texture "HAT-P-11_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 35.875448
@@ -9522,7 +9382,7 @@
 {
     Class "Planet"
     Radius 22833.24
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 4.327106
@@ -9536,7 +9396,7 @@
 {
     Class "Planet"
     Radius 12181.98
-    Texture "HAT-P-11_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 60.532988
@@ -9550,7 +9410,7 @@
 {
     Class "Planet"
     Radius 10268.58
-    Texture "exo-class3.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 15.061784
@@ -9564,7 +9424,7 @@
 {
     Class "Planet"
     Radius 12500.88
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 17.955967
@@ -9578,7 +9438,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "exo-class2.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 10.430031
@@ -9592,7 +9452,7 @@
 {
     Class "Planet"
     Radius 44390.88
-    Texture "exo-class3.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 27.637147
@@ -9606,7 +9466,7 @@
 {
     Class "Planet"
     Radius 10013.46
-    Texture "exo-class5.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 50.563697
@@ -9620,7 +9480,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 65.427645
@@ -9634,7 +9494,7 @@
 {
     Class "Planet"
     Radius 19580.46
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 369.069345
@@ -9648,7 +9508,7 @@
 {
     Class "Planet"
     Radius 9949.68
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 11.166229
@@ -9662,7 +9522,7 @@
 {
     Class "Planet"
     Radius 16263.90
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 23.133449
@@ -9676,7 +9536,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 8.953966
@@ -9690,7 +9550,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "exo-class1.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 8.953966
@@ -9704,7 +9564,7 @@
 {
     Class "Planet"
     Radius 6760.68
-    Texture "asteroid.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 13.728137
@@ -9718,7 +9578,7 @@
 {
     Class "Planet"
     Radius 6760.68
-    Texture "Kepler-7_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 13.728137
@@ -9732,7 +9592,7 @@
 {
     Class "Planet"
     Radius 67670.58
-    Texture "Kepler-22_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 3.531058
@@ -9746,7 +9606,7 @@
 {
     Class "Planet"
     Radius 67670.58
-    Texture "exo-class4.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 3.531058
@@ -9760,7 +9620,7 @@
 {
     Class "Planet"
     Radius 67670.58
-    Texture "HD_189733_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 3.531058
@@ -9774,7 +9634,7 @@
 {
     Class "Planet"
     Radius 7334.70
-    Texture "exo-class3.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 11.937835
@@ -9788,7 +9648,7 @@
 {
     Class "Planet"
     Radius 23471.04
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 32.715906
@@ -9802,7 +9662,7 @@
 {
     Class "Planet"
     Radius 13266.24
-    Texture "exo-class1.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 82.331756
@@ -9816,7 +9676,7 @@
 {
     Class "Planet"
     Radius 13585.14
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 27.096515
@@ -9830,7 +9690,7 @@
 {
     Class "Planet"
     Radius 13585.14
-    Texture "exo-class1.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 27.096515
@@ -9844,7 +9704,7 @@
 {
     Class "Planet"
     Radius 9439.44
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 11.547498
@@ -9858,7 +9718,7 @@
 {
     Class "Planet"
     Radius 9439.44
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 11.547498
@@ -9872,7 +9732,7 @@
 {
     Class "Planet"
     Radius 18432.42
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 83.266410
@@ -9886,7 +9746,7 @@
 {
     Class "Planet"
     Radius 7972.50
-    Texture "exo-class1.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 11.823723
@@ -9900,7 +9760,7 @@
 {
     Class "Planet"
     Radius 10396.14
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 19.068951
@@ -9914,7 +9774,7 @@
 {
     Class "Planet"
     Radius 12245.76
-    Texture "Kepler-452_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 6.225337
@@ -9928,7 +9788,7 @@
 {
     Class "Planet"
     Radius 14286.72
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 12.501490
@@ -9942,7 +9802,7 @@
 {
     Class "Planet"
     Radius 14286.72
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 12.501490
@@ -9956,7 +9816,7 @@
 {
     Class "Planet"
     Radius 10842.60
-    Texture "HD_189733_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 40.651102
@@ -9970,7 +9830,7 @@
 {
     Class "Planet"
     Radius 10970.16
-    Texture "GJ_504_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 17.606270
@@ -9984,7 +9844,7 @@
 {
     Class "Planet"
     Radius 10970.16
-    Texture "exo-class4.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 17.606270
@@ -9998,7 +9858,7 @@
 {
     Class "Planet"
     Radius 14350.50
-    Texture "exo-class2.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 20.067925
@@ -10012,7 +9872,7 @@
 {
     Class "Planet"
     Radius 10013.46
-    Texture "venuslike.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 58.770105
@@ -10026,7 +9886,7 @@
 {
     Class "Planet"
     Radius 7972.50
-    Texture "HAT-P-11_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 6.685438
@@ -10040,7 +9900,7 @@
 {
     Class "Planet"
     Radius 7972.50
-    Texture "exo-class3.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 6.685438
@@ -10054,7 +9914,7 @@
 {
     Class "Planet"
     Radius 10077.24
-    Texture "exo-class4.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 8.543377
@@ -10064,11 +9924,25 @@
     }
 }
 
+"K03355.01" "Star-K03355.01"
+{
+    Class "Planet"
+    Radius 10204.80
+    Texture "Kepler-452_b.jpg"
+    EllipticalOrbit
+    {
+        Period 16.295323
+        SemiMajorAxis 0.126400
+        Eccentricity 0.000000
+        Inclination 88.410000
+    }
+}
+
 "K07762.01" "Star-K07762.01"
 {
     Class "Planet"
     Radius 8801.64
-    Texture "exo-class5.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 8.507351
@@ -10082,7 +9956,7 @@
 {
     Class "Planet"
     Radius 11480.40
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 15.828383
@@ -10096,7 +9970,7 @@
 {
     Class "Planet"
     Radius 11480.40
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 15.828383
@@ -10110,7 +9984,7 @@
 {
     Class "Planet"
     Radius 10013.46
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.748267
@@ -10124,7 +9998,7 @@
 {
     Class "Planet"
     Radius 25830.90
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 10.104044
@@ -10138,7 +10012,7 @@
 {
     Class "Planet"
     Radius 36992.40
-    Texture "exo-class3.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 202.116817
@@ -10152,7 +10026,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "venuslike.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 16.098829
@@ -10166,7 +10040,7 @@
 {
     Class "Planet"
     Radius 30231.72
-    Texture "exo-class5.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 247.891041
@@ -10180,7 +10054,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "exo-class2.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 5.440858
@@ -10194,7 +10068,7 @@
 {
     Class "Planet"
     Radius 2806.32
-    Texture "venuslike.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 2.185659
@@ -10208,7 +10082,7 @@
 {
     Class "Planet"
     Radius 5995.32
-    Texture "asteroid.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 3.523647
@@ -10222,7 +10096,7 @@
 {
     Class "Planet"
     Radius 4018.14
-    Texture "Kepler-22_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 4.788501
@@ -10236,7 +10110,7 @@
 {
     Class "Planet"
     Radius 5995.32
-    Texture "venuslike.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 18.257272
@@ -10250,7 +10124,7 @@
 {
     Class "Planet"
     Radius 84253.38
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 288.312867
@@ -10264,7 +10138,7 @@
 {
     Class "Planet"
     Radius 4974.84
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 9.747659
@@ -10278,7 +10152,7 @@
 {
     Class "Planet"
     Radius 6378.00
-    Texture "Kepler-22_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 1.803697
@@ -10292,7 +10166,7 @@
 {
     Class "Planet"
     Radius 4464.60
-    Texture "exo-class2.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 1.721101
@@ -10306,7 +10180,7 @@
 {
     Class "Planet"
     Radius 12947.34
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 10.579100
@@ -10320,7 +10194,7 @@
 {
     Class "Planet"
     Radius 13330.02
-    Texture "asteroid.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 6.682312
@@ -10334,7 +10208,7 @@
 {
     Class "Planet"
     Radius 9503.22
-    Texture "asteroid.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 0.666827
@@ -10348,7 +10222,7 @@
 {
     Class "Planet"
     Radius 187066.74
-    Texture "exo-class1.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 1.386802
@@ -10362,7 +10236,7 @@
 {
     Class "Planet"
     Radius 16263.90
-    Texture "Kepler-452_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 12.896236
@@ -10376,7 +10250,7 @@
 {
     Class "Planet"
     Radius 9758.34
-    Texture "Kepler-22_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 2.524440
@@ -10390,7 +10264,7 @@
 {
     Class "Planet"
     Radius 6122.88
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 0.537409
@@ -10404,7 +10278,7 @@
 {
     Class "Planet"
     Radius 8737.86
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 1.570592
@@ -10432,7 +10306,7 @@
 {
     Class "Planet"
     Radius 6378.00
-    Texture "exo-class5.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 0.352516
@@ -10446,7 +10320,7 @@
 {
     Class "Planet"
     Radius 96180.24
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 120.003364
@@ -10460,7 +10334,7 @@
 {
     Class "Planet"
     Radius 19006.44
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 141.608555
@@ -10474,7 +10348,7 @@
 {
     Class "Planet"
     Radius 8865.42
-    Texture "venuslike.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 20.189040
@@ -10488,7 +10362,7 @@
 {
     Class "Planet"
     Radius 49875.96
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 305.076247
@@ -10502,7 +10376,7 @@
 {
     Class "Planet"
     Radius 11161.50
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 1.236867
@@ -10516,7 +10390,7 @@
 {
     Class "Planet"
     Radius 13840.26
-    Texture "exo-class3.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 5.477157
@@ -10530,7 +10404,7 @@
 {
     Class "Planet"
     Radius 13840.26
-    Texture "exo-class4.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 5.477157
@@ -10544,7 +10418,7 @@
 {
     Class "Planet"
     Radius 3380.34
-    Texture "exo-class3.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 7.572998
@@ -10558,7 +10432,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "asteroid.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 4.644901
@@ -10572,7 +10446,7 @@
 {
     Class "Planet"
     Radius 9311.88
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 7.558429
@@ -10586,7 +10460,7 @@
 {
     Class "Planet"
     Radius 48281.46
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 230.180357
@@ -10600,7 +10474,7 @@
 {
     Class "Planet"
     Radius 10141.02
-    Texture "asteroid.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 55.758380
@@ -10614,7 +10488,7 @@
 {
     Class "Planet"
     Radius 12437.10
-    Texture "Proxima_Cen_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 103.722152
@@ -10628,7 +10502,7 @@
 {
     Class "Planet"
     Radius 9056.76
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 32.547429
@@ -10642,7 +10516,7 @@
 {
     Class "Planet"
     Radius 10651.26
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 190.800788
@@ -10656,7 +10530,7 @@
 {
     Class "Planet"
     Radius 18304.86
-    Texture "exo-class5.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 29.609426
@@ -10670,7 +10544,7 @@
 {
     Class "Planet"
     Radius 12118.20
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 29.563295
@@ -10684,7 +10558,7 @@
 {
     Class "Planet"
     Radius 5102.40
-    Texture "HD_189733_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 8.090695
@@ -10698,7 +10572,7 @@
 {
     Class "Planet"
     Radius 7207.14
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 22.290356
@@ -10708,11 +10582,25 @@
     }
 }
 
+"K04938.01" "Star-K04938.01"
+{
+    Class "Planet"
+    Radius 15115.86
+    Texture "Proxima_Cen_b.jpg"
+    EllipticalOrbit
+    {
+        Period 55.180772
+        SemiMajorAxis 0.295300
+        Eccentricity 0.000000
+        Inclination 89.580000
+    }
+}
+
 "K05331.01" "Star-K05331.01"
 {
     Class "Planet"
     Radius 7462.26
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 31.503459
@@ -10726,7 +10614,7 @@
 {
     Class "Planet"
     Radius 10651.26
-    Texture "exo-class3.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 20.547777
@@ -10740,7 +10628,7 @@
 {
     Class "Planet"
     Radius 4592.16
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 18.982830
@@ -10754,7 +10642,7 @@
 {
     Class "Planet"
     Radius 13330.02
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 5.433613
@@ -10768,7 +10656,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "HAT-P-11_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 59.403784
@@ -10782,7 +10670,7 @@
 {
     Class "Planet"
     Radius 11416.62
-    Texture "venuslike.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 49.178224
@@ -10796,7 +10684,7 @@
 {
     Class "Planet"
     Radius 3826.80
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 3.564525
@@ -10810,7 +10698,7 @@
 {
     Class "Planet"
     Radius 20664.72
-    Texture "exo-class5.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 265.741374
@@ -10824,7 +10712,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "Kepler-452_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 26.092284
@@ -10838,7 +10726,7 @@
 {
     Class "Planet"
     Radius 26149.80
-    Texture "exo-class3.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 47.062898
@@ -10852,7 +10740,7 @@
 {
     Class "Planet"
     Radius 10013.46
-    Texture "exo-class5.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 100.345648
@@ -10866,7 +10754,7 @@
 {
     Class "Planet"
     Radius 15881.22
-    Texture "HAT-P-11_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 171.028691
@@ -10880,7 +10768,7 @@
 {
     Class "Planet"
     Radius 10396.14
-    Texture "exo-class2.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 21.157957
@@ -10894,7 +10782,7 @@
 {
     Class "Planet"
     Radius 13138.68
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 550.865140
@@ -10908,7 +10796,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 12.574721
@@ -10922,7 +10810,7 @@
 {
     Class "Planet"
     Radius 12756.00
-    Texture "exo-class3.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 65.752109
@@ -10936,7 +10824,7 @@
 {
     Class "Planet"
     Radius 74431.26
-    Texture "asteroid.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 276.879492
@@ -10964,7 +10852,7 @@
 {
     Class "Planet"
     Radius 462979.02
-    Texture "exo-class1.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 44.705588
@@ -10978,7 +10866,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 57.388826
@@ -10992,7 +10880,7 @@
 {
     Class "Planet"
     Radius 11607.96
-    Texture "asteroid.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 14.516815
@@ -11006,7 +10894,7 @@
 {
     Class "Planet"
     Radius 20919.84
-    Texture "exo-class4.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 54.695712
@@ -11020,7 +10908,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "exo-class1.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 24.152786
@@ -11034,7 +10922,7 @@
 {
     Class "Planet"
     Radius 8929.20
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 11.173440
@@ -11048,7 +10936,7 @@
 {
     Class "Planet"
     Radius 9694.56
-    Texture "HAT-P-11_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 140.884533
@@ -11062,7 +10950,7 @@
 {
     Class "Planet"
     Radius 23662.38
-    Texture "exo-class1.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 178.266978
@@ -11072,25 +10960,11 @@
     }
 }
 
-"K05677.01" "Star-K05677.01"
-{
-    Class "Planet"
-    Radius 7270.92
-    Texture "OGLE-2005-BLG-390L_b.jpg"
-    EllipticalOrbit
-    {
-        Period 20.514264
-        SemiMajorAxis 0.138700
-        Eccentricity 0.000000
-        Inclination 89.660000
-    }
-}
-
 "K05426.01" "Star-K05426.01"
 {
     Class "Planet"
     Radius 11352.84
-    Texture "exo-class5.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 124.887214
@@ -11104,7 +10978,7 @@
 {
     Class "Planet"
     Radius 13393.80
-    Texture "asteroid.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 295.958914
@@ -11118,7 +10992,7 @@
 {
     Class "Planet"
     Radius 14796.96
-    Texture "exo-class4.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 120.938669
@@ -11132,7 +11006,7 @@
 {
     Class "Planet"
     Radius 16263.90
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 237.819002
@@ -11146,7 +11020,7 @@
 {
     Class "Planet"
     Radius 10906.38
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 15.996130
@@ -11160,7 +11034,7 @@
 {
     Class "Planet"
     Radius 3763.02
-    Texture "Kepler-22_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 2.641813
@@ -11174,7 +11048,7 @@
 {
     Class "Planet"
     Radius 10141.02
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 113.083522
@@ -11184,11 +11058,25 @@
     }
 }
 
+"K05822.01" "Star-K05822.01"
+{
+    Class "Planet"
+    Radius 10778.82
+    Texture "GJ_504_b.jpg"
+    EllipticalOrbit
+    {
+        Period 17.634272
+        SemiMajorAxis 0.129600
+        Eccentricity 0.000000
+        Inclination 89.950000
+    }
+}
+
 "K05458.01" "Star-K05458.01"
 {
     Class "Planet"
     Radius 13967.82
-    Texture "exo-class1.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 56.648588
@@ -11202,7 +11090,7 @@
 {
     Class "Planet"
     Radius 19771.80
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 53.554546
@@ -11216,7 +11104,7 @@
 {
     Class "Planet"
     Radius 11799.30
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 57.774937
@@ -11230,7 +11118,7 @@
 {
     Class "Planet"
     Radius 4655.94
-    Texture "HD_189733_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 7.777106
@@ -11244,7 +11132,7 @@
 {
     Class "Planet"
     Radius 15881.22
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 403.163148
@@ -11258,7 +11146,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "exo-class4.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 29.937114
@@ -11272,7 +11160,7 @@
 {
     Class "Planet"
     Radius 21238.74
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 116.454312
@@ -11286,7 +11174,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "exo-class3.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 24.909303
@@ -11300,7 +11188,7 @@
 {
     Class "Planet"
     Radius 16646.58
-    Texture "exo-class5.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 264.466625
@@ -11314,7 +11202,7 @@
 {
     Class "Planet"
     Radius 9949.68
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 6.132927
@@ -11328,7 +11216,7 @@
 {
     Class "Planet"
     Radius 8737.86
-    Texture "Proxima_Cen_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 12.630631
@@ -11342,7 +11230,7 @@
 {
     Class "Planet"
     Radius 60591.00
-    Texture "exo-class4.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 7.954458
@@ -11366,25 +11254,11 @@
     }
 }
 
-"K05515.01" "Star-K05515.01"
-{
-    Class "Planet"
-    Radius 41201.88
-    Texture "exo-class2.*"
-    EllipticalOrbit
-    {
-        Period 6.263492
-        SemiMajorAxis 0.065100
-        Eccentricity 0.000000
-        Inclination 89.950000
-    }
-}
-
 "K05769.01" "Star-K05769.01"
 {
     Class "Planet"
     Radius 6186.66
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 7.580629
@@ -11398,7 +11272,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "exo-class3.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 58.669218
@@ -11408,25 +11282,11 @@
     }
 }
 
-"K05901.01" "Star-K05901.01"
-{
-    Class "Planet"
-    Radius 8227.62
-    Texture "exo-class1.*"
-    EllipticalOrbit
-    {
-        Period 61.611129
-        SemiMajorAxis 0.323000
-        Eccentricity 0.000000
-        Inclination 89.290000
-    }
-}
-
 "K05909.01" "Star-K05909.01"
 {
     Class "Planet"
     Radius 8674.08
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 7.079877
@@ -11440,7 +11300,7 @@
 {
     Class "Planet"
     Radius 11544.18
-    Texture "exo-class1.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 37.625904
@@ -11450,25 +11310,11 @@
     }
 }
 
-"K05917.01" "Star-K05917.01"
-{
-    Class "Planet"
-    Radius 9949.68
-    Texture "YZ_Cet_d.jpg"
-    EllipticalOrbit
-    {
-        Period 41.993467
-        SemiMajorAxis 0.233500
-        Eccentricity 0.000000
-        Inclination 89.970000
-    }
-}
-
 "K05919.01" "Star-K05919.01"
 {
     Class "Planet"
     Radius 14988.30
-    Texture "Kepler-7_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 290.196139
@@ -11482,7 +11328,7 @@
 {
     Class "Planet"
     Radius 11926.86
-    Texture "exo-class2.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 27.202067
@@ -11496,7 +11342,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "Kepler-22_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 32.033211
@@ -11524,7 +11370,7 @@
 {
     Class "Planet"
     Radius 18687.54
-    Texture "exo-class5.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 240.571350
@@ -11538,27 +11384,13 @@
 {
     Class "Planet"
     Radius 39224.70
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 217.792748
         SemiMajorAxis 0.702100
         Eccentricity 0.000000
         Inclination 89.690000
-    }
-}
-
-"K05974.01" "Star-K05974.01"
-{
-    Class "Planet"
-    Radius 3125.22
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 4.768155
-        SemiMajorAxis 0.047700
-        Eccentricity 0.000000
-        Inclination 89.850000
     }
 }
 
@@ -11580,7 +11412,7 @@
 {
     Class "Planet"
     Radius 13202.46
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 287.331140
@@ -11594,7 +11426,7 @@
 {
     Class "Planet"
     Radius 7398.48
-    Texture "exo-class5.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 11.830772
@@ -11608,7 +11440,7 @@
 {
     Class "Planet"
     Radius 9503.22
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 33.814176
@@ -11622,7 +11454,7 @@
 {
     Class "Planet"
     Radius 13585.14
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 16.295785
@@ -11636,7 +11468,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "Kepler-452_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 19.240582
@@ -11650,7 +11482,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 28.684308
@@ -11664,7 +11496,7 @@
 {
     Class "Planet"
     Radius 15817.44
-    Texture "YZ_Cet_d.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 58.940569
@@ -11678,7 +11510,7 @@
 {
     Class "Planet"
     Radius 4719.72
-    Texture "exo-class2.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 14.150231
@@ -11692,7 +11524,7 @@
 {
     Class "Planet"
     Radius 4719.72
-    Texture "exo-class4.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 14.150231
@@ -11706,7 +11538,7 @@
 {
     Class "Planet"
     Radius 4719.72
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 14.150231
@@ -11720,7 +11552,7 @@
 {
     Class "Planet"
     Radius 4719.72
-    Texture "Kepler-22_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 14.150231
@@ -11734,7 +11566,7 @@
 {
     Class "Planet"
     Radius 13266.24
-    Texture "asteroid.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 12.008552
@@ -11748,7 +11580,7 @@
 {
     Class "Planet"
     Radius 13266.24
-    Texture "exo-class1.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 12.008552
@@ -11762,7 +11594,7 @@
 {
     Class "Planet"
     Radius 4911.06
-    Texture "GJ_504_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 10.431485
@@ -11776,7 +11608,7 @@
 {
     Class "Planet"
     Radius 4911.06
-    Texture "Kepler-7_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 10.431485
@@ -11790,7 +11622,7 @@
 {
     Class "Planet"
     Radius 11799.30
-    Texture "exo-class5.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 47.557135
@@ -11804,7 +11636,7 @@
 {
     Class "Planet"
     Radius 28637.22
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 27.249752
@@ -11818,7 +11650,7 @@
 {
     Class "Planet"
     Radius 28637.22
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 27.249752
@@ -11832,7 +11664,7 @@
 {
     Class "Planet"
     Radius 20026.92
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 16.997289
@@ -11846,7 +11678,7 @@
 {
     Class "Planet"
     Radius 15689.88
-    Texture "venuslike.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 1.645320
@@ -11860,7 +11692,7 @@
 {
     Class "Planet"
     Radius 9056.76
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 15.357344
@@ -11874,7 +11706,7 @@
 {
     Class "Planet"
     Radius 15689.88
-    Texture "GJ_504_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 46.245164
@@ -11888,7 +11720,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "exo-class1.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 9.704338
@@ -11902,7 +11734,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 9.704338
@@ -11916,7 +11748,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "GJ_504_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 12.771383
@@ -11930,7 +11762,7 @@
 {
     Class "Planet"
     Radius 8036.28
-    Texture "Kepler-22_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 12.771383
@@ -11944,7 +11776,7 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 1.444486
@@ -11958,7 +11790,7 @@
 {
     Class "Planet"
     Radius 296194.32
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 11.608935
@@ -11972,7 +11804,7 @@
 {
     Class "Planet"
     Radius 7015.80
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 14.237842
@@ -12000,7 +11832,7 @@
 {
     Class "Planet"
     Radius 756558.36
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 122.805442
@@ -12014,7 +11846,7 @@
 {
     Class "Planet"
     Radius 11225.28
-    Texture "Proxima_Cen_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 37.840423
@@ -12028,7 +11860,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "Kepler-452_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 32.027317
@@ -12056,7 +11888,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 9.618311
@@ -12070,7 +11902,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "exo-class5.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 9.618311
@@ -12084,7 +11916,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "venuslike.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 17.369511
@@ -12098,7 +11930,7 @@
 {
     Class "Planet"
     Radius 5166.18
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 17.869376
@@ -12112,7 +11944,7 @@
 {
     Class "Planet"
     Radius 12628.44
-    Texture "exo-class5.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 17.236085
@@ -12140,7 +11972,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "exo-class1.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 9.655047
@@ -12154,7 +11986,7 @@
 {
     Class "Planet"
     Radius 14031.60
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 12.714363
@@ -12168,7 +12000,7 @@
 {
     Class "Planet"
     Radius 31443.54
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 80.410378
@@ -12182,7 +12014,7 @@
 {
     Class "Planet"
     Radius 10842.60
-    Texture "exo-class3.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 90.097375
@@ -12196,7 +12028,7 @@
 {
     Class "Planet"
     Radius 13393.80
-    Texture "asteroid.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 7.729669
@@ -12210,7 +12042,7 @@
 {
     Class "Planet"
     Radius 10970.16
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 87.707513
@@ -12224,7 +12056,7 @@
 {
     Class "Planet"
     Radius 18878.88
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 8.973772
@@ -12238,7 +12070,7 @@
 {
     Class "Planet"
     Radius 18878.88
-    Texture "exo-class1.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 8.973772
@@ -12252,7 +12084,7 @@
 {
     Class "Planet"
     Radius 10651.26
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 205.414150
@@ -12262,11 +12094,37 @@
     }
 }
 
+"K06216.01" "Star-K06216.01"
+{
+    Class "Planet"
+    Radius nan
+    Texture "HAT-P-11_b.jpg"
+    EllipticalOrbit
+    {
+        Period 26.408055
+        Eccentricity 0.000000
+        Inclination 0.000000
+    }
+}
+
+"K06216.02" "Star-K06216.02"
+{
+    Class "Planet"
+    Radius nan
+    Texture "OGLE-2005-BLG-390L_b.jpg"
+    EllipticalOrbit
+    {
+        Period 46.079313
+        Eccentricity 0.000000
+        Inclination 0.000000
+    }
+}
+
 "K01860.04" "Star-K01860.04"
 {
     Class "Planet"
     Radius 10077.24
-    Texture "venuslike.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 24.843484
@@ -12280,7 +12138,7 @@
 {
     Class "Planet"
     Radius 7079.58
-    Texture "exo-class2.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 4.672504
@@ -12294,7 +12152,7 @@
 {
     Class "Planet"
     Radius 21238.74
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 144.688915
@@ -12308,7 +12166,7 @@
 {
     Class "Planet"
     Radius 6696.90
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 1.542874
@@ -12322,7 +12180,7 @@
 {
     Class "Planet"
     Radius 82914.00
-    Texture "Kepler-22_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 33.320091
@@ -12336,7 +12194,7 @@
 {
     Class "Planet"
     Radius 82914.00
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 33.320091
@@ -12350,7 +12208,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 7.073945
@@ -12364,7 +12222,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 14.516741
@@ -12378,7 +12236,7 @@
 {
     Class "Planet"
     Radius 9248.10
-    Texture "exo-class5.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 14.516741
@@ -12392,7 +12250,7 @@
 {
     Class "Planet"
     Radius 8546.52
-    Texture "HD_189733_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 20.571811
@@ -12406,7 +12264,7 @@
 {
     Class "Planet"
     Radius 25703.34
-    Texture "exo-class4.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 11.867172
@@ -12434,7 +12292,7 @@
 {
     Class "Planet"
     Radius 9184.32
-    Texture "HD_189733_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 12.497060
@@ -12448,7 +12306,7 @@
 {
     Class "Planet"
     Radius 10459.92
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 6.063303
@@ -12462,7 +12320,7 @@
 {
     Class "Planet"
     Radius 10459.92
-    Texture "exo-class4.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.063303
@@ -12476,7 +12334,7 @@
 {
     Class "Planet"
     Radius 10459.92
-    Texture "exo-class4.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 6.063303
@@ -12490,7 +12348,7 @@
 {
     Class "Planet"
     Radius 18177.30
-    Texture "exo-class2.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 86.431871
@@ -12518,7 +12376,7 @@
 {
     Class "Planet"
     Radius 18177.30
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 86.431871
@@ -12532,7 +12390,7 @@
 {
     Class "Planet"
     Radius 153072.00
-    Texture "asteroid.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 269.306232
@@ -12546,7 +12404,7 @@
 {
     Class "Planet"
     Radius 153072.00
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 269.306232
@@ -12560,7 +12418,7 @@
 {
     Class "Planet"
     Radius 23662.38
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 499.473380
@@ -12616,7 +12474,7 @@
 {
     Class "Planet"
     Radius 12564.66
-    Texture "Kepler-7_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 11.161938
@@ -12630,7 +12488,7 @@
 {
     Class "Planet"
     Radius 9630.78
-    Texture "exo-class5.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 28.867211
@@ -12644,7 +12502,7 @@
 {
     Class "Planet"
     Radius 9439.44
-    Texture "exo-class3.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 9.133151
@@ -12658,7 +12516,7 @@
 {
     Class "Planet"
     Radius 11544.18
-    Texture "venuslike.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 57.132855
@@ -12672,7 +12530,7 @@
 {
     Class "Planet"
     Radius 10141.02
-    Texture "GJ_504_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 28.225105
@@ -12686,7 +12544,7 @@
 {
     Class "Planet"
     Radius 14414.28
-    Texture "Proxima_Cen_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 150.381954
@@ -12700,7 +12558,7 @@
 {
     Class "Planet"
     Radius 13840.26
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 95.906433
@@ -12714,7 +12572,7 @@
 {
     Class "Planet"
     Radius 13904.04
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 35.502865
@@ -12728,7 +12586,7 @@
 {
     Class "Planet"
     Radius 13202.46
-    Texture "exo-class2.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 66.789347
@@ -12742,7 +12600,7 @@
 {
     Class "Planet"
     Radius 11735.52
-    Texture "exo-class5.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 29.512615
@@ -12756,7 +12614,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "asteroid.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 7.193119
@@ -12784,7 +12642,7 @@
 {
     Class "Planet"
     Radius 9184.32
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 4.578344
@@ -12812,7 +12670,7 @@
 {
     Class "Planet"
     Radius 25639.56
-    Texture "asteroid.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 115.230655
@@ -12826,7 +12684,7 @@
 {
     Class "Planet"
     Radius 25639.56
-    Texture "Kepler-452_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 115.230655
@@ -12840,7 +12698,7 @@
 {
     Class "Planet"
     Radius 9567.00
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 106.259760
@@ -12854,7 +12712,7 @@
 {
     Class "Planet"
     Radius 22067.88
-    Texture "venuslike.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 505.462916
@@ -12868,7 +12726,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "Kepler-7_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 18.081143
@@ -12882,7 +12740,7 @@
 {
     Class "Planet"
     Radius 10459.92
-    Texture "asteroid.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 13.032730
@@ -12896,7 +12754,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 31.953368
@@ -12910,7 +12768,7 @@
 {
     Class "Planet"
     Radius 10523.70
-    Texture "exo-class3.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 31.953368
@@ -12924,7 +12782,7 @@
 {
     Class "Planet"
     Radius 14031.60
-    Texture "exo-class4.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 326.670800
@@ -12938,7 +12796,7 @@
 {
     Class "Planet"
     Radius 17093.04
-    Texture "Kepler-22_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 240.192808
@@ -12952,7 +12810,7 @@
 {
     Class "Planet"
     Radius 9120.54
-    Texture "venuslike.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 86.723653
@@ -12966,7 +12824,7 @@
 {
     Class "Planet"
     Radius 24619.08
-    Texture "exo-class5.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 20.573611
@@ -12980,7 +12838,7 @@
 {
     Class "Planet"
     Radius 24619.08
-    Texture "HAT-P-11_b.jpg"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 20.573611
@@ -12994,7 +12852,7 @@
 {
     Class "Planet"
     Radius 11926.86
-    Texture "HD_189733_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 5.774511
@@ -13008,7 +12866,7 @@
 {
     Class "Planet"
     Radius 11926.86
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 5.774511
@@ -13022,7 +12880,7 @@
 {
     Class "Planet"
     Radius 4719.72
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 10.138469
@@ -13036,7 +12894,7 @@
 {
     Class "Planet"
     Radius 11926.86
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 17.580603
@@ -13050,7 +12908,7 @@
 {
     Class "Planet"
     Radius 4592.16
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 2.717723
@@ -13064,7 +12922,7 @@
 {
     Class "Planet"
     Radius 13330.02
-    Texture "exo-class2.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 11.818729
@@ -13078,7 +12936,7 @@
 {
     Class "Planet"
     Radius 13330.02
-    Texture "exo-class3.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 11.818729
@@ -13092,7 +12950,7 @@
 {
     Class "Planet"
     Radius nan
-    Texture "Kepler-22_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 12.267083
@@ -13105,7 +12963,7 @@
 {
     Class "Planet"
     Radius 48600.36
-    Texture "exo-class3.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.333423
@@ -13119,7 +12977,7 @@
 {
     Class "Planet"
     Radius 4847.28
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 5.522479
@@ -13133,7 +12991,7 @@
 {
     Class "Planet"
     Radius 11352.84
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 9.458805
@@ -13147,7 +13005,7 @@
 {
     Class "Planet"
     Radius 3571.68
-    Texture "exo-class5.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 2.446938
@@ -13161,7 +13019,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 13.056090
@@ -13175,7 +13033,7 @@
 {
     Class "Planet"
     Radius 3890.58
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 3.640492
@@ -13189,7 +13047,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "GJ_504_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 6.961973
@@ -13203,7 +13061,7 @@
 {
     Class "Planet"
     Radius 4974.84
-    Texture "Kepler-7_b.jpg"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 7.893532
@@ -13213,25 +13071,11 @@
     }
 }
 
-"K05875.02" "Star-K05875.02"
-{
-    Class "Planet"
-    Radius 11990.64
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 4.274260
-        SemiMajorAxis 0.053300
-        Eccentricity 0.000000
-        Inclination 89.590000
-    }
-}
-
 "K06777.01" "Star-K06777.01"
 {
     Class "Planet"
     Radius 6888.24
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 13.445017
@@ -13245,7 +13089,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "exo-class3.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 4.606877
@@ -13259,7 +13103,7 @@
 {
     Class "Planet"
     Radius 7589.82
-    Texture "exo-class2.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 20.952560
@@ -13273,7 +13117,7 @@
 {
     Class "Planet"
     Radius 6059.10
-    Texture "venuslike.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 5.704593
@@ -13287,7 +13131,7 @@
 {
     Class "Planet"
     Radius 5229.96
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 1.367523
@@ -13301,7 +13145,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 1.999724
@@ -13315,7 +13159,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "exo-class4.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 4.781139
@@ -13329,7 +13173,7 @@
 {
     Class "Planet"
     Radius 7270.92
-    Texture "Kepler-452_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 4.781139
@@ -13343,7 +13187,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 7.188641
@@ -13357,7 +13201,7 @@
 {
     Class "Planet"
     Radius 8291.40
-    Texture "HD_189733_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 7.188641
@@ -13371,7 +13215,7 @@
 {
     Class "Planet"
     Radius 7462.26
-    Texture "exo-class5.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.622411
@@ -13385,7 +13229,7 @@
 {
     Class "Planet"
     Radius 8355.18
-    Texture "YZ_Cet_d.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 11.849635
@@ -13399,7 +13243,7 @@
 {
     Class "Planet"
     Radius 7143.36
-    Texture "exo-class5.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 13.891115
@@ -13413,7 +13257,7 @@
 {
     Class "Planet"
     Radius 7908.72
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 6.768901
@@ -13427,7 +13271,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "asteroid.*"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 3.626574
@@ -13441,7 +13285,7 @@
 {
     Class "Planet"
     Radius 15562.32
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 130.235324
@@ -13455,7 +13299,7 @@
 {
     Class "Planet"
     Radius 4783.50
-    Texture "venuslike.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 8.502077
@@ -13469,7 +13313,7 @@
 {
     Class "Planet"
     Radius 9567.00
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 18.177293
@@ -13479,11 +13323,25 @@
     }
 }
 
+"K06276.01" "Star-K06276.01"
+{
+    Class "Planet"
+    Radius 4081.92
+    Texture "Kepler-452_b.jpg"
+    EllipticalOrbit
+    {
+        Period 3.098728
+        SemiMajorAxis 0.031300
+        Eccentricity 0.000000
+        Inclination 89.390000
+    }
+}
+
 "K06931.01" "Star-K06931.01"
 {
     Class "Planet"
     Radius 7653.60
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 2.540311
@@ -13497,7 +13355,7 @@
 {
     Class "Planet"
     Radius 9311.88
-    Texture "Proxima_Cen_b.jpg"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 1.741450
@@ -13511,7 +13369,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "venuslike.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 17.990827
@@ -13525,7 +13383,7 @@
 {
     Class "Planet"
     Radius 10077.24
-    Texture "exo-class4.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 5.705095
@@ -13539,7 +13397,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "exo-class2.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 16.234764
@@ -13553,7 +13411,7 @@
 {
     Class "Planet"
     Radius 20919.84
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 8.255350
@@ -13567,7 +13425,7 @@
 {
     Class "Planet"
     Radius 5102.40
-    Texture "exo-class5.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 5.525074
@@ -13581,7 +13439,7 @@
 {
     Class "Planet"
     Radius 13776.48
-    Texture "Kepler-7_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 377.501257
@@ -13595,7 +13453,7 @@
 {
     Class "Planet"
     Radius 7015.80
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 7.196917
@@ -13609,7 +13467,7 @@
 {
     Class "Planet"
     Radius 4273.26
-    Texture "exo-class2.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 0.947555
@@ -13623,7 +13481,7 @@
 {
     Class "Planet"
     Radius 18751.32
-    Texture "exo-class4.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 50.271927
@@ -13637,7 +13495,7 @@
 {
     Class "Planet"
     Radius 6633.12
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.634480
@@ -13651,7 +13509,7 @@
 {
     Class "Planet"
     Radius 6250.44
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 3.371167
@@ -13661,25 +13519,11 @@
     }
 }
 
-"K07223.01" "Star-K07223.01"
-{
-    Class "Planet"
-    Radius 10141.02
-    Texture "GJ_504_b.jpg"
-    EllipticalOrbit
-    {
-        Period 317.062416
-        SemiMajorAxis 0.840400
-        Eccentricity 0.000000
-        Inclination 89.850000
-    }
-}
-
 "K07354.01" "Star-K07354.01"
 {
     Class "Planet"
     Radius 10268.58
-    Texture "Kepler-22_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 43.267560
@@ -13693,7 +13537,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 4.886984
@@ -13707,7 +13551,7 @@
 {
     Class "Planet"
     Radius 8610.30
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 8.474847
@@ -13717,25 +13561,11 @@
     }
 }
 
-"K07232.01" "Star-K07232.01"
-{
-    Class "Planet"
-    Radius 7526.04
-    Texture "exo-class5.*"
-    EllipticalOrbit
-    {
-        Period 1.966828
-        SemiMajorAxis 0.029500
-        Eccentricity 0.000000
-        Inclination 87.190000
-    }
-}
-
 "K01106.03" "Star-K01106.03"
 {
     Class "Planet"
     Radius 9567.00
-    Texture "GJ_504_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 13.229820
@@ -13749,7 +13579,7 @@
 {
     Class "Planet"
     Radius 4145.70
-    Texture "venuslike.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.276516
@@ -13763,7 +13593,7 @@
 {
     Class "Planet"
     Radius 11863.08
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 43.535891
@@ -13777,7 +13607,7 @@
 {
     Class "Planet"
     Radius 11926.86
-    Texture "exo-class3.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 40.769854
@@ -13791,7 +13621,7 @@
 {
     Class "Planet"
     Radius 12819.78
-    Texture "exo-class1.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 129.222771
@@ -13801,11 +13631,25 @@
     }
 }
 
+"K07106.01" "Star-K07106.01"
+{
+    Class "Planet"
+    Radius 6888.24
+    Texture "Kepler-452_b.jpg"
+    EllipticalOrbit
+    {
+        Period 5.018803
+        SemiMajorAxis 0.058700
+        Eccentricity 0.000000
+        Inclination 89.530000
+    }
+}
+
 "K07236.01" "Star-K07236.01"
 {
     Class "Planet"
     Radius 6696.90
-    Texture "HAT-P-11_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 14.461834
@@ -13819,7 +13663,7 @@
 {
     Class "Planet"
     Radius 9630.78
-    Texture "YZ_Cet_d.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 4.848472
@@ -13847,7 +13691,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "venuslike.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.884466
@@ -13861,7 +13705,7 @@
 {
     Class "Planet"
     Radius 11416.62
-    Texture "YZ_Cet_d.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 8.977289
@@ -13875,7 +13719,7 @@
 {
     Class "Planet"
     Radius 11416.62
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 8.977289
@@ -13889,7 +13733,7 @@
 {
     Class "Planet"
     Radius 9885.90
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 3.033594
@@ -13903,6 +13747,20 @@
 {
     Class "Planet"
     Radius 66267.42
+    Texture "Kepler-452_b.jpg"
+    EllipticalOrbit
+    {
+        Period 21.913955
+        SemiMajorAxis 0.117400
+        Eccentricity 0.000000
+        Inclination 84.780000
+    }
+}
+
+"K01681.04" "Star-K01681.04"
+{
+    Class "Planet"
+    Radius 66267.42
     Texture "exo-class1.*"
     EllipticalOrbit
     {
@@ -13917,21 +13775,7 @@
 {
     Class "Planet"
     Radius 66267.42
-    Texture "Kepler-7_b.jpg"
-    EllipticalOrbit
-    {
-        Period 21.913955
-        SemiMajorAxis 0.117400
-        Eccentricity 0.000000
-        Inclination 84.780000
-    }
-}
-
-"K01681.04" "Star-K01681.04"
-{
-    Class "Planet"
-    Radius 66267.42
-    Texture "exo-class3.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 21.913955
@@ -13945,7 +13789,7 @@
 {
     Class "Planet"
     Radius 7462.26
-    Texture "venuslike.*"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 2.652808
@@ -13959,7 +13803,7 @@
 {
     Class "Planet"
     Radius 11990.64
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 12.544742
@@ -13973,7 +13817,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "GJ_504_b.jpg"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 3.075511
@@ -13987,7 +13831,7 @@
 {
     Class "Planet"
     Radius 6888.24
-    Texture "exo-class1.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 6.293405
@@ -14001,7 +13845,7 @@
 {
     Class "Planet"
     Radius 5421.30
-    Texture "exo-class3.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 7.702173
@@ -14015,7 +13859,7 @@
 {
     Class "Planet"
     Radius 7526.04
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 1.284242
@@ -14043,7 +13887,7 @@
 {
     Class "Planet"
     Radius 7526.04
-    Texture "exo-class1.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 3.052934
@@ -14057,27 +13901,13 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "exo-class4.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 12.834857
         SemiMajorAxis 0.104500
         Eccentricity 0.000000
         Inclination 89.650000
-    }
-}
-
-"K02421.02" "Star-K02421.02"
-{
-    Class "Planet"
-    Radius 3061.44
-    Texture "exo-class5.*"
-    EllipticalOrbit
-    {
-        Period 4.023218
-        SemiMajorAxis 0.040200
-        Eccentricity 0.000000
-        Inclination 88.280000
     }
 }
 
@@ -14099,7 +13929,7 @@
 {
     Class "Planet"
     Radius 8418.96
-    Texture "YZ_Cet_d.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 7.501793
@@ -14113,7 +13943,7 @@
 {
     Class "Planet"
     Radius 9311.88
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 0.912351
@@ -14127,7 +13957,7 @@
 {
     Class "Planet"
     Radius 13138.68
-    Texture "asteroid.*"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 12.470111
@@ -14141,7 +13971,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "GJ_504_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 7.918267
@@ -14155,7 +13985,7 @@
 {
     Class "Planet"
     Radius 11480.40
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 2.610902
@@ -14169,7 +13999,7 @@
 {
     Class "Planet"
     Radius 19006.44
-    Texture "exo-class3.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 17.663798
@@ -14183,7 +14013,7 @@
 {
     Class "Planet"
     Radius 4337.04
-    Texture "HAT-P-11_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 4.026646
@@ -14197,7 +14027,7 @@
 {
     Class "Planet"
     Radius 5293.74
-    Texture "asteroid.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 8.177075
@@ -14211,7 +14041,7 @@
 {
     Class "Planet"
     Radius 9822.12
-    Texture "exo-class3.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 4.845060
@@ -14225,7 +14055,7 @@
 {
     Class "Planet"
     Radius 6952.02
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 13.808633
@@ -14239,7 +14069,7 @@
 {
     Class "Planet"
     Radius 4464.60
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 4.259078
@@ -14253,7 +14083,7 @@
 {
     Class "Planet"
     Radius 5038.62
-    Texture "Kepler-22_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 2.437644
@@ -14267,7 +14097,7 @@
 {
     Class "Planet"
     Radius 11671.74
-    Texture "asteroid.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 19.164450
@@ -14281,7 +14111,7 @@
 {
     Class "Planet"
     Radius 6952.02
-    Texture "exo-class2.*"
+    Texture "GJ_504_b.jpg"
     EllipticalOrbit
     {
         Period 4.157365
@@ -14295,7 +14125,7 @@
 {
     Class "Planet"
     Radius 6314.22
-    Texture "Kepler-452_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 2.012094
@@ -14309,7 +14139,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "YZ_Cet_d.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 6.651715
@@ -14323,7 +14153,7 @@
 {
     Class "Planet"
     Radius 5357.52
-    Texture "HAT-P-11_b.jpg"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 6.651715
@@ -14333,25 +14163,11 @@
     }
 }
 
-"K03344.03" "Star-K03344.03"
-{
-    Class "Planet"
-    Radius 18113.52
-    Texture "exo-class5.*"
-    EllipticalOrbit
-    {
-        Period 208.543350
-        SemiMajorAxis 0.673200
-        Eccentricity 0.000000
-        Inclination 90.000000
-    }
-}
-
 "K03348.02" "Star-K03348.02"
 {
     Class "Planet"
     Radius 9184.32
-    Texture "exo-class3.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 17.718979
@@ -14365,7 +14181,7 @@
 {
     Class "Planet"
     Radius 4974.84
-    Texture "Proxima_Cen_b.jpg"
+    Texture "Kepler-7_b.jpg"
     EllipticalOrbit
     {
         Period 5.039585
@@ -14379,7 +14195,7 @@
 {
     Class "Planet"
     Radius 11799.30
-    Texture "exo-class4.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 7.643704
@@ -14389,25 +14205,11 @@
     }
 }
 
-"K07002.01" "Star-K07002.01"
-{
-    Class "Planet"
-    Radius 8291.40
-    Texture "exo-class3.*"
-    EllipticalOrbit
-    {
-        Period 4.830142
-        SemiMajorAxis 0.054900
-        Eccentricity 0.000000
-        Inclination 89.950000
-    }
-}
-
 "K07003.01" "Star-K07003.01"
 {
     Class "Planet"
     Radius 8610.30
-    Texture "venuslike.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 2.411941
@@ -14421,7 +14223,7 @@
 {
     Class "Planet"
     Radius 8865.42
-    Texture "GJ_504_b.jpg"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 1.817080
@@ -14435,7 +14237,7 @@
 {
     Class "Planet"
     Radius 121628.46
-    Texture "exo-class1.*"
+    Texture "HD_189733_b.jpg"
     EllipticalOrbit
     {
         Period 5.159982
@@ -14449,7 +14251,7 @@
 {
     Class "Planet"
     Radius 5229.96
-    Texture "exo-class5.*"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 7.235242
@@ -14463,7 +14265,7 @@
 {
     Class "Planet"
     Radius 11352.84
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 10.729008
@@ -14491,7 +14293,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 4.371989
@@ -14505,7 +14307,7 @@
 {
     Class "Planet"
     Radius 6569.34
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 6.728766
@@ -14519,7 +14321,7 @@
 {
     Class "Planet"
     Radius 5740.20
-    Texture "asteroid.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 8.001890
@@ -14533,7 +14335,7 @@
 {
     Class "Planet"
     Radius 7908.72
-    Texture "exo-class4.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 5.213950
@@ -14547,7 +14349,7 @@
 {
     Class "Planet"
     Radius 15307.20
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 24.996068
@@ -14561,7 +14363,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "exo-class4.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 11.772815
@@ -14575,7 +14377,7 @@
 {
     Class "Planet"
     Radius 7015.80
-    Texture "YZ_Cet_d.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 14.157372
@@ -14589,7 +14391,7 @@
 {
     Class "Planet"
     Radius 7015.80
-    Texture "YZ_Cet_d.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 14.157372
@@ -14603,7 +14405,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "HD_189733_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 37.464697
@@ -14631,7 +14433,7 @@
 {
     Class "Planet"
     Radius 3954.36
-    Texture "asteroid.*"
+    Texture "venuslike.*"
     EllipticalOrbit
     {
         Period 6.559537
@@ -14645,7 +14447,7 @@
 {
     Class "Planet"
     Radius 4719.72
-    Texture "exo-class2.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 31.532299
@@ -14659,7 +14461,7 @@
 {
     Class "Planet"
     Radius 10842.60
-    Texture "exo-class4.*"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 14.751007
@@ -14673,7 +14475,7 @@
 {
     Class "Planet"
     Radius 4081.92
-    Texture "Proxima_Cen_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 12.928455
@@ -14687,7 +14489,7 @@
 {
     Class "Planet"
     Radius 3826.80
-    Texture "exo-class5.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 4.020189
@@ -14701,7 +14503,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "venuslike.*"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 3.339310
@@ -14715,7 +14517,7 @@
 {
     Class "Planet"
     Radius 7653.60
-    Texture "exo-class1.*"
+    Texture "exo-class4.*"
     EllipticalOrbit
     {
         Period 3.339310
@@ -14729,7 +14531,7 @@
 {
     Class "Planet"
     Radius 23343.48
-    Texture "HD_189733_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 4.292517
@@ -14743,7 +14545,7 @@
 {
     Class "Planet"
     Radius 4655.94
-    Texture "asteroid.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 4.987924
@@ -14757,7 +14559,7 @@
 {
     Class "Planet"
     Radius 6186.66
-    Texture "Kepler-7_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.683256
@@ -14771,7 +14573,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class1.*"
     EllipticalOrbit
     {
         Period 7.227432
@@ -14785,7 +14587,7 @@
 {
     Class "Planet"
     Radius 16391.46
-    Texture "Kepler-452_b.jpg"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 366.088938
@@ -14799,6 +14601,20 @@
 {
     Class "Planet"
     Radius 4209.48
+    Texture "exo-class2.*"
+    EllipticalOrbit
+    {
+        Period 5.431036
+        SemiMajorAxis 0.053200
+        Eccentricity 0.000000
+        Inclination 85.320000
+    }
+}
+
+"K02859.05" "Star-K02859.05"
+{
+    Class "Planet"
+    Radius 4209.48
     Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
@@ -14813,21 +14629,7 @@
 {
     Class "Planet"
     Radius 4209.48
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 5.431036
-        SemiMajorAxis 0.053200
-        Eccentricity 0.000000
-        Inclination 85.320000
-    }
-}
-
-"K02859.05" "Star-K02859.05"
-{
-    Class "Planet"
-    Radius 4209.48
-    Texture "asteroid.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 5.431036
@@ -14841,7 +14643,7 @@
 {
     Class "Planet"
     Radius 14860.74
-    Texture "Kepler-452_b.jpg"
+    Texture "Kepler-22_b.jpg"
     EllipticalOrbit
     {
         Period 359.338310
@@ -14855,7 +14657,7 @@
 {
     Class "Planet"
     Radius 21111.18
-    Texture "exo-class2.*"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 189.183958
@@ -14869,7 +14671,7 @@
 {
     Class "Planet"
     Radius 5931.54
-    Texture "HAT-P-11_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 7.752934
@@ -14883,27 +14685,13 @@
 {
     Class "Planet"
     Radius 9311.88
-    Texture "venuslike.*"
+    Texture "OGLE-2005-BLG-390L_b.jpg"
     EllipticalOrbit
     {
         Period 29.485639
         SemiMajorAxis 0.205700
         Eccentricity 0.000000
         Inclination 89.890000
-    }
-}
-
-"K08039.01" "Star-K08039.01"
-{
-    Class "Planet"
-    Radius 7143.36
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 43.943889
-        SemiMajorAxis 0.240700
-        Eccentricity 0.000000
-        Inclination 89.460000
     }
 }
 
@@ -14925,7 +14713,7 @@
 {
     Class "Planet"
     Radius 43434.18
-    Texture "GJ_504_b.jpg"
+    Texture "Proxima_Cen_b.jpg"
     EllipticalOrbit
     {
         Period 278.389350
@@ -14939,7 +14727,7 @@
 {
     Class "Planet"
     Radius 11033.94
-    Texture "HAT-P-11_b.jpg"
+    Texture "asteroid.*"
     EllipticalOrbit
     {
         Period 7.868712
@@ -14949,25 +14737,11 @@
     }
 }
 
-"K08054.01" "Star-K08054.01"
-{
-    Class "Planet"
-    Radius 46750.74
-    Texture "exo-class5.*"
-    EllipticalOrbit
-    {
-        Period 43.908805
-        SemiMajorAxis 0.291100
-        Eccentricity 0.000000
-        Inclination 89.700000
-    }
-}
-
 "K08159.02" "Star-K08159.02"
 {
     Class "Planet"
     Radius 14350.50
-    Texture "Kepler-7_b.jpg"
+    Texture "exo-class3.*"
     EllipticalOrbit
     {
         Period 353.018610
@@ -14981,7 +14755,7 @@
 {
     Class "Planet"
     Radius 13457.58
-    Texture "exo-class4.*"
+    Texture "exo-class5.*"
     EllipticalOrbit
     {
         Period 405.354570
@@ -14995,7 +14769,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "OGLE-2005-BLG-390L_b.jpg"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 9.464041
@@ -15009,7 +14783,7 @@
 {
     Class "Planet"
     Radius 20600.94
-    Texture "venuslike.*"
+    Texture "YZ_Cet_d.jpg"
     EllipticalOrbit
     {
         Period 385.858683
@@ -15019,25 +14793,11 @@
     }
 }
 
-"K08082.01" "Star-K08082.01"
-{
-    Class "Planet"
-    Radius 15817.44
-    Texture "HAT-P-11_b.jpg"
-    EllipticalOrbit
-    {
-        Period 8.276603
-        SemiMajorAxis 0.093700
-        Eccentricity 0.000000
-        Inclination 86.430000
-    }
-}
-
 "K08183.01" "Star-K08183.01"
 {
     Class "Planet"
     Radius 3826.80
-    Texture "Kepler-22_b.jpg"
+    Texture "exo-class2.*"
     EllipticalOrbit
     {
         Period 5.887704
@@ -15051,7 +14811,7 @@
 {
     Class "Planet"
     Radius 8163.84
-    Texture "exo-class1.*"
+    Texture "HAT-P-11_b.jpg"
     EllipticalOrbit
     {
         Period 1.985146
@@ -15065,27 +14825,13 @@
 {
     Class "Planet"
     Radius 7717.38
-    Texture "exo-class2.*"
+    Texture "Kepler-452_b.jpg"
     EllipticalOrbit
     {
         Period 5.825617
         SemiMajorAxis 0.063000
         Eccentricity 0.000000
         Inclination 86.630000
-    }
-}
-
-"K08297.01" "Star-K08297.01"
-{
-    Class "Planet"
-    Radius 279228.84
-    Texture "Kepler-22_b.jpg"
-    EllipticalOrbit
-    {
-        Period 229.957537
-        SemiMajorAxis 0.835200
-        Eccentricity 0.000000
-        Inclination 88.680000
     }
 }
 

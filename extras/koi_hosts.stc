@@ -142,18 +142,18 @@
     AppMag 12.00
 }
 
-3554031 "Star-K01194.02" {
-    RA 293.804410
-    Dec 38.639130
-    Distance 1714.17
+3942446 "Star-K01193.01" {
+    RA 287.888120
+    Dec 39.078709
+    Distance 3764.02
     SpectralType "G0"
     AppMag 12.00
 }
 
-8260218 "Star-K01066.01" {
-    RA 299.786320
-    Dec 44.169540
-    Distance 4014.87
+3554031 "Star-K01194.02" {
+    RA 293.804410
+    Dec 38.639130
+    Distance 1714.17
     SpectralType "G0"
     AppMag 12.00
 }
@@ -338,14 +338,6 @@
     RA 292.276120
     Dec 39.550179
     Distance 3000.11
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-9100484 "Star-K01399.01" {
-    RA 295.760830
-    Dec 45.457390
-    Distance 3207.12
     SpectralType "G0"
     AppMag 12.00
 }
@@ -646,6 +638,14 @@
     AppMag 12.00
 }
 
+5283458 "Star-K01547.01" {
+    RA 294.200900
+    Dec 40.455959
+    Distance 5768.09
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 7750419 "Star-K01708.01" {
     RA 290.882320
     Dec 43.471760
@@ -862,14 +862,6 @@
     AppMag 12.00
 }
 
-11030475 "Star-K02248.04" {
-    RA 292.239930
-    Dec 48.511570
-    Distance 2916.24
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 8261920 "Star-K02174.01" {
     RA 300.242220
     Dec 44.141399
@@ -1054,22 +1046,6 @@
     AppMag 12.00
 }
 
-11030475 "Star-K02248.02" {
-    RA 292.239930
-    Dec 48.511570
-    Distance 2897.49
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-11030475 "Star-K02248.03" {
-    RA 292.239930
-    Dec 48.511570
-    Distance 2916.24
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 11030475 "Star-K02248.03" {
     RA 292.239930
     Dec 48.511570
@@ -1194,14 +1170,6 @@
     RA 281.592350
     Dec 43.177879
     Distance 4356.84
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-8838950 "Star-K02421.01" {
-    RA 298.419310
-    Dec 45.071442
-    Distance 948.04
     SpectralType "G0"
     AppMag 12.00
 }
@@ -1822,14 +1790,6 @@
     AppMag 12.00
 }
 
-7668416 "Star-K03089.01" {
-    RA 286.148040
-    Dec 43.369202
-    Distance 2965.80
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 3545478 "Star-K00366.01" {
     RA 291.664180
     Dec 38.619255
@@ -2414,14 +2374,6 @@
     AppMag 12.00
 }
 
-7429287 "Star-K04260.04" {
-    RA 286.395840
-    Dec 43.075821
-    Distance 952.08
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 10717241 "Star-K00430.02" {
     RA 285.485050
     Dec 48.054321
@@ -2534,6 +2486,14 @@
     AppMag 12.00
 }
 
+2832589 "Star-K01942.02" {
+    RA 286.006740
+    Dec 38.009541
+    Distance 2857.83
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 10793172 "Star-K02871.04" {
     RA 290.201630
     Dec 48.185822
@@ -2554,14 +2514,6 @@
     RA 282.882690
     Dec 43.191952
     Distance 50882.39
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-7199397 "Star-K00075.01" {
-    RA 291.497220
-    Dec 42.728481
-    Distance 1373.04
     SpectralType "G0"
     AppMag 12.00
 }
@@ -2654,14 +2606,6 @@
     AppMag 12.00
 }
 
-11135694 "Star-K04896.02" {
-    RA 290.900420
-    Dec 48.746140
-    Distance 5200.76
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 8216763 "Star-K04838.03" {
     RA 284.268590
     Dec 44.197540
@@ -2726,26 +2670,10 @@
     AppMag 12.00
 }
 
-7976520 "Star-K00687.01" {
-    RA 297.117130
-    Dec 43.711430
-    Distance 3558.10
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 2302997 "Star-K07630.01" {
     RA 291.454900
     Dec 37.677120
     Distance 766.75
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-8505215 "Star-K00099.01" {
-    RA 295.434330
-    Dec 44.531120
-    Distance 782.51
     SpectralType "G0"
     AppMag 12.00
 }
@@ -3414,6 +3342,14 @@
     AppMag 12.00
 }
 
+12734396 "Star-K04303.01" {
+    RA 288.909520
+    Dec 51.930561
+    Distance 5061.09
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 8278685 "Star-K04435.01" {
     RA 281.955690
     Dec 44.261532
@@ -3626,14 +3562,6 @@
     RA 283.852910
     Dec 45.485260
     Distance 3552.81
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-8890924 "Star-K04269.02" {
-    RA 293.796840
-    Dec 45.160728
-    Distance 4041.18
     SpectralType "G0"
     AppMag 12.00
 }
@@ -4246,14 +4174,6 @@
     AppMag 12.00
 }
 
-12109267 "Star-K04457.01" {
-    RA 290.512420
-    Dec 50.649288
-    Distance 2996.79
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 8700895 "Star-K04523.01" {
     RA 296.044250
     Dec 44.805290
@@ -4390,6 +4310,14 @@
     AppMag 12.00
 }
 
+4587135 "Star-K04680.01" {
+    RA 297.599640
+    Dec 39.626339
+    Distance 3487.54
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 5511659 "Star-K04541.01" {
     RA 283.251190
     Dec 40.723110
@@ -4426,14 +4354,6 @@
     RA 289.104220
     Dec 41.690140
     Distance 3905.45
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-10140122 "Star-K04545.01" {
-    RA 291.458130
-    Dec 47.158630
-    Distance 2534.75
     SpectralType "G0"
     AppMag 12.00
 }
@@ -4482,6 +4402,14 @@
     RA 284.268590
     Dec 44.197540
     Distance 1324.98
+    SpectralType "G0"
+    AppMag 12.00
+}
+
+9110610 "Star-K04839.01" {
+    RA 298.409580
+    Dec 45.461639
+    Distance 4859.11
     SpectralType "G0"
     AppMag 12.00
 }
@@ -4686,6 +4614,14 @@
     AppMag 12.00
 }
 
+9782748 "Star-K04856.01" {
+    RA 296.521450
+    Dec 46.540539
+    Distance 5917.50
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 2860656 "Star-K04857.01" {
     RA 293.175780
     Dec 38.042019
@@ -4730,6 +4666,14 @@
     RA 296.679840
     Dec 47.173313
     Distance 899.98
+    SpectralType "G0"
+    AppMag 12.00
+}
+
+11618569 "Star-K04792.01" {
+    RA 295.571590
+    Dec 49.607479
+    Distance 3174.48
     SpectralType "G0"
     AppMag 12.00
 }
@@ -4998,14 +4942,6 @@
     AppMag 12.00
 }
 
-10586744 "Star-K04892.01" {
-    RA 285.706970
-    Dec 47.869968
-    Distance 2801.37
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 11970050 "Star-K04893.01" {
     RA 295.081940
     Dec 50.344601
@@ -5042,14 +4978,6 @@
     RA 295.514950
     Dec 51.203739
     Distance 2688.15
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-11135694 "Star-K04896.01" {
-    RA 290.900420
-    Dec 48.746140
-    Distance 5200.76
     SpectralType "G0"
     AppMag 12.00
 }
@@ -5282,14 +5210,6 @@
     RA 297.429200
     Dec 40.561909
     Distance 438.94
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-6451368 "Star-K07780.01" {
-    RA 294.484040
-    Dec 41.869171
-    Distance 3519.44
     SpectralType "G0"
     AppMag 12.00
 }
@@ -5750,6 +5670,14 @@
     AppMag 12.00
 }
 
+9221528 "Star-K03355.01" {
+    RA 293.134090
+    Dec 45.626869
+    Distance 4501.34
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 6106046 "Star-K07762.01" {
     RA 285.237150
     Dec 41.497532
@@ -6118,6 +6046,14 @@
     AppMag 12.00
 }
 
+2310993 "Star-K04938.01" {
+    RA 293.220180
+    Dec 37.610699
+    Distance 6085.45
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 6869373 "Star-K05331.01" {
     RA 293.667720
     Dec 42.320541
@@ -6326,14 +6262,6 @@
     AppMag 12.00
 }
 
-9456887 "Star-K05677.01" {
-    RA 288.136840
-    Dec 46.038380
-    Distance 2688.78
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 7770901 "Star-K05426.01" {
     RA 297.290470
     Dec 43.467789
@@ -6386,6 +6314,14 @@
     RA 288.726440
     Dec 47.906872
     Distance 2501.76
+    SpectralType "G0"
+    AppMag 12.00
+}
+
+10685764 "Star-K05822.01" {
+    RA 298.742160
+    Dec 47.945278
+    Distance 1509.90
     SpectralType "G0"
     AppMag 12.00
 }
@@ -6494,14 +6430,6 @@
     AppMag 12.00
 }
 
-8429817 "Star-K05515.01" {
-    RA 291.452270
-    Dec 44.431751
-    Distance 3173.36
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 10146103 "Star-K05769.01" {
     RA 293.746250
     Dec 47.154060
@@ -6518,14 +6446,6 @@
     AppMag 12.00
 }
 
-11456256 "Star-K05901.01" {
-    RA 292.431370
-    Dec 49.368561
-    Distance 1910.56
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 11520114 "Star-K05909.01" {
     RA 297.394960
     Dec 49.484940
@@ -6538,14 +6458,6 @@
     RA 285.459170
     Dec 49.661942
     Distance 3336.25
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-11601425 "Star-K05917.01" {
-    RA 286.356200
-    Dec 49.690128
-    Distance 3128.55
     SpectralType "G0"
     AppMag 12.00
 }
@@ -6594,14 +6506,6 @@
     RA 294.796510
     Dec 48.557861
     Distance 4731.24
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-12554212 "Star-K05974.01" {
-    RA 288.916200
-    Dec 51.534962
-    Distance 765.44
     SpectralType "G0"
     AppMag 12.00
 }
@@ -7002,6 +6906,22 @@
     RA 290.450260
     Dec 39.862011
     Distance 4965.63
+    SpectralType "G0"
+    AppMag 12.00
+}
+
+10198662 "Star-K06216.01" {
+    RA 287.784610
+    Dec 47.228043
+    Distance nan
+    SpectralType "G0"
+    AppMag 12.00
+}
+
+10198662 "Star-K06216.02" {
+    RA 287.784610
+    Dec 47.228043
+    Distance nan
     SpectralType "G0"
     AppMag 12.00
 }
@@ -7550,14 +7470,6 @@
     AppMag 12.00
 }
 
-11176166 "Star-K05875.02" {
-    RA 283.068630
-    Dec 48.802078
-    Distance 4213.68
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 6859546 "Star-K06777.01" {
     RA 290.721950
     Dec 42.391571
@@ -7702,6 +7614,14 @@
     AppMag 12.00
 }
 
+2557350 "Star-K06276.01" {
+    RA 286.819150
+    Dec 37.859009
+    Distance 888.98
+    SpectralType "G0"
+    AppMag 12.00
+}
+
 7902204 "Star-K06931.01" {
     RA 295.502290
     Dec 43.609871
@@ -7806,14 +7726,6 @@
     AppMag 12.00
 }
 
-9674320 "Star-K07223.01" {
-    RA 300.345250
-    Dec 46.339882
-    Distance 1919.46
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 10659624 "Star-K07354.01" {
     RA 289.366460
     Dec 47.923851
@@ -7834,14 +7746,6 @@
     RA 292.303380
     Dec 43.983810
     Distance 3196.07
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-9811915 "Star-K07232.01" {
-    RA 281.229370
-    Dec 46.681862
-    Distance 3644.90
     SpectralType "G0"
     AppMag 12.00
 }
@@ -7882,6 +7786,14 @@
     RA 298.700010
     Dec 43.976490
     Distance 1967.52
+    SpectralType "G0"
+    AppMag 12.00
+}
+
+8881169 "Star-K07106.01" {
+    RA 290.212550
+    Dec 45.134991
+    Distance 3742.67
     SpectralType "G0"
     AppMag 12.00
 }
@@ -8046,14 +7958,6 @@
     AppMag 12.00
 }
 
-8838950 "Star-K02421.02" {
-    RA 298.419310
-    Dec 45.071442
-    Distance 948.04
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 6867555 "Star-K02439.02" {
     RA 293.127380
     Dec 42.320099
@@ -8190,14 +8094,6 @@
     AppMag 12.00
 }
 
-11810124 "Star-K03344.03" {
-    RA 289.664890
-    Dec 50.020039
-    Distance 4427.84
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 9349757 "Star-K03348.02" {
     RA 294.694060
     Dec 45.866840
@@ -8218,14 +8114,6 @@
     RA 300.316190
     Dec 45.495380
     Distance 3719.68
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-8248103 "Star-K07002.01" {
-    RA 296.695740
-    Dec 44.150761
-    Distance 3344.42
     SpectralType "G0"
     AppMag 12.00
 }
@@ -8510,14 +8398,6 @@
     AppMag 12.00
 }
 
-11032748 "Star-K08039.01" {
-    RA 293.319090
-    Dec 48.518608
-    Distance 3014.67
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 11139682 "Star-K08043.01" {
     RA 292.960300
     Dec 48.700500
@@ -8538,14 +8418,6 @@
     RA 295.590120
     Dec 49.198601
     Distance 4076.00
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-11443757 "Star-K08054.01" {
-    RA 285.086850
-    Dec 49.362820
-    Distance 6745.57
     SpectralType "G0"
     AppMag 12.00
 }
@@ -8582,14 +8454,6 @@
     AppMag 12.00
 }
 
-12602999 "Star-K08082.01" {
-    RA 290.874110
-    Dec 51.685181
-    Distance 4284.84
-    SpectralType "G0"
-    AppMag 12.00
-}
-
 9468848 "Star-K08183.01" {
     RA 293.434940
     Dec 46.039440
@@ -8610,14 +8474,6 @@
     RA 297.580230
     Dec 46.719952
     Distance 4722.33
-    SpectralType "G0"
-    AppMag 12.00
-}
-
-12168280 "Star-K08297.01" {
-    RA 295.977940
-    Dec 50.771481
-    Distance 1180.16
     SpectralType "G0"
     AppMag 12.00
 }

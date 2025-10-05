@@ -8,7 +8,7 @@ wait { duration 6 }
 print { text "Planet: K00753.01
 Approx. 4010.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 60%"
+Confidence: 52%"
          origin "top"
          row 5
          column -8
@@ -22,7 +22,7 @@ wait { duration 6 }
 print { text "Planet: K00780.02
 Approx. 2466.28 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 56%"
+Confidence: 51%"
          origin "top"
          row 5
          column -8
@@ -64,7 +64,7 @@ wait { duration 6 }
 print { text "Planet: K00815.01
 Approx. 3997.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -78,7 +78,7 @@ wait { duration 6 }
 print { text "Planet: K00868.01
 Approx. 1414.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -92,7 +92,7 @@ wait { duration 6 }
 print { text "Planet: K00858.01
 Approx. 3324.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 59%"
+Confidence: 58%"
          origin "top"
          row 5
          column -8
@@ -106,7 +106,7 @@ wait { duration 6 }
 print { text "Planet: K00865.01
 Approx. 3623.83 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -120,7 +120,7 @@ wait { duration 6 }
 print { text "Planet: K00901.01
 Approx. 1315.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -148,7 +148,7 @@ wait { duration 6 }
 print { text "Planet: K00914.01
 Approx. 3097.19 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -162,7 +162,7 @@ wait { duration 6 }
 print { text "Planet: K00928.01
 Approx. 3184.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -204,7 +204,7 @@ wait { duration 6 }
 print { text "Planet: K01103.01
 Approx. 5595.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -232,7 +232,7 @@ wait { duration 6 }
 print { text "Planet: K00974.01
 Approx. 625.92 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -253,6 +253,20 @@ Confidence: 95%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K01193.01"}
+select {object "K01193.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K01193.01
+Approx. 3764.02 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 54%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K01194.02"}
 select {object "K01194.02"}
 goto { time 6 distance 5 }
@@ -267,20 +281,6 @@ Confidence: 98%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
-select {object "Star-K01066.01"}
-select {object "K01066.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K01066.01
-Approx. 4014.87 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 59%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
 select {object "Star-K01127.03"}
 select {object "K01127.03"}
 goto { time 6 distance 5 }
@@ -288,7 +288,7 @@ wait { duration 6 }
 print { text "Planet: K01127.03
 Approx. 5013.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -302,7 +302,7 @@ wait { duration 6 }
 print { text "Planet: K00141.01
 Approx. 1545.31 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -344,7 +344,7 @@ wait { duration 6 }
 print { text "Planet: K01095.01
 Approx. 4064.57 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -358,7 +358,7 @@ wait { duration 6 }
 print { text "Planet: K01362.01
 Approx. 2640.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -372,7 +372,7 @@ wait { duration 6 }
 print { text "Planet: K01239.01
 Approx. 4338.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -400,7 +400,7 @@ wait { duration 6 }
 print { text "Planet: K01239.02
 Approx. 4338.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -428,7 +428,7 @@ wait { duration 6 }
 print { text "Planet: K01431.01
 Approx. 1583.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -442,7 +442,7 @@ wait { duration 6 }
 print { text "Planet: K01242.01
 Approx. 2347.53 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -456,7 +456,7 @@ wait { duration 6 }
 print { text "Planet: K01246.01
 Approx. 8386.06 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -484,7 +484,7 @@ wait { duration 6 }
 print { text "Planet: K01268.01
 Approx. 4447.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -498,7 +498,7 @@ wait { duration 6 }
 print { text "Planet: K01328.01
 Approx. 3487.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -512,7 +512,7 @@ wait { duration 6 }
 print { text "Planet: K01271.01
 Approx. 3665.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -526,7 +526,7 @@ wait { duration 6 }
 print { text "Planet: K01393.01
 Approx. 1193.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -568,7 +568,7 @@ wait { duration 6 }
 print { text "Planet: K01338.02
 Approx. 3000.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -596,21 +596,7 @@ wait { duration 6 }
 print { text "Planet: K01338.03
 Approx. 3000.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K01399.01"}
-select {object "K01399.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K01399.01
-Approx. 3207.12 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 61%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -624,7 +610,7 @@ wait { duration 6 }
 print { text "Planet: K01225.01
 Approx. 1215.19 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 52%"
+Confidence: 57%"
          origin "top"
          row 5
          column -8
@@ -652,7 +638,7 @@ wait { duration 6 }
 print { text "Planet: K01420.01
 Approx. 2853.46 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -666,7 +652,7 @@ wait { duration 6 }
 print { text "Planet: K01359.02
 Approx. 3734.78 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -680,7 +666,7 @@ wait { duration 6 }
 print { text "Planet: K01303.01
 Approx. 3819.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -694,7 +680,7 @@ wait { duration 6 }
 print { text "Planet: K01499.02
 Approx. 2274.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -708,7 +694,7 @@ wait { duration 6 }
 print { text "Planet: K01619.01
 Approx. 391.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -722,7 +708,7 @@ wait { duration 6 }
 print { text "Planet: K01622.01
 Approx. 3381.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -750,7 +736,7 @@ wait { duration 6 }
 print { text "Planet: K01733.01
 Approx. 2464.63 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -764,7 +750,7 @@ wait { duration 6 }
 print { text "Planet: K01630.01
 Approx. 3251.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -778,7 +764,7 @@ wait { duration 6 }
 print { text "Planet: K01764.01
 Approx. 2202.17 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -806,7 +792,7 @@ wait { duration 6 }
 print { text "Planet: K01574.03
 Approx. 4885.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -820,7 +806,7 @@ wait { duration 6 }
 print { text "Planet: K01574.03
 Approx. 4885.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -848,7 +834,7 @@ wait { duration 6 }
 print { text "Planet: K01758.01
 Approx. 4655.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -876,7 +862,7 @@ wait { duration 6 }
 print { text "Planet: K01582.01
 Approx. 5291.19 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -918,7 +904,7 @@ wait { duration 6 }
 print { text "Planet: K01527.01
 Approx. 2673.1 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -932,7 +918,7 @@ wait { duration 6 }
 print { text "Planet: K01587.01
 Approx. 3254.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -946,7 +932,7 @@ wait { duration 6 }
 print { text "Planet: K01465.01
 Approx. 2245.81 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -960,7 +946,7 @@ wait { duration 6 }
 print { text "Planet: K01466.01
 Approx. 3085.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -988,7 +974,7 @@ wait { duration 6 }
 print { text "Planet: K01681.01
 Approx. 909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 64%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -1002,7 +988,7 @@ wait { duration 6 }
 print { text "Planet: K01681.01
 Approx. 909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -1114,7 +1100,7 @@ wait { duration 6 }
 print { text "Planet: K01477.01
 Approx. 3679.33 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -1128,7 +1114,21 @@ wait { duration 6 }
 print { text "Planet: K01480.02
 Approx. 3198.58 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 94%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K01547.01"}
+select {object "K01547.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K01547.01
+Approx. 5768.09 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 51%"
          origin "top"
          row 5
          column -8
@@ -1142,7 +1142,7 @@ wait { duration 6 }
 print { text "Planet: K01708.01
 Approx. 4816.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -1212,7 +1212,7 @@ wait { duration 6 }
 print { text "Planet: K02037.03
 Approx. 2862.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -1240,7 +1240,7 @@ wait { duration 6 }
 print { text "Planet: K02042.01
 Approx. 11301.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -1268,7 +1268,7 @@ wait { duration 6 }
 print { text "Planet: K01843.02
 Approx. 601.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -1282,7 +1282,7 @@ wait { duration 6 }
 print { text "Planet: K02052.01
 Approx. 5921.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -1296,7 +1296,7 @@ wait { duration 6 }
 print { text "Planet: K01856.01
 Approx. 3172.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -1310,7 +1310,7 @@ wait { duration 6 }
 print { text "Planet: K02064.01
 Approx. 4652.54 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 62%"
          origin "top"
          row 5
          column -8
@@ -1324,7 +1324,7 @@ wait { duration 6 }
 print { text "Planet: K01784.01
 Approx. 2133.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -1338,7 +1338,7 @@ wait { duration 6 }
 print { text "Planet: K01861.01
 Approx. 3024.1 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -1352,7 +1352,7 @@ wait { duration 6 }
 print { text "Planet: K02009.01
 Approx. 1934.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -1380,7 +1380,7 @@ wait { duration 6 }
 print { text "Planet: K00211.01
 Approx. 4763.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -1394,7 +1394,7 @@ wait { duration 6 }
 print { text "Planet: K01946.01
 Approx. 2704.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -1408,7 +1408,7 @@ wait { duration 6 }
 print { text "Planet: K01816.01
 Approx. 2328.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -1478,7 +1478,7 @@ wait { duration 6 }
 print { text "Planet: K00212.01
 Approx. 3622.54 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 62%"
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -1493,20 +1493,6 @@ print { text "Planet: K02248.04
 Approx. 2916.24 light years away from Earth
 Prediction: Real exoplanet
 Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02248.04"}
-select {object "K02248.04"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02248.04
-Approx. 2916.24 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 60%"
          origin "top"
          row 5
          column -8
@@ -1590,7 +1576,7 @@ wait { duration 6 }
 print { text "Planet: K02369.02
 Approx. 5788.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -1604,7 +1590,7 @@ wait { duration 6 }
 print { text "Planet: K02370.01
 Approx. 5480.81 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -1632,7 +1618,7 @@ wait { duration 6 }
 print { text "Planet: K02206.01
 Approx. 3830.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 66%"
          origin "top"
          row 5
          column -8
@@ -1660,7 +1646,7 @@ wait { duration 6 }
 print { text "Planet: K02357.01
 Approx. 6969.46 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -1674,7 +1660,7 @@ wait { duration 6 }
 print { text "Planet: K02364.01
 Approx. 8571.06 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 59%"
+Confidence: 67%"
          origin "top"
          row 5
          column -8
@@ -1716,7 +1702,7 @@ wait { duration 6 }
 print { text "Planet: K02295.01
 Approx. 558.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -1730,7 +1716,7 @@ wait { duration 6 }
 print { text "Planet: K02373.01
 Approx. 3277.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -1744,7 +1730,7 @@ wait { duration 6 }
 print { text "Planet: K02298.01
 Approx. 756.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -1758,7 +1744,7 @@ wait { duration 6 }
 print { text "Planet: K02298.01
 Approx. 756.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
+Confidence: 58%"
          origin "top"
          row 5
          column -8
@@ -1786,7 +1772,7 @@ wait { duration 6 }
 print { text "Planet: K02081.01
 Approx. 4752.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 77%"
          origin "top"
          row 5
          column -8
@@ -1842,20 +1828,6 @@ wait { duration 6 }
 print { text "Planet: K02248.02
 Approx. 2897.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 60%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02248.02"}
-select {object "K02248.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02248.02
-Approx. 2897.49 light years away from Earth
-Prediction: Real exoplanet
 Confidence: 99%"
          origin "top"
          row 5
@@ -1871,20 +1843,6 @@ print { text "Planet: K02248.03
 Approx. 2916.24 light years away from Earth
 Prediction: Real exoplanet
 Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02248.03"}
-select {object "K02248.03"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02248.03
-Approx. 2916.24 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 60%"
          origin "top"
          row 5
          column -8
@@ -1912,7 +1870,7 @@ wait { duration 6 }
 print { text "Planet: K02169.04
 Approx. 834.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -1926,7 +1884,7 @@ wait { duration 6 }
 print { text "Planet: K02554.01
 Approx. 1339.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
+Confidence: 65%"
          origin "top"
          row 5
          column -8
@@ -1940,7 +1898,7 @@ wait { duration 6 }
 print { text "Planet: K02554.01
 Approx. 1339.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -1954,7 +1912,7 @@ wait { duration 6 }
 print { text "Planet: K02554.02
 Approx. 1339.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
+Confidence: 65%"
          origin "top"
          row 5
          column -8
@@ -1968,7 +1926,7 @@ wait { duration 6 }
 print { text "Planet: K02554.02
 Approx. 1339.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -1996,7 +1954,7 @@ wait { duration 6 }
 print { text "Planet: K02560.01
 Approx. 2570.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -2010,7 +1968,7 @@ wait { duration 6 }
 print { text "Planet: K02637.01
 Approx. 4278.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2066,7 +2024,7 @@ wait { duration 6 }
 print { text "Planet: K02569.01
 Approx. 2950.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -2080,7 +2038,7 @@ wait { duration 6 }
 print { text "Planet: K02571.01
 Approx. 1919.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2094,7 +2052,7 @@ wait { duration 6 }
 print { text "Planet: K02572.01
 Approx. 4356.84 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -2108,21 +2066,7 @@ wait { duration 6 }
 print { text "Planet: K02421.01
 Approx. 948.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02421.01"}
-select {object "K02421.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02421.01
-Approx. 948.04 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 54%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -2136,7 +2080,7 @@ wait { duration 6 }
 print { text "Planet: K02577.01
 Approx. 17580.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2150,7 +2094,7 @@ wait { duration 6 }
 print { text "Planet: K02578.01
 Approx. 3835.19 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -2164,7 +2108,7 @@ wait { duration 6 }
 print { text "Planet: K02508.01
 Approx. 2827.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -2178,7 +2122,7 @@ wait { duration 6 }
 print { text "Planet: K02656.01
 Approx. 4886.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2192,7 +2136,7 @@ wait { duration 6 }
 print { text "Planet: K02657.01
 Approx. 1045.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -2220,7 +2164,7 @@ wait { duration 6 }
 print { text "Planet: K02516.01
 Approx. 3202.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -2234,7 +2178,7 @@ wait { duration 6 }
 print { text "Planet: K02592.01
 Approx. 4423.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -2248,7 +2192,7 @@ wait { duration 6 }
 print { text "Planet: K02445.01
 Approx. 4724.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -2276,7 +2220,7 @@ wait { duration 6 }
 print { text "Planet: K02377.01
 Approx. 2262.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 77%"
          origin "top"
          row 5
          column -8
@@ -2290,7 +2234,7 @@ wait { duration 6 }
 print { text "Planet: K02449.01
 Approx. 3619.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -2332,7 +2276,7 @@ wait { duration 6 }
 print { text "Planet: K02531.01
 Approx. 2316.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2346,7 +2290,7 @@ wait { duration 6 }
 print { text "Planet: K02607.01
 Approx. 3207.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -2388,7 +2332,7 @@ wait { duration 6 }
 print { text "Planet: K02610.01
 Approx. 3997.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -2402,7 +2346,7 @@ wait { duration 6 }
 print { text "Planet: K02610.01
 Approx. 3997.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -2444,7 +2388,7 @@ wait { duration 6 }
 print { text "Planet: K02401.01
 Approx. 1269.84 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -2458,7 +2402,7 @@ wait { duration 6 }
 print { text "Planet: K02550.01
 Approx. 4318.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -2472,7 +2416,7 @@ wait { duration 6 }
 print { text "Planet: K02551.01
 Approx. 2809.92 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2486,7 +2430,7 @@ wait { duration 6 }
 print { text "Planet: K02404.01
 Approx. 4633.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2514,7 +2458,7 @@ wait { duration 6 }
 print { text "Planet: K02840.01
 Approx. 1803.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -2542,7 +2486,7 @@ wait { duration 6 }
 print { text "Planet: K02840.02
 Approx. 1803.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -2556,7 +2500,7 @@ wait { duration 6 }
 print { text "Planet: K02764.01
 Approx. 1450.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -2584,7 +2528,7 @@ wait { duration 6 }
 print { text "Planet: K02923.01
 Approx. 1992.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -2598,7 +2542,7 @@ wait { duration 6 }
 print { text "Planet: K02706.01
 Approx. 942.66 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 60%"
          origin "top"
          row 5
          column -8
@@ -2612,7 +2556,7 @@ wait { duration 6 }
 print { text "Planet: K02770.01
 Approx. 1723.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 68%"
          origin "top"
          row 5
          column -8
@@ -2626,7 +2570,7 @@ wait { duration 6 }
 print { text "Planet: K02851.02
 Approx. 3820.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -2640,7 +2584,7 @@ wait { duration 6 }
 print { text "Planet: K02853.01
 Approx. 2304.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2710,7 +2654,7 @@ wait { duration 6 }
 print { text "Planet: K02712.01
 Approx. 1017.06 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -2752,7 +2696,7 @@ wait { duration 6 }
 print { text "Planet: K02859.03
 Approx. 1353.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -2780,7 +2724,7 @@ wait { duration 6 }
 print { text "Planet: K02862.01
 Approx. 1160.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -2864,7 +2808,7 @@ wait { duration 6 }
 print { text "Planet: K02942.01
 Approx. 3802.57 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2892,7 +2836,7 @@ wait { duration 6 }
 print { text "Planet: K02807.01
 Approx. 3409.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -2906,7 +2850,7 @@ wait { duration 6 }
 print { text "Planet: K02882.01
 Approx. 1629.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -2920,7 +2864,7 @@ wait { duration 6 }
 print { text "Planet: K02968.01
 Approx. 2713.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2934,7 +2878,7 @@ wait { duration 6 }
 print { text "Planet: K02677.01
 Approx. 2704.86 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -2962,7 +2906,7 @@ wait { duration 6 }
 print { text "Planet: K02683.01
 Approx. 3479.6 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -2976,7 +2920,7 @@ wait { duration 6 }
 print { text "Planet: K02899.01
 Approx. 4100.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -3004,7 +2948,7 @@ wait { duration 6 }
 print { text "Planet: K02691.01
 Approx. 1682.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -3018,7 +2962,7 @@ wait { duration 6 }
 print { text "Planet: K02750.01
 Approx. 13335.12 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -3032,7 +2976,7 @@ wait { duration 6 }
 print { text "Planet: K02833.01
 Approx. 2814.33 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -3046,7 +2990,7 @@ wait { duration 6 }
 print { text "Planet: K02906.02
 Approx. 3186.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -3060,7 +3004,7 @@ wait { duration 6 }
 print { text "Planet: K02906.02
 Approx. 3186.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -3130,7 +3074,7 @@ wait { duration 6 }
 print { text "Planet: K02914.01
 Approx. 3254.08 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 67%"
+Confidence: 70%"
          origin "top"
          row 5
          column -8
@@ -3172,7 +3116,7 @@ wait { duration 6 }
 print { text "Planet: K03007.01
 Approx. 2705.9 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -3186,21 +3130,7 @@ wait { duration 6 }
 print { text "Planet: K03086.01
 Approx. 3707.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03089.01"}
-select {object "K03089.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03089.01
-Approx. 2965.8 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 63%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -3214,7 +3144,7 @@ wait { duration 6 }
 print { text "Planet: K00366.01
 Approx. 3133.71 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -3228,7 +3158,7 @@ wait { duration 6 }
 print { text "Planet: K03020.01
 Approx. 3656.45 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -3242,7 +3172,7 @@ wait { duration 6 }
 print { text "Planet: K00064.01
 Approx. 3199.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -3256,7 +3186,7 @@ wait { duration 6 }
 print { text "Planet: K00379.02
 Approx. 3163.57 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -3284,7 +3214,7 @@ wait { duration 6 }
 print { text "Planet: K03029.01
 Approx. 2984.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -3312,7 +3242,7 @@ wait { duration 6 }
 print { text "Planet: K03029.02
 Approx. 2984.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -3410,7 +3340,7 @@ wait { duration 6 }
 print { text "Planet: K03031.01
 Approx. 3375.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -3424,7 +3354,7 @@ wait { duration 6 }
 print { text "Planet: K03034.01
 Approx. 953.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -3438,7 +3368,7 @@ wait { duration 6 }
 print { text "Planet: K03114.01
 Approx. 2054.58 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -3494,7 +3424,7 @@ wait { duration 6 }
 print { text "Planet: K03123.01
 Approx. 4517.39 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -3522,7 +3452,7 @@ wait { duration 6 }
 print { text "Planet: K03041.01
 Approx. 3205.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -3564,7 +3494,7 @@ wait { duration 6 }
 print { text "Planet: K03128.01
 Approx. 4857.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -3578,7 +3508,7 @@ wait { duration 6 }
 print { text "Planet: K03050.01
 Approx. 3201.87 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -3620,7 +3550,7 @@ wait { duration 6 }
 print { text "Planet: K02972.01
 Approx. 4779.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -3634,7 +3564,7 @@ wait { duration 6 }
 print { text "Planet: K02972.01
 Approx. 4779.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -3648,7 +3578,7 @@ wait { duration 6 }
 print { text "Planet: K03051.01
 Approx. 4130.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -3662,7 +3592,7 @@ wait { duration 6 }
 print { text "Planet: K03052.01
 Approx. 1395.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -3676,7 +3606,7 @@ wait { duration 6 }
 print { text "Planet: K02976.01
 Approx. 2877.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -3690,7 +3620,7 @@ wait { duration 6 }
 print { text "Planet: K03142.01
 Approx. 6453.9 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 54%"
+Confidence: 71%"
          origin "top"
          row 5
          column -8
@@ -3704,7 +3634,7 @@ wait { duration 6 }
 print { text "Planet: K03145.02
 Approx. 2407.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -3732,7 +3662,7 @@ wait { duration 6 }
 print { text "Planet: K02984.01
 Approx. 2384.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -3746,7 +3676,7 @@ wait { duration 6 }
 print { text "Planet: K03429.04
 Approx. 4678.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -3774,7 +3704,7 @@ wait { duration 6 }
 print { text "Planet: K03068.01
 Approx. 1789.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -3844,7 +3774,7 @@ wait { duration 6 }
 print { text "Planet: K02992.01
 Approx. 1507.06 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -3942,7 +3872,7 @@ wait { duration 6 }
 print { text "Planet: K02264.02
 Approx. 2077.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -3970,7 +3900,7 @@ wait { duration 6 }
 print { text "Planet: K04146.02
 Approx. 1313.17 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -4012,7 +3942,7 @@ wait { duration 6 }
 print { text "Planet: K03083.01
 Approx. 1522.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -4054,7 +3984,7 @@ wait { duration 6 }
 print { text "Planet: K03083.02
 Approx. 1522.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -4096,7 +4026,7 @@ wait { duration 6 }
 print { text "Planet: K03083.03
 Approx. 1522.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -4110,7 +4040,7 @@ wait { duration 6 }
 print { text "Planet: K00522.01
 Approx. 2434.48 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -4124,7 +4054,7 @@ wait { duration 6 }
 print { text "Planet: K02298.03
 Approx. 756.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -4138,7 +4068,7 @@ wait { duration 6 }
 print { text "Planet: K02298.03
 Approx. 756.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
+Confidence: 58%"
          origin "top"
          row 5
          column -8
@@ -4152,7 +4082,7 @@ wait { duration 6 }
 print { text "Planet: K00525.01
 Approx. 3422.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -4166,7 +4096,7 @@ wait { duration 6 }
 print { text "Planet: K03091.02
 Approx. 5254.95 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -4194,7 +4124,7 @@ wait { duration 6 }
 print { text "Planet: K04288.04
 Approx. 1417.6 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -4208,7 +4138,7 @@ wait { duration 6 }
 print { text "Planet: K00426.01
 Approx. 4094.28 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -4222,21 +4152,7 @@ wait { duration 6 }
 print { text "Planet: K00531.01
 Approx. 820.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04260.04"}
-select {object "K04260.04"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04260.04
-Approx. 952.08 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 56%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -4278,7 +4194,7 @@ wait { duration 6 }
 print { text "Planet: K00435.02
 Approx. 2611.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 52%"
          origin "top"
          row 5
          column -8
@@ -4320,7 +4236,7 @@ wait { duration 6 }
 print { text "Planet: K01613.03
 Approx. 870.36 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -4334,7 +4250,7 @@ wait { duration 6 }
 print { text "Planet: K02593.02
 Approx. 1210.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -4376,7 +4292,7 @@ wait { duration 6 }
 print { text "Planet: K01815.02
 Approx. 2719.95 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -4390,7 +4306,7 @@ wait { duration 6 }
 print { text "Planet: K00501.01
 Approx. 3505.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -4418,7 +4334,7 @@ wait { duration 6 }
 print { text "Planet: K01910.02
 Approx. 2150.45 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -4439,6 +4355,20 @@ Confidence: 86%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K01942.02"}
+select {object "K01942.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K01942.02
+Approx. 2857.83 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 62%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K02871.04"}
 select {object "K02871.04"}
 goto { time 6 distance 5 }
@@ -4446,7 +4376,7 @@ wait { duration 6 }
 print { text "Planet: K02871.04
 Approx. 3336.03 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -4460,7 +4390,7 @@ wait { duration 6 }
 print { text "Planet: K00331.02
 Approx. 2743.78 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 72%"
+Confidence: 70%"
          origin "top"
          row 5
          column -8
@@ -4474,21 +4404,7 @@ wait { duration 6 }
 print { text "Planet: K00458.01
 Approx. 50882.39 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K00075.01"}
-select {object "K00075.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K00075.01
-Approx. 1373.04 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 58%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -4502,7 +4418,7 @@ wait { duration 6 }
 print { text "Planet: K01083.02
 Approx. 3611.39 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -4544,7 +4460,7 @@ wait { duration 6 }
 print { text "Planet: K02906.03
 Approx. 3186.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -4558,7 +4474,7 @@ wait { duration 6 }
 print { text "Planet: K02906.03
 Approx. 3186.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -4586,7 +4502,7 @@ wait { duration 6 }
 print { text "Planet: K04773.02
 Approx. 2340.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -4628,7 +4544,7 @@ wait { duration 6 }
 print { text "Planet: K00469.01
 Approx. 3930.47 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -4642,21 +4558,7 @@ wait { duration 6 }
 print { text "Planet: K00415.01
 Approx. 2421.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04896.02"}
-select {object "K04896.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04896.02
-Approx. 5200.76 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -4670,7 +4572,7 @@ wait { duration 6 }
 print { text "Planet: K04838.03
 Approx. 1324.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -4684,7 +4586,7 @@ wait { duration 6 }
 print { text "Planet: K00417.01
 Approx. 3174.93 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -4698,7 +4600,7 @@ wait { duration 6 }
 print { text "Planet: K05007.02
 Approx. 4021.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -4712,7 +4614,7 @@ wait { duration 6 }
 print { text "Planet: K07628.01
 Approx. 1242.19 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -4726,7 +4628,7 @@ wait { duration 6 }
 print { text "Planet: K00682.01
 Approx. 2697.08 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 55%"
          origin "top"
          row 5
          column -8
@@ -4740,7 +4642,7 @@ wait { duration 6 }
 print { text "Planet: K00683.01
 Approx. 2155.1 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -4754,7 +4656,7 @@ wait { duration 6 }
 print { text "Planet: K00684.01
 Approx. 3554.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -4768,21 +4670,7 @@ wait { duration 6 }
 print { text "Planet: K00686.01
 Approx. 1755.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K00687.01"}
-select {object "K00687.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K00687.01
-Approx. 3558.1 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 59%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -4796,21 +4684,7 @@ wait { duration 6 }
 print { text "Planet: K07630.01
 Approx. 766.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K00099.01"}
-select {object "K00099.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K00099.01
-Approx. 782.51 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -4838,7 +4712,7 @@ wait { duration 6 }
 print { text "Planet: K00548.02
 Approx. 2962.61 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -4866,7 +4740,7 @@ wait { duration 6 }
 print { text "Planet: K00100.01
 Approx. 4952.86 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -4880,7 +4754,7 @@ wait { duration 6 }
 print { text "Planet: K00641.01
 Approx. 638.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -4908,7 +4782,7 @@ wait { duration 6 }
 print { text "Planet: K04577.02
 Approx. 3215.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -4922,7 +4796,7 @@ wait { duration 6 }
 print { text "Planet: K04622.02
 Approx. 1226.53 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -4936,7 +4810,7 @@ wait { duration 6 }
 print { text "Planet: K00605.02
 Approx. 917.06 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -4950,7 +4824,7 @@ wait { duration 6 }
 print { text "Planet: K00607.01
 Approx. 2414.08 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -4964,7 +4838,7 @@ wait { duration 6 }
 print { text "Planet: K04700.02
 Approx. 4069.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -4978,7 +4852,7 @@ wait { duration 6 }
 print { text "Planet: K04700.02
 Approx. 4069.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -4992,7 +4866,7 @@ wait { duration 6 }
 print { text "Planet: K00716.01
 Approx. 2097.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 71%"
          origin "top"
          row 5
          column -8
@@ -5006,7 +4880,7 @@ wait { duration 6 }
 print { text "Planet: K00622.01
 Approx. 8860.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -5020,7 +4894,7 @@ wait { duration 6 }
 print { text "Planet: K07638.01
 Approx. 2274.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -5062,7 +4936,7 @@ wait { duration 6 }
 print { text "Planet: K04136.01
 Approx. 2772.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -5090,7 +4964,7 @@ wait { duration 6 }
 print { text "Planet: K04136.02
 Approx. 2772.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -5118,7 +4992,7 @@ wait { duration 6 }
 print { text "Planet: K02220.04
 Approx. 4601.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -5132,7 +5006,7 @@ wait { duration 6 }
 print { text "Planet: K04144.01
 Approx. 2750.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -5174,7 +5048,7 @@ wait { duration 6 }
 print { text "Planet: K02220.05
 Approx. 3068.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -5188,7 +5062,7 @@ wait { duration 6 }
 print { text "Planet: K04149.01
 Approx. 4699.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 57%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -5202,7 +5076,7 @@ wait { duration 6 }
 print { text "Planet: K04149.02
 Approx. 4699.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 57%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -5258,7 +5132,7 @@ wait { duration 6 }
 print { text "Planet: K04152.01
 Approx. 5779.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -5300,7 +5174,7 @@ wait { duration 6 }
 print { text "Planet: K04022.01
 Approx. 4316.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -5328,7 +5202,7 @@ wait { duration 6 }
 print { text "Planet: K02357.02
 Approx. 6969.46 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -5342,7 +5216,7 @@ wait { duration 6 }
 print { text "Planet: K04097.02
 Approx. 613.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -5356,7 +5230,7 @@ wait { duration 6 }
 print { text "Planet: K04098.01
 Approx. 4263.84 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -5370,7 +5244,7 @@ wait { duration 6 }
 print { text "Planet: K04037.01
 Approx. 2047.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -5384,7 +5258,7 @@ wait { duration 6 }
 print { text "Planet: K07645.01
 Approx. 699.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -5398,7 +5272,7 @@ wait { duration 6 }
 print { text "Planet: K04109.01
 Approx. 3816.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -5412,7 +5286,7 @@ wait { duration 6 }
 print { text "Planet: K04120.01
 Approx. 4866.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -5426,7 +5300,7 @@ wait { duration 6 }
 print { text "Planet: K04123.01
 Approx. 2655.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -5440,7 +5314,7 @@ wait { duration 6 }
 print { text "Planet: K04060.01
 Approx. 2591.73 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -5468,7 +5342,7 @@ wait { duration 6 }
 print { text "Planet: K04341.01
 Approx. 2823.36 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 71%"
          origin "top"
          row 5
          column -8
@@ -5496,7 +5370,7 @@ wait { duration 6 }
 print { text "Planet: K02859.04
 Approx. 1353.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -5552,7 +5426,7 @@ wait { duration 6 }
 print { text "Planet: K04207.01
 Approx. 1281.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 60%"
+Confidence: 51%"
          origin "top"
          row 5
          column -8
@@ -5580,7 +5454,7 @@ wait { duration 6 }
 print { text "Planet: K04209.01
 Approx. 3509.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -5636,7 +5510,7 @@ wait { duration 6 }
 print { text "Planet: K02433.04
 Approx. 5412.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -5706,7 +5580,7 @@ wait { duration 6 }
 print { text "Planet: K04421.01
 Approx. 1687.09 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -5720,21 +5594,7 @@ wait { duration 6 }
 print { text "Planet: K04212.02
 Approx. 3434.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04287.01"}
-select {object "K04287.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04287.01
-Approx. 1237.87 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -5755,12 +5615,12 @@ Confidence: 98%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
-select {object "Star-K02590.02"}
-select {object "K02590.02"}
+select {object "Star-K04287.01"}
+select {object "K04287.01"}
 goto { time 6 distance 5 }
 wait { duration 6 }
-print { text "Planet: K02590.02
-Approx. 1534.41 light years away from Earth
+print { text "Planet: K04287.01
+Approx. 1237.87 light years away from Earth
 Prediction: Real exoplanet
 Confidence: 97%"
          origin "top"
@@ -5769,6 +5629,20 @@ Confidence: 97%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K02590.02"}
+select {object "K02590.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K02590.02
+Approx. 1534.41 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 96%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K04288.02"}
 select {object "K04288.02"}
 goto { time 6 distance 5 }
@@ -5790,7 +5664,7 @@ wait { duration 6 }
 print { text "Planet: K04288.02
 Approx. 1417.6 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -5804,7 +5678,7 @@ wait { duration 6 }
 print { text "Planet: K04358.01
 Approx. 5487.68 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -5818,7 +5692,7 @@ wait { duration 6 }
 print { text "Planet: K04427.01
 Approx. 1044.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -5846,7 +5720,7 @@ wait { duration 6 }
 print { text "Planet: K02972.02
 Approx. 4779.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -5860,7 +5734,7 @@ wait { duration 6 }
 print { text "Planet: K02972.02
 Approx. 4779.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -5874,7 +5748,7 @@ wait { duration 6 }
 print { text "Planet: K04296.01
 Approx. 1193.69 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -5888,7 +5762,7 @@ wait { duration 6 }
 print { text "Planet: K02722.05
 Approx. 2188.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 99%"
          origin "top"
          row 5
          column -8
@@ -5902,7 +5776,7 @@ wait { duration 6 }
 print { text "Planet: K04442.01
 Approx. 5746.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -5916,7 +5790,7 @@ wait { duration 6 }
 print { text "Planet: K04443.01
 Approx. 4079.57 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -5930,7 +5804,7 @@ wait { duration 6 }
 print { text "Planet: K04226.01
 Approx. 2043.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -5944,7 +5818,7 @@ wait { duration 6 }
 print { text "Planet: K04367.01
 Approx. 5147.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -5958,7 +5832,7 @@ wait { duration 6 }
 print { text "Planet: K04431.01
 Approx. 1783.27 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -5979,6 +5853,20 @@ Confidence: 97%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K04303.01"}
+select {object "K04303.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04303.01
+Approx. 5061.09 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 55%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K04435.01"}
 select {object "K04435.01"}
 goto { time 6 distance 5 }
@@ -5986,7 +5874,7 @@ wait { duration 6 }
 print { text "Planet: K04435.01
 Approx. 2277.9 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -6000,7 +5888,7 @@ wait { duration 6 }
 print { text "Planet: K03004.02
 Approx. 5644.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -6014,7 +5902,7 @@ wait { duration 6 }
 print { text "Planet: K04235.01
 Approx. 1875.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -6028,7 +5916,7 @@ wait { duration 6 }
 print { text "Planet: K04307.01
 Approx. 4174.87 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -6056,7 +5944,7 @@ wait { duration 6 }
 print { text "Planet: K04374.01
 Approx. 1715.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -6098,7 +5986,7 @@ wait { duration 6 }
 print { text "Planet: K04242.01
 Approx. 2485.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -6126,7 +6014,7 @@ wait { duration 6 }
 print { text "Planet: K04245.01
 Approx. 3261.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -6140,7 +6028,7 @@ wait { duration 6 }
 print { text "Planet: K04318.01
 Approx. 1940.69 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -6168,7 +6056,7 @@ wait { duration 6 }
 print { text "Planet: K00566.03
 Approx. 3501.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -6182,7 +6070,7 @@ wait { duration 6 }
 print { text "Planet: K02744.02
 Approx. 4911.54 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -6210,7 +6098,7 @@ wait { duration 6 }
 print { text "Planet: K04323.01
 Approx. 3422.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -6224,7 +6112,7 @@ wait { duration 6 }
 print { text "Planet: K04391.01
 Approx. 3553.42 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -6266,7 +6154,7 @@ wait { duration 6 }
 print { text "Planet: K04329.01
 Approx. 1362.53 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -6280,7 +6168,7 @@ wait { duration 6 }
 print { text "Planet: K04331.01
 Approx. 3786.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 72%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -6294,7 +6182,7 @@ wait { duration 6 }
 print { text "Planet: K04398.01
 Approx. 3596.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -6308,7 +6196,7 @@ wait { duration 6 }
 print { text "Planet: K00647.02
 Approx. 2881.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -6322,7 +6210,7 @@ wait { duration 6 }
 print { text "Planet: K02420.02
 Approx. 3489.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -6336,7 +6224,7 @@ wait { duration 6 }
 print { text "Planet: K04399.01
 Approx. 700.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 51%"
+Confidence: 69%"
          origin "top"
          row 5
          column -8
@@ -6350,21 +6238,7 @@ wait { duration 6 }
 print { text "Planet: K04198.01
 Approx. 3552.81 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 72%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04269.02"}
-select {object "K04269.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04269.02
-Approx. 4041.18 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -6378,7 +6252,7 @@ wait { duration 6 }
 print { text "Planet: K07679.01
 Approx. 1860.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 60%"
+Confidence: 62%"
          origin "top"
          row 5
          column -8
@@ -6406,7 +6280,7 @@ wait { duration 6 }
 print { text "Planet: K04274.01
 Approx. 4365.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -6420,7 +6294,7 @@ wait { duration 6 }
 print { text "Planet: K04691.01
 Approx. 3533.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -6434,7 +6308,7 @@ wait { duration 6 }
 print { text "Planet: K04480.01
 Approx. 1842.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -6490,7 +6364,7 @@ wait { duration 6 }
 print { text "Planet: K04551.01
 Approx. 3566.68 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -6504,7 +6378,7 @@ wait { duration 6 }
 print { text "Planet: K04694.01
 Approx. 4220.61 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -6532,7 +6406,7 @@ wait { duration 6 }
 print { text "Planet: K04554.01
 Approx. 5967.66 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -6546,7 +6420,7 @@ wait { duration 6 }
 print { text "Planet: K04557.01
 Approx. 2356.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -6560,7 +6434,7 @@ wait { duration 6 }
 print { text "Planet: K04626.01
 Approx. 5457.59 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 50%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -6574,7 +6448,7 @@ wait { duration 6 }
 print { text "Planet: K04627.01
 Approx. 3150.93 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -6616,7 +6490,7 @@ wait { duration 6 }
 print { text "Planet: K04700.01
 Approx. 4069.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -6630,7 +6504,7 @@ wait { duration 6 }
 print { text "Planet: K04700.01
 Approx. 4069.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -6644,7 +6518,7 @@ wait { duration 6 }
 print { text "Planet: K04558.01
 Approx. 3226.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -6658,7 +6532,7 @@ wait { duration 6 }
 print { text "Planet: K04632.01
 Approx. 3362.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -6686,7 +6560,7 @@ wait { duration 6 }
 print { text "Planet: K04634.01
 Approx. 2389.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 60%"
+Confidence: 54%"
          origin "top"
          row 5
          column -8
@@ -6700,7 +6574,7 @@ wait { duration 6 }
 print { text "Planet: K03196.01
 Approx. 1081.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -6728,7 +6602,7 @@ wait { duration 6 }
 print { text "Planet: K04495.01
 Approx. 4561.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 77%"
          origin "top"
          row 5
          column -8
@@ -6742,7 +6616,7 @@ wait { duration 6 }
 print { text "Planet: K04496.01
 Approx. 5101.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -6756,7 +6630,7 @@ wait { duration 6 }
 print { text "Planet: K07681.01
 Approx. 2290.87 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -6770,7 +6644,7 @@ wait { duration 6 }
 print { text "Planet: K04563.01
 Approx. 3218.2 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -6784,7 +6658,7 @@ wait { duration 6 }
 print { text "Planet: K03165.01
 Approx. 871.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -6798,7 +6672,7 @@ wait { duration 6 }
 print { text "Planet: K04637.01
 Approx. 1031.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -6812,7 +6686,7 @@ wait { duration 6 }
 print { text "Planet: K04709.01
 Approx. 3865.67 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -6826,7 +6700,7 @@ wait { duration 6 }
 print { text "Planet: K04710.01
 Approx. 4406.95 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -6840,7 +6714,7 @@ wait { duration 6 }
 print { text "Planet: K04711.01
 Approx. 3577.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -6854,7 +6728,7 @@ wait { duration 6 }
 print { text "Planet: K04497.01
 Approx. 3219.33 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -6868,7 +6742,7 @@ wait { duration 6 }
 print { text "Planet: K04498.01
 Approx. 3160.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -6882,7 +6756,7 @@ wait { duration 6 }
 print { text "Planet: K04499.01
 Approx. 2991.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -6924,7 +6798,7 @@ wait { duration 6 }
 print { text "Planet: K04503.01
 Approx. 4904.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -6938,7 +6812,7 @@ wait { duration 6 }
 print { text "Planet: K04575.01
 Approx. 3028.78 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -6952,7 +6826,7 @@ wait { duration 6 }
 print { text "Planet: K04643.01
 Approx. 4093.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 72%"
+Confidence: 50%"
          origin "top"
          row 5
          column -8
@@ -6980,7 +6854,7 @@ wait { duration 6 }
 print { text "Planet: K04647.01
 Approx. 3389.67 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -6994,7 +6868,7 @@ wait { duration 6 }
 print { text "Planet: K04647.01
 Approx. 3389.67 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -7008,7 +6882,7 @@ wait { duration 6 }
 print { text "Planet: K03196.02
 Approx. 1081.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -7064,7 +6938,7 @@ wait { duration 6 }
 print { text "Planet: K04505.01
 Approx. 2593.2 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -7078,7 +6952,7 @@ wait { duration 6 }
 print { text "Planet: K04508.01
 Approx. 2068.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -7106,7 +6980,7 @@ wait { duration 6 }
 print { text "Planet: K04577.01
 Approx. 3215.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -7120,7 +6994,7 @@ wait { duration 6 }
 print { text "Planet: K04580.01
 Approx. 3667.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 59%"
+Confidence: 54%"
          origin "top"
          row 5
          column -8
@@ -7134,7 +7008,7 @@ wait { duration 6 }
 print { text "Planet: K04649.01
 Approx. 3394.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -7148,7 +7022,7 @@ wait { duration 6 }
 print { text "Planet: K04717.01
 Approx. 5304.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -7162,7 +7036,7 @@ wait { duration 6 }
 print { text "Planet: K04509.01
 Approx. 1675.46 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -7176,7 +7050,7 @@ wait { duration 6 }
 print { text "Planet: K04582.01
 Approx. 719.45 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -7190,7 +7064,7 @@ wait { duration 6 }
 print { text "Planet: K04653.01
 Approx. 2650.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -7204,7 +7078,7 @@ wait { duration 6 }
 print { text "Planet: K04656.01
 Approx. 4925.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -7218,7 +7092,7 @@ wait { duration 6 }
 print { text "Planet: K07693.01
 Approx. 3989.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 64%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -7260,7 +7134,7 @@ wait { duration 6 }
 print { text "Planet: K04657.01
 Approx. 1091.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -7288,7 +7162,7 @@ wait { duration 6 }
 print { text "Planet: K04451.01
 Approx. 3071.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -7302,7 +7176,7 @@ wait { duration 6 }
 print { text "Planet: K04452.01
 Approx. 2545.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -7344,7 +7218,7 @@ wait { duration 6 }
 print { text "Planet: K04519.01
 Approx. 9896.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -7358,7 +7232,7 @@ wait { duration 6 }
 print { text "Planet: K04520.01
 Approx. 4222.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -7372,7 +7246,7 @@ wait { duration 6 }
 print { text "Planet: K04590.01
 Approx. 3744.2 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -7400,7 +7274,7 @@ wait { duration 6 }
 print { text "Planet: K00750.02
 Approx. 2667.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -7414,7 +7288,7 @@ wait { duration 6 }
 print { text "Planet: K04663.01
 Approx. 1644.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -7428,21 +7302,7 @@ wait { duration 6 }
 print { text "Planet: K04456.01
 Approx. 4653.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04457.01"}
-select {object "K04457.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04457.01
-Approx. 2996.79 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 57%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -7456,7 +7316,7 @@ wait { duration 6 }
 print { text "Planet: K04523.01
 Approx. 3994.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -7498,7 +7358,7 @@ wait { duration 6 }
 print { text "Planet: K04597.01
 Approx. 2644.53 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -7512,7 +7372,7 @@ wait { duration 6 }
 print { text "Planet: K04666.01
 Approx. 3336.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -7526,7 +7386,7 @@ wait { duration 6 }
 print { text "Planet: K03061.02
 Approx. 1855.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -7540,7 +7400,7 @@ wait { duration 6 }
 print { text "Planet: K04460.01
 Approx. 3045.42 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -7554,7 +7414,7 @@ wait { duration 6 }
 print { text "Planet: K04526.01
 Approx. 5590.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -7568,7 +7428,7 @@ wait { duration 6 }
 print { text "Planet: K04526.01
 Approx. 5590.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -7596,7 +7456,7 @@ wait { duration 6 }
 print { text "Planet: K07687.01
 Approx. 5618.66 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 63%"
+Confidence: 54%"
          origin "top"
          row 5
          column -8
@@ -7610,7 +7470,7 @@ wait { duration 6 }
 print { text "Planet: K04601.01
 Approx. 2652.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -7624,7 +7484,7 @@ wait { duration 6 }
 print { text "Planet: K04602.01
 Approx. 2663.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -7638,7 +7498,7 @@ wait { duration 6 }
 print { text "Planet: K03190.01
 Approx. 953.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -7652,7 +7512,7 @@ wait { duration 6 }
 print { text "Planet: K04466.01
 Approx. 4472.44 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -7666,7 +7526,7 @@ wait { duration 6 }
 print { text "Planet: K04467.01
 Approx. 4055.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -7680,7 +7540,21 @@ wait { duration 6 }
 print { text "Planet: K07678.01
 Approx. 1246.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K04680.01"}
+select {object "K04680.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04680.01
+Approx. 3487.54 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -7708,7 +7582,7 @@ wait { duration 6 }
 print { text "Planet: K04541.01
 Approx. 4481.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -7722,7 +7596,7 @@ wait { duration 6 }
 print { text "Planet: K04614.01
 Approx. 3598.28 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 77%"
          origin "top"
          row 5
          column -8
@@ -7736,7 +7610,7 @@ wait { duration 6 }
 print { text "Planet: K04686.01
 Approx. 2587.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -7750,21 +7624,7 @@ wait { duration 6 }
 print { text "Planet: K04477.01
 Approx. 3905.45 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04545.01"}
-select {object "K04545.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04545.01
-Approx. 2534.75 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -7778,7 +7638,7 @@ wait { duration 6 }
 print { text "Planet: K04904.01
 Approx. 3574.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -7792,7 +7652,7 @@ wait { duration 6 }
 print { text "Planet: K04906.01
 Approx. 3941.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -7806,7 +7666,7 @@ wait { duration 6 }
 print { text "Planet: K04763.01
 Approx. 2854.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -7820,7 +7680,7 @@ wait { duration 6 }
 print { text "Planet: K04764.01
 Approx. 3326.06 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -7834,7 +7694,7 @@ wait { duration 6 }
 print { text "Planet: K04766.01
 Approx. 2659.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -7848,7 +7708,21 @@ wait { duration 6 }
 print { text "Planet: K04838.01
 Approx. 1324.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 84%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K04839.01"}
+select {object "K04839.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04839.01
+Approx. 4859.11 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 53%"
          origin "top"
          row 5
          column -8
@@ -7876,7 +7750,7 @@ wait { duration 6 }
 print { text "Planet: K04771.01
 Approx. 3963.73 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -7890,7 +7764,7 @@ wait { duration 6 }
 print { text "Planet: K04772.01
 Approx. 6150.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -7904,7 +7778,7 @@ wait { duration 6 }
 print { text "Planet: K04840.01
 Approx. 4630.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -7918,7 +7792,7 @@ wait { duration 6 }
 print { text "Planet: K04913.01
 Approx. 6268.48 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -7932,7 +7806,7 @@ wait { duration 6 }
 print { text "Planet: K04913.01
 Approx. 6268.48 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -7946,7 +7820,7 @@ wait { duration 6 }
 print { text "Planet: K04914.01
 Approx. 3169.47 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -7960,7 +7834,7 @@ wait { duration 6 }
 print { text "Planet: K03224.01
 Approx. 1229.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -7974,7 +7848,7 @@ wait { duration 6 }
 print { text "Planet: K03225.01
 Approx. 1191.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -7988,7 +7862,7 @@ wait { duration 6 }
 print { text "Planet: K03307.01
 Approx. 3609.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -8002,7 +7876,7 @@ wait { duration 6 }
 print { text "Planet: K07704.01
 Approx. 4109.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -8016,7 +7890,7 @@ wait { duration 6 }
 print { text "Planet: K04773.01
 Approx. 2340.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -8044,7 +7918,7 @@ wait { duration 6 }
 print { text "Planet: K04774.01
 Approx. 1613.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -8058,7 +7932,7 @@ wait { duration 6 }
 print { text "Planet: K04775.01
 Approx. 3484.39 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -8086,7 +7960,7 @@ wait { duration 6 }
 print { text "Planet: K03309.01
 Approx. 2337.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 65%"
+Confidence: 67%"
          origin "top"
          row 5
          column -8
@@ -8114,7 +7988,7 @@ wait { duration 6 }
 print { text "Planet: K04850.01
 Approx. 2149.36 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -8128,7 +8002,7 @@ wait { duration 6 }
 print { text "Planet: K03236.01
 Approx. 2641.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -8142,7 +8016,7 @@ wait { duration 6 }
 print { text "Planet: K03312.01
 Approx. 4686.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -8156,7 +8030,7 @@ wait { duration 6 }
 print { text "Planet: K03313.01
 Approx. 1869.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 71%"
          origin "top"
          row 5
          column -8
@@ -8170,7 +8044,7 @@ wait { duration 6 }
 print { text "Planet: K04782.01
 Approx. 5778.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -8184,7 +8058,7 @@ wait { duration 6 }
 print { text "Planet: K04853.01
 Approx. 3025.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 50%"
          origin "top"
          row 5
          column -8
@@ -8198,7 +8072,21 @@ wait { duration 6 }
 print { text "Planet: K04854.01
 Approx. 1915.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K04856.01"}
+select {object "K04856.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04856.01
+Approx. 5917.5 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 53%"
          origin "top"
          row 5
          column -8
@@ -8226,7 +8114,7 @@ wait { duration 6 }
 print { text "Planet: K04859.01
 Approx. 2503.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -8268,7 +8156,7 @@ wait { duration 6 }
 print { text "Planet: K03318.02
 Approx. 6229.31 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -8282,7 +8170,21 @@ wait { duration 6 }
 print { text "Planet: K03208.01
 Approx. 899.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 92%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K04792.01"}
+select {object "K04792.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04792.01
+Approx. 3174.48 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 51%"
          origin "top"
          row 5
          column -8
@@ -8324,7 +8226,7 @@ wait { duration 6 }
 print { text "Planet: K04794.01
 Approx. 2194.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -8366,7 +8268,7 @@ wait { duration 6 }
 print { text "Planet: K03259.01
 Approx. 3845.46 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -8380,7 +8282,7 @@ wait { duration 6 }
 print { text "Planet: K03329.01
 Approx. 6573.17 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -8394,7 +8296,7 @@ wait { duration 6 }
 print { text "Planet: K04799.01
 Approx. 3879.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -8436,7 +8338,7 @@ wait { duration 6 }
 print { text "Planet: K04871.01
 Approx. 2221.36 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 61%"
+Confidence: 66%"
          origin "top"
          row 5
          column -8
@@ -8450,7 +8352,7 @@ wait { duration 6 }
 print { text "Planet: K04875.01
 Approx. 1322.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 67%"
          origin "top"
          row 5
          column -8
@@ -8464,7 +8366,7 @@ wait { duration 6 }
 print { text "Planet: K03263.01
 Approx. 985.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -8478,7 +8380,7 @@ wait { duration 6 }
 print { text "Planet: K03264.01
 Approx. 2538.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -8492,7 +8394,7 @@ wait { duration 6 }
 print { text "Planet: K04735.01
 Approx. 1909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -8506,7 +8408,7 @@ wait { duration 6 }
 print { text "Planet: K04877.01
 Approx. 3634.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -8534,7 +8436,7 @@ wait { duration 6 }
 print { text "Planet: K01151.04
 Approx. 1379.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -8548,7 +8450,7 @@ wait { duration 6 }
 print { text "Planet: K04737.01
 Approx. 3870.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 69%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -8562,7 +8464,7 @@ wait { duration 6 }
 print { text "Planet: K04808.01
 Approx. 803.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 68%"
          origin "top"
          row 5
          column -8
@@ -8590,7 +8492,7 @@ wait { duration 6 }
 print { text "Planet: K04811.01
 Approx. 3184.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -8604,7 +8506,7 @@ wait { duration 6 }
 print { text "Planet: K04881.01
 Approx. 2811.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -8632,7 +8534,7 @@ wait { duration 6 }
 print { text "Planet: K03271.02
 Approx. 3460.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -8646,7 +8548,7 @@ wait { duration 6 }
 print { text "Planet: K03202.01
 Approx. 1750.1 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 59%"
+Confidence: 55%"
          origin "top"
          row 5
          column -8
@@ -8660,7 +8562,7 @@ wait { duration 6 }
 print { text "Planet: K04815.01
 Approx. 3176.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -8674,7 +8576,7 @@ wait { duration 6 }
 print { text "Planet: K04890.01
 Approx. 9119.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 58%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -8702,7 +8604,7 @@ wait { duration 6 }
 print { text "Planet: K01151.05
 Approx. 1379.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -8716,7 +8618,7 @@ wait { duration 6 }
 print { text "Planet: K04818.01
 Approx. 4333.1 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 69%"
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -8730,7 +8632,7 @@ wait { duration 6 }
 print { text "Planet: K04820.01
 Approx. 4748.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -8744,21 +8646,7 @@ wait { duration 6 }
 print { text "Planet: K04891.01
 Approx. 4852.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04892.01"}
-select {object "K04892.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04892.01
-Approx. 2801.37 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 56%"
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -8772,7 +8660,7 @@ wait { duration 6 }
 print { text "Planet: K04893.01
 Approx. 5351.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -8786,7 +8674,7 @@ wait { duration 6 }
 print { text "Planet: K03203.01
 Approx. 2576.58 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -8814,7 +8702,7 @@ wait { duration 6 }
 print { text "Planet: K04826.01
 Approx. 5349.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 70%"
          origin "top"
          row 5
          column -8
@@ -8828,21 +8716,7 @@ wait { duration 6 }
 print { text "Planet: K04895.01
 Approx. 2688.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04896.01"}
-select {object "K04896.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04896.01
-Approx. 5200.76 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -8856,7 +8730,7 @@ wait { duration 6 }
 print { text "Planet: K04754.01
 Approx. 4252.65 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -8870,7 +8744,7 @@ wait { duration 6 }
 print { text "Planet: K04755.01
 Approx. 2458.54 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -8884,7 +8758,7 @@ wait { duration 6 }
 print { text "Planet: K04827.01
 Approx. 3321.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -8898,7 +8772,7 @@ wait { duration 6 }
 print { text "Planet: K04900.01
 Approx. 4438.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -8926,7 +8800,7 @@ wait { duration 6 }
 print { text "Planet: K04762.01
 Approx. 2197.86 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -8954,7 +8828,7 @@ wait { duration 6 }
 print { text "Planet: K01613.02
 Approx. 870.36 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -8968,7 +8842,7 @@ wait { duration 6 }
 print { text "Planet: K03367.01
 Approx. 4197.9 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -8982,7 +8856,7 @@ wait { duration 6 }
 print { text "Planet: K03368.01
 Approx. 3504.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -8996,7 +8870,7 @@ wait { duration 6 }
 print { text "Planet: K03434.01
 Approx. 3901.69 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -9010,7 +8884,7 @@ wait { duration 6 }
 print { text "Planet: K03437.02
 Approx. 5041.12 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9024,7 +8898,7 @@ wait { duration 6 }
 print { text "Planet: K03370.01
 Approx. 1919.39 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -9038,7 +8912,7 @@ wait { duration 6 }
 print { text "Planet: K03371.01
 Approx. 1488.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9066,7 +8940,7 @@ wait { duration 6 }
 print { text "Planet: K03374.02
 Approx. 5368.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9080,7 +8954,7 @@ wait { duration 6 }
 print { text "Planet: K03377.01
 Approx. 1221.28 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -9094,7 +8968,7 @@ wait { duration 6 }
 print { text "Planet: K03444.01
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9108,7 +8982,7 @@ wait { duration 6 }
 print { text "Planet: K03444.01
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 69%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -9122,7 +8996,7 @@ wait { duration 6 }
 print { text "Planet: K03444.01
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9150,7 +9024,7 @@ wait { duration 6 }
 print { text "Planet: K03444.02
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9164,7 +9038,21 @@ wait { duration 6 }
 print { text "Planet: K03444.02
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 69%"
+Confidence: 78%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.02"}
+select {object "K03444.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.02
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9185,14 +9073,42 @@ Confidence: 99%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
-select {object "Star-K03444.02"}
-select {object "K03444.02"}
+select {object "Star-K03444.03"}
+select {object "K03444.03"}
 goto { time 6 distance 5 }
 wait { duration 6 }
-print { text "Planet: K03444.02
+print { text "Planet: K03444.03
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.03"}
+select {object "K03444.03"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.03
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 78%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.03"}
+select {object "K03444.03"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.03
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9207,62 +9123,6 @@ print { text "Planet: K03444.03
 Approx. 438.94 light years away from Earth
 Prediction: Real exoplanet
 Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.03"}
-select {object "K03444.03"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.03
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 69%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.03"}
-select {object "K03444.03"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.03
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.03"}
-select {object "K03444.03"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.03
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K07780.01"}
-select {object "K07780.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K07780.01
-Approx. 3519.44 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 62%"
          origin "top"
          row 5
          column -8
@@ -9276,7 +9136,7 @@ wait { duration 6 }
 print { text "Planet: K03384.01
 Approx. 1926.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -9318,7 +9178,7 @@ wait { duration 6 }
 print { text "Planet: K01899.02
 Approx. 4244.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -9332,7 +9192,7 @@ wait { duration 6 }
 print { text "Planet: K03455.01
 Approx. 4698.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -9374,7 +9234,7 @@ wait { duration 6 }
 print { text "Planet: K03391.01
 Approx. 1702.73 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 59%"
+Confidence: 50%"
          origin "top"
          row 5
          column -8
@@ -9388,7 +9248,7 @@ wait { duration 6 }
 print { text "Planet: K01750.02
 Approx. 2738.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -9402,7 +9262,7 @@ wait { duration 6 }
 print { text "Planet: K03460.01
 Approx. 4553.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -9458,7 +9318,7 @@ wait { duration 6 }
 print { text "Planet: K03462.01
 Approx. 6209.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -9472,7 +9332,7 @@ wait { duration 6 }
 print { text "Planet: K03462.01
 Approx. 6209.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -9486,7 +9346,7 @@ wait { duration 6 }
 print { text "Planet: K03462.02
 Approx. 6209.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -9500,7 +9360,7 @@ wait { duration 6 }
 print { text "Planet: K03462.02
 Approx. 6209.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -9528,7 +9388,7 @@ wait { duration 6 }
 print { text "Planet: K03398.03
 Approx. 7182.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9556,7 +9416,7 @@ wait { duration 6 }
 print { text "Planet: K03470.01
 Approx. 5145.59 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -9570,7 +9430,7 @@ wait { duration 6 }
 print { text "Planet: K03401.01
 Approx. 3165.57 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -9598,7 +9458,7 @@ wait { duration 6 }
 print { text "Planet: K03473.01
 Approx. 4289.28 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -9612,7 +9472,7 @@ wait { duration 6 }
 print { text "Planet: K07729.01
 Approx. 1577.31 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -9626,7 +9486,7 @@ wait { duration 6 }
 print { text "Planet: K03408.01
 Approx. 3403.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -9640,7 +9500,7 @@ wait { duration 6 }
 print { text "Planet: K01788.02
 Approx. 1623.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -9654,7 +9514,7 @@ wait { duration 6 }
 print { text "Planet: K03337.01
 Approx. 4357.9 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -9668,7 +9528,7 @@ wait { duration 6 }
 print { text "Planet: K03339.01
 Approx. 2863.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -9682,7 +9542,7 @@ wait { duration 6 }
 print { text "Planet: K03340.01
 Approx. 2262.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -9696,7 +9556,7 @@ wait { duration 6 }
 print { text "Planet: K03340.01
 Approx. 2262.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -9710,7 +9570,7 @@ wait { duration 6 }
 print { text "Planet: K03340.02
 Approx. 2262.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -9724,7 +9584,7 @@ wait { duration 6 }
 print { text "Planet: K03340.02
 Approx. 2262.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -9752,7 +9612,7 @@ wait { duration 6 }
 print { text "Planet: K01681.03
 Approx. 909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 64%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -9766,7 +9626,7 @@ wait { duration 6 }
 print { text "Planet: K01681.03
 Approx. 909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -9780,7 +9640,7 @@ wait { duration 6 }
 print { text "Planet: K03480.01
 Approx. 3779.59 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 60%"
          origin "top"
          row 5
          column -8
@@ -9794,7 +9654,7 @@ wait { duration 6 }
 print { text "Planet: K03481.01
 Approx. 8398.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 69%"
          origin "top"
          row 5
          column -8
@@ -9808,7 +9668,7 @@ wait { duration 6 }
 print { text "Planet: K03483.01
 Approx. 4646.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 64%"
+Confidence: 58%"
          origin "top"
          row 5
          column -8
@@ -9892,7 +9752,7 @@ wait { duration 6 }
 print { text "Planet: K03416.01
 Approx. 3221.67 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -9906,7 +9766,7 @@ wait { duration 6 }
 print { text "Planet: K03486.01
 Approx. 2155.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -9920,7 +9780,7 @@ wait { duration 6 }
 print { text "Planet: K07759.01
 Approx. 7194.12 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -9948,7 +9808,7 @@ wait { duration 6 }
 print { text "Planet: K03420.02
 Approx. 7317.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -9976,7 +9836,7 @@ wait { duration 6 }
 print { text "Planet: K03495.01
 Approx. 4591.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -9990,7 +9850,7 @@ wait { duration 6 }
 print { text "Planet: K03495.01
 Approx. 4591.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -10004,7 +9864,7 @@ wait { duration 6 }
 print { text "Planet: K01562.02
 Approx. 4707.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -10032,7 +9892,7 @@ wait { duration 6 }
 print { text "Planet: K03495.02
 Approx. 4591.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -10046,7 +9906,7 @@ wait { duration 6 }
 print { text "Planet: K03495.02
 Approx. 4591.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -10060,7 +9920,21 @@ wait { duration 6 }
 print { text "Planet: K03496.02
 Approx. 4955.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 88%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03355.01"}
+select {object "K03355.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03355.01
+Approx. 4501.34 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 60%"
          origin "top"
          row 5
          column -8
@@ -10074,7 +9948,7 @@ wait { duration 6 }
 print { text "Planet: K07762.01
 Approx. 4290.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 66%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -10088,7 +9962,7 @@ wait { duration 6 }
 print { text "Planet: K03429.01
 Approx. 4678.79 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -10116,7 +9990,7 @@ wait { duration 6 }
 print { text "Planet: K03500.02
 Approx. 4411.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -10130,7 +10004,7 @@ wait { duration 6 }
 print { text "Planet: K03358.01
 Approx. 1794.83 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -10144,7 +10018,7 @@ wait { duration 6 }
 print { text "Planet: K03823.01
 Approx. 1887.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -10158,7 +10032,7 @@ wait { duration 6 }
 print { text "Planet: K02018.02
 Approx. 2614.95 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -10186,7 +10060,7 @@ wait { duration 6 }
 print { text "Planet: K07795.01
 Approx. 2346.65 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -10200,7 +10074,7 @@ wait { duration 6 }
 print { text "Planet: K02059.02
 Approx. 783.66 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -10214,7 +10088,7 @@ wait { duration 6 }
 print { text "Planet: K07796.01
 Approx. 3669.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -10256,7 +10130,7 @@ wait { duration 6 }
 print { text "Planet: K03801.01
 Approx. 6861.27 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -10298,7 +10172,7 @@ wait { duration 6 }
 print { text "Planet: K02004.03
 Approx. 1973.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -10312,7 +10186,7 @@ wait { duration 6 }
 print { text "Planet: K01670.01
 Approx. 3959.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -10326,7 +10200,7 @@ wait { duration 6 }
 print { text "Planet: K02158.02
 Approx. 3219.02 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -10340,7 +10214,7 @@ wait { duration 6 }
 print { text "Planet: K02480.01
 Approx. 1373.66 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -10354,7 +10228,7 @@ wait { duration 6 }
 print { text "Planet: K01957.01
 Approx. 3553.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 64%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -10368,7 +10242,7 @@ wait { duration 6 }
 print { text "Planet: K01963.01
 Approx. 2489.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -10382,7 +10256,7 @@ wait { duration 6 }
 print { text "Planet: K07818.01
 Approx. 4200.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 74%"
+Confidence: 71%"
          origin "top"
          row 5
          column -8
@@ -10396,7 +10270,7 @@ wait { duration 6 }
 print { text "Planet: K02796.01
 Approx. 3335.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -10424,7 +10298,7 @@ wait { duration 6 }
 print { text "Planet: K01947.01
 Approx. 1223.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 68%"
          origin "top"
          row 5
          column -8
@@ -10438,7 +10312,7 @@ wait { duration 6 }
 print { text "Planet: K02874.01
 Approx. 2374.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 50%"
+Confidence: 56%"
          origin "top"
          row 5
          column -8
@@ -10452,7 +10326,7 @@ wait { duration 6 }
 print { text "Planet: K01772.01
 Approx. 1838.7 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -10466,7 +10340,7 @@ wait { duration 6 }
 print { text "Planet: K03936.01
 Approx. 1118.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -10494,7 +10368,7 @@ wait { duration 6 }
 print { text "Planet: K01411.01
 Approx. 1972.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -10508,7 +10382,7 @@ wait { duration 6 }
 print { text "Planet: K03104.01
 Approx. 3664.28 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 67%"
+Confidence: 65%"
          origin "top"
          row 5
          column -8
@@ -10536,7 +10410,7 @@ wait { duration 6 }
 print { text "Planet: K02037.02
 Approx. 2862.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -10550,7 +10424,7 @@ wait { duration 6 }
 print { text "Planet: K02612.02
 Approx. 743.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -10564,7 +10438,7 @@ wait { duration 6 }
 print { text "Planet: K02957.01
 Approx. 1531.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -10578,7 +10452,7 @@ wait { duration 6 }
 print { text "Planet: K03077.02
 Approx. 2921.65 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -10592,7 +10466,7 @@ wait { duration 6 }
 print { text "Planet: K05155.01
 Approx. 6800.83 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -10606,7 +10480,7 @@ wait { duration 6 }
 print { text "Planet: K05274.01
 Approx. 1606.59 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -10620,7 +10494,7 @@ wait { duration 6 }
 print { text "Planet: K05279.01
 Approx. 3804.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -10634,7 +10508,7 @@ wait { duration 6 }
 print { text "Planet: K03463.01
 Approx. 3526.78 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -10648,7 +10522,7 @@ wait { duration 6 }
 print { text "Planet: K03508.01
 Approx. 2859.81 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -10676,7 +10550,7 @@ wait { duration 6 }
 print { text "Planet: K05288.01
 Approx. 3919.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -10690,7 +10564,7 @@ wait { duration 6 }
 print { text "Planet: K05297.01
 Approx. 2222.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -10711,6 +10585,20 @@ Confidence: 93%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K04938.01"}
+select {object "K04938.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04938.01
+Approx. 6085.45 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 51%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K05331.01"}
 select {object "K05331.01"}
 goto { time 6 distance 5 }
@@ -10718,7 +10606,7 @@ wait { duration 6 }
 print { text "Planet: K05331.01
 Approx. 2719.12 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -10732,7 +10620,7 @@ wait { duration 6 }
 print { text "Planet: K05333.01
 Approx. 5218.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -10746,7 +10634,7 @@ wait { duration 6 }
 print { text "Planet: K05207.01
 Approx. 1652.33 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 61%"
+Confidence: 50%"
          origin "top"
          row 5
          column -8
@@ -10760,7 +10648,7 @@ wait { duration 6 }
 print { text "Planet: K05327.01
 Approx. 1236.47 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -10774,7 +10662,7 @@ wait { duration 6 }
 print { text "Planet: K04963.01
 Approx. 1174.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -10788,7 +10676,7 @@ wait { duration 6 }
 print { text "Planet: K05088.01
 Approx. 3799.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 63%"
+Confidence: 60%"
          origin "top"
          row 5
          column -8
@@ -10816,7 +10704,7 @@ wait { duration 6 }
 print { text "Planet: K05336.01
 Approx. 4375.31 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 66%"
          origin "top"
          row 5
          column -8
@@ -10830,7 +10718,7 @@ wait { duration 6 }
 print { text "Planet: K04972.01
 Approx. 3372.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 62%"
          origin "top"
          row 5
          column -8
@@ -10844,7 +10732,7 @@ wait { duration 6 }
 print { text "Planet: K04975.01
 Approx. 4669.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -10858,7 +10746,7 @@ wait { duration 6 }
 print { text "Planet: K05098.01
 Approx. 2215.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -10886,7 +10774,7 @@ wait { duration 6 }
 print { text "Planet: K05104.01
 Approx. 5242.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -10900,7 +10788,7 @@ wait { duration 6 }
 print { text "Planet: K05236.01
 Approx. 1786.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -10928,7 +10816,7 @@ wait { duration 6 }
 print { text "Planet: K04999.01
 Approx. 4791.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -10970,7 +10858,7 @@ wait { duration 6 }
 print { text "Planet: K02150.02
 Approx. 4106.2 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -10998,7 +10886,7 @@ wait { duration 6 }
 print { text "Planet: K05007.01
 Approx. 4021.41 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -11012,7 +10900,7 @@ wait { duration 6 }
 print { text "Planet: K05654.01
 Approx. 1364.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -11026,7 +10914,7 @@ wait { duration 6 }
 print { text "Planet: K05410.01
 Approx. 2529.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 70%"
          origin "top"
          row 5
          column -8
@@ -11068,21 +10956,7 @@ wait { duration 6 }
 print { text "Planet: K05790.01
 Approx. 2397.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K05677.01"}
-select {object "K05677.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K05677.01
-Approx. 2688.78 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 55%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -11110,7 +10984,7 @@ wait { duration 6 }
 print { text "Planet: K05552.01
 Approx. 1547.39 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -11124,7 +10998,7 @@ wait { duration 6 }
 print { text "Planet: K05553.01
 Approx. 3550.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -11138,7 +11012,7 @@ wait { duration 6 }
 print { text "Planet: K05433.01
 Approx. 3241.69 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -11166,7 +11040,7 @@ wait { duration 6 }
 print { text "Planet: K05692.01
 Approx. 871.09 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -11180,7 +11054,21 @@ wait { duration 6 }
 print { text "Planet: K05817.01
 Approx. 2501.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K05822.01"}
+select {object "K05822.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K05822.01
+Approx. 1509.9 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 50%"
          origin "top"
          row 5
          column -8
@@ -11194,7 +11082,7 @@ wait { duration 6 }
 print { text "Planet: K05458.01
 Approx. 2872.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -11208,7 +11096,7 @@ wait { duration 6 }
 print { text "Planet: K05459.01
 Approx. 2076.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -11222,7 +11110,7 @@ wait { duration 6 }
 print { text "Planet: K05842.01
 Approx. 4256.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 67%"
          origin "top"
          row 5
          column -8
@@ -11250,7 +11138,7 @@ wait { duration 6 }
 print { text "Planet: K05602.01
 Approx. 3018.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -11264,7 +11152,7 @@ wait { duration 6 }
 print { text "Planet: K05748.01
 Approx. 1975.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -11278,7 +11166,7 @@ wait { duration 6 }
 print { text "Planet: K05625.01
 Approx. 3503.93 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 69%"
+Confidence: 59%"
          origin "top"
          row 5
          column -8
@@ -11292,7 +11180,7 @@ wait { duration 6 }
 print { text "Planet: K05628.01
 Approx. 2427.46 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -11306,7 +11194,7 @@ wait { duration 6 }
 print { text "Planet: K05632.01
 Approx. 995.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -11334,7 +11222,7 @@ wait { duration 6 }
 print { text "Planet: K05762.01
 Approx. 3668.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -11348,7 +11236,7 @@ wait { duration 6 }
 print { text "Planet: K05384.01
 Approx. 3880.3 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 54%"
          origin "top"
          row 5
          column -8
@@ -11362,21 +11250,7 @@ wait { duration 6 }
 print { text "Planet: K05512.01
 Approx. 5589.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K05515.01"}
-select {object "K05515.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K05515.01
-Approx. 3173.36 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 57%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -11390,7 +11264,7 @@ wait { duration 6 }
 print { text "Planet: K05769.01
 Approx. 3017.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -11404,21 +11278,7 @@ wait { duration 6 }
 print { text "Planet: K05899.01
 Approx. 2017.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 67%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K05901.01"}
-select {object "K05901.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K05901.01
-Approx. 1910.56 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 66%"
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -11432,7 +11292,7 @@ wait { duration 6 }
 print { text "Planet: K05909.01
 Approx. 3221.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -11446,21 +11306,7 @@ wait { duration 6 }
 print { text "Planet: K05915.01
 Approx. 3336.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K05917.01"}
-select {object "K05917.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K05917.01
-Approx. 3128.55 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -11474,7 +11320,7 @@ wait { duration 6 }
 print { text "Planet: K05919.01
 Approx. 3034.73 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -11488,7 +11334,7 @@ wait { duration 6 }
 print { text "Planet: K05943.01
 Approx. 3623.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -11502,7 +11348,7 @@ wait { duration 6 }
 print { text "Planet: K05964.01
 Approx. 1754.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 72%"
+Confidence: 57%"
          origin "top"
          row 5
          column -8
@@ -11516,7 +11362,7 @@ wait { duration 6 }
 print { text "Planet: K05965.01
 Approx. 2931.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 62%"
+Confidence: 59%"
          origin "top"
          row 5
          column -8
@@ -11530,7 +11376,7 @@ wait { duration 6 }
 print { text "Planet: K05854.01
 Approx. 3073.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -11544,21 +11390,7 @@ wait { duration 6 }
 print { text "Planet: K05855.01
 Approx. 4731.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K05974.01"}
-select {object "K05974.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K05974.01
-Approx. 765.44 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 52%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -11572,7 +11404,7 @@ wait { duration 6 }
 print { text "Planet: K05863.01
 Approx. 2145.43 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 52%"
          origin "top"
          row 5
          column -8
@@ -11586,7 +11418,7 @@ wait { duration 6 }
 print { text "Planet: K05874.01
 Approx. 1731.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -11600,7 +11432,7 @@ wait { duration 6 }
 print { text "Planet: K05895.01
 Approx. 3802.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -11628,7 +11460,7 @@ wait { duration 6 }
 print { text "Planet: K06179.01
 Approx. 5758.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -11642,7 +11474,7 @@ wait { duration 6 }
 print { text "Planet: K06182.01
 Approx. 2479.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -11656,7 +11488,7 @@ wait { duration 6 }
 print { text "Planet: K06182.02
 Approx. 2606.6 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -11670,91 +11502,91 @@ wait { duration 6 }
 print { text "Planet: K03440.02
 Approx. 4889.95 light years away from Earth
 Prediction: Real exoplanet
+Confidence: 91%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.04"}
+select {object "K03444.04"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.04
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 98%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.04"}
+select {object "K03444.04"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.04
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 78%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.04"}
+select {object "K03444.04"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.04
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 98%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K03444.04"}
+select {object "K03444.04"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K03444.04
+Approx. 438.94 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 99%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K04647.02"}
+select {object "K04647.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04647.02
+Approx. 3389.67 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 96%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K04647.02"}
+select {object "K04647.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04647.02
+Approx. 3389.67 light years away from Earth
+Prediction: Real exoplanet
 Confidence: 92%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.04"}
-select {object "K03444.04"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.04
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.04"}
-select {object "K03444.04"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.04
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 69%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.04"}
-select {object "K03444.04"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.04
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03444.04"}
-select {object "K03444.04"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03444.04
-Approx. 438.94 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 99%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04647.02"}
-select {object "K04647.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04647.02
-Approx. 3389.67 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 97%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04647.02"}
-select {object "K04647.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04647.02
-Approx. 3389.67 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -11768,7 +11600,7 @@ wait { duration 6 }
 print { text "Planet: K04657.02
 Approx. 1091.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -11796,7 +11628,7 @@ wait { duration 6 }
 print { text "Planet: K04895.02
 Approx. 3209.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -11810,7 +11642,7 @@ wait { duration 6 }
 print { text "Planet: K06093.02
 Approx. 6846.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -11894,7 +11726,7 @@ wait { duration 6 }
 print { text "Planet: K06191.01
 Approx. 4044.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -11908,7 +11740,7 @@ wait { duration 6 }
 print { text "Planet: K06191.01
 Approx. 4044.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -11922,7 +11754,7 @@ wait { duration 6 }
 print { text "Planet: K06191.02
 Approx. 4044.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -11936,7 +11768,7 @@ wait { duration 6 }
 print { text "Planet: K06191.02
 Approx. 4044.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -11950,7 +11782,7 @@ wait { duration 6 }
 print { text "Planet: K06195.01
 Approx. 1517.14 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -11964,7 +11796,7 @@ wait { duration 6 }
 print { text "Planet: K04034.02
 Approx. 7709.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -11978,7 +11810,7 @@ wait { duration 6 }
 print { text "Planet: K04103.02
 Approx. 2280.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 62%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -12006,7 +11838,7 @@ wait { duration 6 }
 print { text "Planet: K06103.02
 Approx. 5569.66 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -12034,7 +11866,7 @@ wait { duration 6 }
 print { text "Planet: K04192.02
 Approx. 3045.44 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -12048,21 +11880,7 @@ wait { duration 6 }
 print { text "Planet: K04246.02
 Approx. 2191.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K04287.02"}
-select {object "K04287.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K04287.02
-Approx. 1237.87 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -12083,6 +11901,20 @@ Confidence: 98%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K04287.02"}
+select {object "K04287.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K04287.02
+Approx. 1237.87 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 97%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K04385.03"}
 select {object "K04385.03"}
 goto { time 6 distance 5 }
@@ -12090,7 +11922,7 @@ wait { duration 6 }
 print { text "Planet: K04385.03
 Approx. 3526.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 70%"
          origin "top"
          row 5
          column -8
@@ -12104,7 +11936,7 @@ wait { duration 6 }
 print { text "Planet: K04435.02
 Approx. 2261.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -12132,7 +11964,7 @@ wait { duration 6 }
 print { text "Planet: K04541.02
 Approx. 4481.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -12146,7 +11978,7 @@ wait { duration 6 }
 print { text "Planet: K01082.04
 Approx. 3197.17 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -12230,7 +12062,7 @@ wait { duration 6 }
 print { text "Planet: K04913.02
 Approx. 6268.48 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 82%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -12244,7 +12076,7 @@ wait { duration 6 }
 print { text "Planet: K04913.02
 Approx. 6268.48 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -12265,6 +12097,34 @@ Confidence: 76%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
+select {object "Star-K06216.01"}
+select {object "K06216.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K06216.01
+Approx. nan light years away from Earth
+Prediction: Real exoplanet
+Confidence: 73%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K06216.02"}
+select {object "K06216.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K06216.02
+Approx. nan light years away from Earth
+Prediction: Real exoplanet
+Confidence: 73%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
 select {object "Star-K01860.04"}
 select {object "K01860.04"}
 goto { time 6 distance 5 }
@@ -12272,7 +12132,7 @@ wait { duration 6 }
 print { text "Planet: K01860.04
 Approx. 2317.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -12300,7 +12160,7 @@ wait { duration 6 }
 print { text "Planet: K01310.02
 Approx. 4465.19 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -12314,7 +12174,7 @@ wait { duration 6 }
 print { text "Planet: K06130.01
 Approx. 1290.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -12328,7 +12188,7 @@ wait { duration 6 }
 print { text "Planet: K06132.01
 Approx. 6012.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -12384,7 +12244,7 @@ wait { duration 6 }
 print { text "Planet: K00750.03
 Approx. 2667.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -12412,7 +12272,7 @@ wait { duration 6 }
 print { text "Planet: K06132.03
 Approx. 6012.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -12440,7 +12300,7 @@ wait { duration 6 }
 print { text "Planet: K06137.01
 Approx. 2958.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -12468,7 +12328,7 @@ wait { duration 6 }
 print { text "Planet: K02433.06
 Approx. 5581.94 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -12510,7 +12370,7 @@ wait { duration 6 }
 print { text "Planet: K02433.07
 Approx. 5412.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -12538,7 +12398,7 @@ wait { duration 6 }
 print { text "Planet: K00841.04
 Approx. 3685.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -12552,7 +12412,7 @@ wait { duration 6 }
 print { text "Planet: K00841.04
 Approx. 3685.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -12566,7 +12426,7 @@ wait { duration 6 }
 print { text "Planet: K00841.05
 Approx. 3685.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -12580,7 +12440,7 @@ wait { duration 6 }
 print { text "Planet: K00841.05
 Approx. 3685.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -12650,7 +12510,7 @@ wait { duration 6 }
 print { text "Planet: K06246.01
 Approx. 899.57 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -12664,7 +12524,7 @@ wait { duration 6 }
 print { text "Planet: K01519.02
 Approx. 3144.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -12692,7 +12552,7 @@ wait { duration 6 }
 print { text "Planet: K02183.03
 Approx. 3576.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -12706,7 +12566,7 @@ wait { duration 6 }
 print { text "Planet: K02184.02
 Approx. 2186.42 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -12720,7 +12580,7 @@ wait { duration 6 }
 print { text "Planet: K02209.02
 Approx. 4513.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -12734,7 +12594,7 @@ wait { duration 6 }
 print { text "Planet: K00945.03
 Approx. 4687.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -12748,7 +12608,7 @@ wait { duration 6 }
 print { text "Planet: K06164.01
 Approx. 5740.62 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -12762,7 +12622,7 @@ wait { duration 6 }
 print { text "Planet: K02450.02
 Approx. 3137.59 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -12790,7 +12650,7 @@ wait { duration 6 }
 print { text "Planet: K00992.02
 Approx. 4966.93 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -12804,35 +12664,35 @@ wait { duration 6 }
 print { text "Planet: K01522.02
 Approx. 2734.05 light years away from Earth
 Prediction: Real exoplanet
+Confidence: 88%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K02610.02"}
+select {object "K02610.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K02610.02
+Approx. 3997.3 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 89%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K02610.02"}
+select {object "K02610.02"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K02610.02
+Approx. 3997.3 light years away from Earth
+Prediction: Real exoplanet
 Confidence: 90%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02610.02"}
-select {object "K02610.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02610.02
-Approx. 3997.3 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 87%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02610.02"}
-select {object "K02610.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02610.02
-Approx. 3997.3 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -12846,7 +12706,7 @@ wait { duration 6 }
 print { text "Planet: K02719.02
 Approx. 2258.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -12860,7 +12720,7 @@ wait { duration 6 }
 print { text "Planet: K02828.02
 Approx. 3037.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -12874,7 +12734,7 @@ wait { duration 6 }
 print { text "Planet: K02871.03
 Approx. 2733.56 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -12930,7 +12790,7 @@ wait { duration 6 }
 print { text "Planet: K03401.02
 Approx. 3102.29 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -12944,7 +12804,7 @@ wait { duration 6 }
 print { text "Planet: K00593.04
 Approx. 3810.2 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -12958,7 +12818,7 @@ wait { duration 6 }
 print { text "Planet: K00993.03
 Approx. 2321.74 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 63%"
+Confidence: 68%"
          origin "top"
          row 5
          column -8
@@ -12972,7 +12832,7 @@ wait { duration 6 }
 print { text "Planet: K06093.01
 Approx. 6846.88 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -13014,7 +12874,7 @@ wait { duration 6 }
 print { text "Planet: K03420.01
 Approx. 7317.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -13028,7 +12888,7 @@ wait { duration 6 }
 print { text "Planet: K01920.02
 Approx. 2189.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -13042,7 +12902,7 @@ wait { duration 6 }
 print { text "Planet: K06892.01
 Approx. 5083.34 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 66%"
          origin "top"
          row 5
          column -8
@@ -13056,7 +12916,7 @@ wait { duration 6 }
 print { text "Planet: K07023.01
 Approx. 2038.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 66%"
+Confidence: 65%"
          origin "top"
          row 5
          column -8
@@ -13070,7 +12930,7 @@ wait { duration 6 }
 print { text "Planet: K04526.02
 Approx. 5590.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -13084,7 +12944,7 @@ wait { duration 6 }
 print { text "Planet: K04526.02
 Approx. 5590.82 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -13112,7 +12972,7 @@ wait { duration 6 }
 print { text "Planet: K04838.02
 Approx. 1324.98 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -13126,7 +12986,7 @@ wait { duration 6 }
 print { text "Planet: K04871.02
 Approx. 2391.83 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 61%"
+Confidence: 66%"
          origin "top"
          row 5
          column -8
@@ -13140,7 +13000,7 @@ wait { duration 6 }
 print { text "Planet: K06368.01
 Approx. 6672.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 62%"
+Confidence: 67%"
          origin "top"
          row 5
          column -8
@@ -13154,7 +13014,7 @@ wait { duration 6 }
 print { text "Planet: K06763.01
 Approx. 1044.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -13168,7 +13028,7 @@ wait { duration 6 }
 print { text "Planet: K06765.01
 Approx. 4349.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -13182,7 +13042,7 @@ wait { duration 6 }
 print { text "Planet: K07032.01
 Approx. 1153.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -13196,7 +13056,7 @@ wait { duration 6 }
 print { text "Planet: K07426.01
 Approx. 2649.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 57%"
+Confidence: 52%"
          origin "top"
          row 5
          column -8
@@ -13210,21 +13070,7 @@ wait { duration 6 }
 print { text "Planet: K07427.01
 Approx. 3006.16 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K05875.02"}
-select {object "K05875.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K05875.02
-Approx. 4213.68 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 52%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -13238,7 +13084,7 @@ wait { duration 6 }
 print { text "Planet: K06777.01
 Approx. 2358.71 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -13252,7 +13098,7 @@ wait { duration 6 }
 print { text "Planet: K06907.01
 Approx. 3144.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -13266,7 +13112,7 @@ wait { duration 6 }
 print { text "Planet: K07301.01
 Approx. 2551.72 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -13308,7 +13154,7 @@ wait { duration 6 }
 print { text "Planet: K07437.01
 Approx. 4270.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 51%"
+Confidence: 52%"
          origin "top"
          row 5
          column -8
@@ -13336,7 +13182,7 @@ wait { duration 6 }
 print { text "Planet: K06259.01
 Approx. 3297.63 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -13364,7 +13210,7 @@ wait { duration 6 }
 print { text "Planet: K06259.02
 Approx. 3297.63 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -13378,7 +13224,7 @@ wait { duration 6 }
 print { text "Planet: K06513.01
 Approx. 1208.26 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -13392,7 +13238,7 @@ wait { duration 6 }
 print { text "Planet: K06783.01
 Approx. 4635.65 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -13448,7 +13294,7 @@ wait { duration 6 }
 print { text "Planet: K07889.01
 Approx. 4960.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 52%"
+Confidence: 56%"
          origin "top"
          row 5
          column -8
@@ -13462,7 +13308,7 @@ wait { duration 6 }
 print { text "Planet: K07320.01
 Approx. 1684.68 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 88%"
          origin "top"
          row 5
          column -8
@@ -13476,7 +13322,21 @@ wait { duration 6 }
 print { text "Planet: K06274.01
 Approx. 4984.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 53%"
+Confidence: 65%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K06276.01"}
+select {object "K06276.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K06276.01
+Approx. 888.98 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -13490,7 +13350,7 @@ wait { duration 6 }
 print { text "Planet: K06931.01
 Approx. 5129.15 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 80%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -13504,7 +13364,7 @@ wait { duration 6 }
 print { text "Planet: K07197.01
 Approx. 4149.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 78%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -13518,7 +13378,7 @@ wait { duration 6 }
 print { text "Planet: K07327.01
 Approx. 2987.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -13532,7 +13392,7 @@ wait { duration 6 }
 print { text "Planet: K07460.01
 Approx. 4007.2 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 68%"
+Confidence: 65%"
          origin "top"
          row 5
          column -8
@@ -13588,7 +13448,7 @@ wait { duration 6 }
 print { text "Planet: K07345.01
 Approx. 3500.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -13602,7 +13462,7 @@ wait { duration 6 }
 print { text "Planet: K07479.01
 Approx. 2591.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -13630,7 +13490,7 @@ wait { duration 6 }
 print { text "Planet: K06301.01
 Approx. 8718.54 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 80%"
          origin "top"
          row 5
          column -8
@@ -13644,7 +13504,7 @@ wait { duration 6 }
 print { text "Planet: K06557.01
 Approx. 3256.69 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -13658,21 +13518,7 @@ wait { duration 6 }
 print { text "Planet: K06689.01
 Approx. 4158.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 60%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K07223.01"}
-select {object "K07223.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K07223.01
-Approx. 1919.46 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 68%"
          origin "top"
          row 5
          column -8
@@ -13686,7 +13532,7 @@ wait { duration 6 }
 print { text "Planet: K07354.01
 Approx. 3112.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 86%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -13721,20 +13567,6 @@ Confidence: 91%"
          duration 6 }
 orbit {duration 6 rate 60 axis [0 1 0] }
 
-select {object "Star-K07232.01"}
-select {object "K07232.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K07232.01
-Approx. 3644.9 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 56%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
 select {object "Star-K01106.03"}
 select {object "K01106.03"}
 goto { time 6 distance 5 }
@@ -13756,7 +13588,7 @@ wait { duration 6 }
 print { text "Planet: K06568.01
 Approx. 1104.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -13770,7 +13602,7 @@ wait { duration 6 }
 print { text "Planet: K06707.01
 Approx. 3827.11 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -13784,7 +13616,7 @@ wait { duration 6 }
 print { text "Planet: K06970.01
 Approx. 4431.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -13798,7 +13630,21 @@ wait { duration 6 }
 print { text "Planet: K06971.01
 Approx. 1967.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 87%"
+Confidence: 86%"
+         origin "top"
+         row 5
+         column -8
+         duration 6 }
+orbit {duration 6 rate 60 axis [0 1 0] }
+
+select {object "Star-K07106.01"}
+select {object "K07106.01"}
+goto { time 6 distance 5 }
+wait { duration 6 }
+print { text "Planet: K07106.01
+Approx. 3742.67 light years away from Earth
+Prediction: Real exoplanet
+Confidence: 56%"
          origin "top"
          row 5
          column -8
@@ -13812,7 +13658,7 @@ wait { duration 6 }
 print { text "Planet: K07236.01
 Approx. 3502.77 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 83%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -13826,7 +13672,7 @@ wait { duration 6 }
 print { text "Planet: K07375.01
 Approx. 1139.85 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -13840,7 +13686,7 @@ wait { duration 6 }
 print { text "Planet: K07506.01
 Approx. 4449.55 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 75%"
          origin "top"
          row 5
          column -8
@@ -13854,7 +13700,7 @@ wait { duration 6 }
 print { text "Planet: K01427.02
 Approx. 1266.48 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -13868,7 +13714,7 @@ wait { duration 6 }
 print { text "Planet: K01574.04
 Approx. 4885.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 99%"
+Confidence: 98%"
          origin "top"
          row 5
          column -8
@@ -13882,7 +13728,7 @@ wait { duration 6 }
 print { text "Planet: K01574.04
 Approx. 4885.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -13896,7 +13742,7 @@ wait { duration 6 }
 print { text "Planet: K01602.02
 Approx. 5364.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 96%"
          origin "top"
          row 5
          column -8
@@ -13924,7 +13770,7 @@ wait { duration 6 }
 print { text "Planet: K01681.04
 Approx. 909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 64%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -13938,7 +13784,7 @@ wait { duration 6 }
 print { text "Planet: K01681.04
 Approx. 909.38 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 97%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -13952,7 +13798,7 @@ wait { duration 6 }
 print { text "Planet: K06579.01
 Approx. 4685.32 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -13980,7 +13826,7 @@ wait { duration 6 }
 print { text "Planet: K06978.01
 Approx. 2137.92 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -13994,7 +13840,7 @@ wait { duration 6 }
 print { text "Planet: K06980.01
 Approx. 4994.9 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 73%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
@@ -14008,7 +13854,7 @@ wait { duration 6 }
 print { text "Planet: K06983.01
 Approx. 2467.51 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -14022,7 +13868,7 @@ wait { duration 6 }
 print { text "Planet: K07376.01
 Approx. 4732.07 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 72%"
+Confidence: 69%"
          origin "top"
          row 5
          column -8
@@ -14036,7 +13882,7 @@ wait { duration 6 }
 print { text "Planet: K02103.02
 Approx. 3129.68 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -14078,21 +13924,7 @@ wait { duration 6 }
 print { text "Planet: K02421.02
 Approx. 948.04 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K02421.02"}
-select {object "K02421.02"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K02421.02
-Approx. 948.04 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 54%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -14106,7 +13938,7 @@ wait { duration 6 }
 print { text "Planet: K02439.02
 Approx. 6068.71 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 55%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -14120,7 +13952,7 @@ wait { duration 6 }
 print { text "Planet: K02449.02
 Approx. 3619.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -14134,7 +13966,7 @@ wait { duration 6 }
 print { text "Planet: K06329.01
 Approx. 4694.45 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 95%"
+Confidence: 94%"
          origin "top"
          row 5
          column -8
@@ -14148,7 +13980,7 @@ wait { duration 6 }
 print { text "Planet: K07125.01
 Approx. 3569.71 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 58%"
+Confidence: 64%"
          origin "top"
          row 5
          column -8
@@ -14176,7 +14008,7 @@ wait { duration 6 }
 print { text "Planet: K02564.02
 Approx. 8065.01 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -14204,7 +14036,7 @@ wait { duration 6 }
 print { text "Planet: K06342.01
 Approx. 1717.75 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 84%"
          origin "top"
          row 5
          column -8
@@ -14218,7 +14050,7 @@ wait { duration 6 }
 print { text "Planet: K06475.01
 Approx. 826.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -14232,7 +14064,7 @@ wait { duration 6 }
 print { text "Planet: K06993.01
 Approx. 3316.25 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -14260,7 +14092,7 @@ wait { duration 6 }
 print { text "Planet: K07258.01
 Approx. 2018.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 85%"
+Confidence: 83%"
          origin "top"
          row 5
          column -8
@@ -14274,7 +14106,7 @@ wait { duration 6 }
 print { text "Planet: K07264.01
 Approx. 3917.12 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -14288,7 +14120,7 @@ wait { duration 6 }
 print { text "Planet: K07400.01
 Approx. 2941.31 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 96%"
+Confidence: 95%"
          origin "top"
          row 5
          column -8
@@ -14302,7 +14134,7 @@ wait { duration 6 }
 print { text "Planet: K03019.02
 Approx. 3934.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -14316,7 +14148,7 @@ wait { duration 6 }
 print { text "Planet: K03068.02
 Approx. 1789.52 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -14331,20 +14163,6 @@ print { text "Planet: K03068.02
 Approx. 1789.52 light years away from Earth
 Prediction: Real exoplanet
 Confidence: 86%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K03344.03"}
-select {object "K03344.03"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K03344.03
-Approx. 4427.84 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 53%"
          origin "top"
          row 5
          column -8
@@ -14386,21 +14204,7 @@ wait { duration 6 }
 print { text "Planet: K03425.03
 Approx. 3719.68 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 92%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K07002.01"}
-select {object "K07002.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K07002.01
-Approx. 3344.42 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 61%"
+Confidence: 93%"
          origin "top"
          row 5
          column -8
@@ -14414,7 +14218,7 @@ wait { duration 6 }
 print { text "Planet: K07003.01
 Approx. 3651.96 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -14428,7 +14232,7 @@ wait { duration 6 }
 print { text "Planet: K07404.01
 Approx. 4706.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 81%"
          origin "top"
          row 5
          column -8
@@ -14442,7 +14246,7 @@ wait { duration 6 }
 print { text "Planet: K07408.01
 Approx. 1387.53 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -14498,7 +14302,7 @@ wait { duration 6 }
 print { text "Planet: K06355.01
 Approx. 2996.27 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 55%"
+Confidence: 56%"
          origin "top"
          row 5
          column -8
@@ -14512,7 +14316,7 @@ wait { duration 6 }
 print { text "Planet: K06355.02
 Approx. 2996.27 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 55%"
+Confidence: 56%"
          origin "top"
          row 5
          column -8
@@ -14526,7 +14330,7 @@ wait { duration 6 }
 print { text "Planet: K06617.01
 Approx. 3334.37 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 74%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -14554,7 +14358,7 @@ wait { duration 6 }
 print { text "Planet: K06751.01
 Approx. 3809.13 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 98%"
+Confidence: 97%"
          origin "top"
          row 5
          column -8
@@ -14568,7 +14372,7 @@ wait { duration 6 }
 print { text "Planet: K07279.01
 Approx. 1888.99 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 86%"
          origin "top"
          row 5
          column -8
@@ -14596,7 +14400,7 @@ wait { duration 6 }
 print { text "Planet: K00566.02
 Approx. 3501.35 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 90%"
+Confidence: 89%"
          origin "top"
          row 5
          column -8
@@ -14610,7 +14414,7 @@ wait { duration 6 }
 print { text "Planet: K07416.01
 Approx. 1495.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -14624,7 +14428,7 @@ wait { duration 6 }
 print { text "Planet: K04383.02
 Approx. 2720.97 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 77%"
          origin "top"
          row 5
          column -8
@@ -14638,7 +14442,7 @@ wait { duration 6 }
 print { text "Planet: K04421.02
 Approx. 1687.09 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 94%"
+Confidence: 91%"
          origin "top"
          row 5
          column -8
@@ -14666,7 +14470,7 @@ wait { duration 6 }
 print { text "Planet: K04500.03
 Approx. 3660.95 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -14680,7 +14484,7 @@ wait { duration 6 }
 print { text "Planet: K07617.01
 Approx. 738.05 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 52%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -14736,7 +14540,7 @@ wait { duration 6 }
 print { text "Planet: K04782.02
 Approx. 5778.4 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 70%"
+Confidence: 73%"
          origin "top"
          row 5
          column -8
@@ -14764,7 +14568,7 @@ wait { duration 6 }
 print { text "Planet: K05475.02
 Approx. 2174.09 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 87%"
          origin "top"
          row 5
          column -8
@@ -14778,7 +14582,7 @@ wait { duration 6 }
 print { text "Planet: K02369.03
 Approx. 5788.8 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 79%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -14792,7 +14596,7 @@ wait { duration 6 }
 print { text "Planet: K07587.01
 Approx. 774.68 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 88%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -14820,7 +14624,7 @@ wait { duration 6 }
 print { text "Planet: K02859.05
 Approx. 1353.64 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 93%"
+Confidence: 92%"
          origin "top"
          row 5
          column -8
@@ -14848,7 +14652,7 @@ wait { duration 6 }
 print { text "Planet: K08111.01
 Approx. 3433.5 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
+Confidence: 63%"
          origin "top"
          row 5
          column -8
@@ -14862,7 +14666,7 @@ wait { duration 6 }
 print { text "Planet: K08232.01
 Approx. 3445.24 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 81%"
+Confidence: 82%"
          origin "top"
          row 5
          column -8
@@ -14876,7 +14680,7 @@ wait { duration 6 }
 print { text "Planet: K08026.01
 Approx. 3765.67 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 61%"
+Confidence: 54%"
          origin "top"
          row 5
          column -8
@@ -14890,21 +14694,7 @@ wait { duration 6 }
 print { text "Planet: K08035.01
 Approx. 4183.89 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K08039.01"}
-select {object "K08039.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K08039.01
-Approx. 3014.67 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 51%"
+Confidence: 78%"
          origin "top"
          row 5
          column -8
@@ -14918,7 +14708,7 @@ wait { duration 6 }
 print { text "Planet: K08043.01
 Approx. 5714.92 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 84%"
+Confidence: 79%"
          origin "top"
          row 5
          column -8
@@ -14932,7 +14722,7 @@ wait { duration 6 }
 print { text "Planet: K08050.01
 Approx. 4254.49 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
+Confidence: 74%"
          origin "top"
          row 5
          column -8
@@ -14946,21 +14736,7 @@ wait { duration 6 }
 print { text "Planet: K08052.01
 Approx. 4076.0 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 77%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K08054.01"}
-select {object "K08054.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K08054.01
-Approx. 6745.57 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 71%"
+Confidence: 76%"
          origin "top"
          row 5
          column -8
@@ -14974,7 +14750,7 @@ wait { duration 6 }
 print { text "Planet: K08159.02
 Approx. 3301.21 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 75%"
+Confidence: 71%"
          origin "top"
          row 5
          column -8
@@ -14988,7 +14764,7 @@ wait { duration 6 }
 print { text "Planet: K08063.01
 Approx. 3711.91 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 74%"
+Confidence: 68%"
          origin "top"
          row 5
          column -8
@@ -15002,7 +14778,7 @@ wait { duration 6 }
 print { text "Planet: K08068.01
 Approx. 5021.18 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 65%"
+Confidence: 53%"
          origin "top"
          row 5
          column -8
@@ -15016,21 +14792,7 @@ wait { duration 6 }
 print { text "Planet: K08276.01
 Approx. 3559.22 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 76%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K08082.01"}
-select {object "K08082.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K08082.01
-Approx. 4284.84 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 51%"
+Confidence: 61%"
          origin "top"
          row 5
          column -8
@@ -15044,7 +14806,7 @@ wait { duration 6 }
 print { text "Planet: K08183.01
 Approx. 2223.23 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 91%"
+Confidence: 90%"
          origin "top"
          row 5
          column -8
@@ -15058,7 +14820,7 @@ wait { duration 6 }
 print { text "Planet: K07970.01
 Approx. 4577.76 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 89%"
+Confidence: 85%"
          origin "top"
          row 5
          column -8
@@ -15072,21 +14834,7 @@ wait { duration 6 }
 print { text "Planet: K07976.01
 Approx. 4722.33 light years away from Earth
 Prediction: Real exoplanet
-Confidence: 66%"
-         origin "top"
-         row 5
-         column -8
-         duration 6 }
-orbit {duration 6 rate 60 axis [0 1 0] }
-
-select {object "Star-K08297.01"}
-select {object "K08297.01"}
-goto { time 6 distance 5 }
-wait { duration 6 }
-print { text "Planet: K08297.01
-Approx. 1180.16 light years away from Earth
-Prediction: Real exoplanet
-Confidence: 50%"
+Confidence: 72%"
          origin "top"
          row 5
          column -8
