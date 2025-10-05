@@ -14,3 +14,5 @@ This project provides a pipeline for training a binary classification model, pre
    
 3. **Celestia catalog generator**:
    - Consumes the generated predictions to populate a planet catalog for 3D visualization using Celestia Project's software.
+   - The contents of the generated `extras` folder must be copied `to C:\Program Files\celestia\extras\`  (Windows)
+   or `/usr/share/celestia/extras/` in Linux. 
